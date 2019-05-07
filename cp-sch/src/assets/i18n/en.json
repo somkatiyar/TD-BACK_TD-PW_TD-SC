@@ -1,0 +1,185 @@
+{
+  "commonForm": {
+    "addschoolconfermation": "Do You want to add School driver ?",
+    "personalInfo": "Personal Information",
+    "firstname": "* First Name",
+    "lastname": "* Last Name",
+    "email": "* Email",
+    "password": "* Password",
+    "confirmpassword": "* Enter Confirm Password",
+    "phonenumber": "* Phone Number",
+    "carinformation": "Car Information",
+    "regnumber": "* Registration Number",
+    "chessisnumber": "* Chassis Number",
+    "vechicaltype": "* Select Vehicle Type",
+    "geartype": "*Select Gear Type",
+    "addressInformation": "Address Information",
+    "country": "* Select Country ",
+    "county": "* Select County",
+    "city": "* Select City ",
+    "postcode": "* Postcode",
+    "permanent": "* Permanent Address",
+    "documents": "Documents",
+    "badge": "* Instructor Badge Number",
+    "driving": "* Driving Licence Number",
+   
+    "signUp": "Sign Up",
+
+    "schoolInformation": "School Information",
+    "taxId": "Tax Id",
+    "name": "Name",
+    "addressLineOne":"Address line One",
+    "addressLineTwo":"Address line Two",
+    "alreadyAccount":"Already have an account ?",
+    "contactPersonInformation": "Contact Person Information",
+  
+  
+
+
+
+
+
+
+    "buttonTitle": {
+      "addbuddies": "Add Buddies",
+      "upload": "Upload",
+      "login":"Login",
+      "submit": "Submit",
+      "update":"Update",
+      "register":"Register"
+    }
+  },
+  "commonValidation": {
+    "schoolName": "School Name is required",
+    "taxId":"Tax Id is required",
+
+    "bankDetail":"bank Details",
+    "bankName": "Bank Details",
+    "acountNumber":"Account Number",
+    "ifscCode":"IFSC Code",
+    "branchName": "Branch Name",
+
+    "contactPersonName":"Contact Person Name is required!",
+    "contactPersonEmail":"Contact Person Email is required!",
+    "contactPersonPhone":"Contact Person Mobile Number is required!",
+    "firstname": "First Name is required",
+    "lastname": "Last Name is required",
+    "email": "Email is required",
+    "validemail": "Enter valid email",
+    "password": "Password is required",
+    "passwordlength": "Password Can't be less then 8 character",
+    "confirmpassword": "Confirm Password is required",
+    "confirmpasslength": "Password and Confirm does not match (min 8 character)",
+    "phonenumber": "Mobile Number is required!",
+    "phonelength": "Mobile Number can't more then 13 digit",
+    "phonerange": "Mobile Number can't less then 9 and more then 13 digit",
+    "regnumber": "Registration is required",
+    "chessisnumber": "Chassis Number is required",
+    "vechicaltype": "Vehical Type is required",
+    "geartype": "Gear type is required",
+    "country": "Country is required",
+    "county": "County is required",
+    "city": "City is required",
+    "postcode": "Postcode is required!",
+    "permanent": " Address is required!",
+    "badge": "API/PDI BadgeNumber is required",
+    "driving": "Driving Licence is required",
+    "searchCompanions": "Search companions"
+  },
+
+  "header": {
+  "addDriver": "Add Driver",
+  "dashboard": "DashBoard",
+  "driverManagement":"Driver Management",
+  "updateDriver":"Driver Update",
+  "apointment": "Apointment Diary",
+  "profile":"Profile",
+  "paymentHistory":"Payment History"
+  },
+
+
+  "sidebar": {
+    "dashboard": "Dashboard",
+    "driverManagement" : "Driver Management",
+    "appointment" : "Appointments",
+    "profile":"Profile",
+    "paymentHistory" : "Payment History",
+    "logOut" : "Log Out",
+    "logOutConfermation":"Do You Want To Log Out..!"
+ 
+
+  },
+
+  "login": {
+    "AccessDriving": "Access your Driving",
+    "schoolManagenet": "School Management System",
+    "alreayAccount":"Already have an account ?",
+    "welcome": "Welcome",
+    "forgetPass":"Forgot Password ?",
+    "newUser":"New User ? Sign Up",
+    "forgetPassPopup":"Forget Password",
+    "enterEmail": "Enter Email",
+    
+    "loginButton": "Login",
+    "signUpButton":"Sign Up",
+    "submitButton":"Submit"
+  },
+  "dashBoard": {
+    "totalEarn": "Total Earn",
+    "totalLesson": "Total Lesson",
+    "popUp": {
+      "popUpTitle": "Select Option",
+      "oneMonth": "Last 1 month",
+      "threeMonth": "Last 3 month",
+      "sixMonth": "Last 6 month",
+      "oneYear": "Last 1 Year",
+      "buttonTitle": "Close"
+    }
+  },
+  "driverManagement": {
+    "recentBookings": "Recent Bookings",
+    "buttonTitle": {
+      "addDriver": "Add Driver",
+      "disable": "Disable",
+      "enable": "Enable"
+    }
+  },
+  "appontment": {
+    "placeholder": {
+      "driver": "Driver",
+      "chooseDriver": "Choose Driver...",
+      "date": "Date",
+      "noData":"No Appointment found"
+
+      
+
+    }
+  },
+  "paymentHistory": {
+    "date": "Date",
+    "fromDate": "From Date",
+    "toDate": "To Date",
+    "amountRange": "Amount range",
+    "amount": "Amount",
+    "paymentId": "Payment Id",
+    "transactionId": "Transaction Id",
+    "noData": "No Payment History found"
+  },
+
+"toaster":{
+  "chooseProfile": "Please choose a profile picture!",
+  "uploadBadge":"Please Upload Badge File!",
+  "uploadDriving":"Please Upload Drivering Licence!",
+  "addbuddy":"Buddy Added Succesfully",
+  "buddyLimit": "You can choose ony 5 buddy",
+  "buddyAlReadyAdded":"Buddy already added",
+  "buddyRemove": "Buddy Removed Successfully",
+
+  "lesson":"No lesson data are available right now..",
+
+  "selectDriverAndDate":"Please select driver and date!",
+  "loginsuccess": "Login successful..!"
+
+}
+
+}

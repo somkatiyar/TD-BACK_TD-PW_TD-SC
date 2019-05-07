@@ -1,0 +1,71 @@
+<div class="row" style="    margin: 2em auto !important;
+max-width: 1100px;">
+    <div class="col-lg-4 col-md-4 col-sm-12 mt-2">
+        <i class="fa fa-map" style="font-size: 32px;cursor: pointer;" *ngIf="grid" (click)="grid = !grid"></i>
+        <i class="fa fa-th" style="font-size: 32px; cursor: pointer;" *ngIf="!grid" (click)="grid = !grid"></i>
+        <button class="btn btn-primary add_dvr" (click)="gotoAddDriver()" >{{'driverManagement.buttonTitle.addDriver' | translate }}</button>
+    </div>
+</div>
+<div class="row" style="    margin: 2em auto !important;
+max-width: 1100px;" *ngIf="grid">
+    <div class="col-lg-4 col-md-4 col-sm-12 mt-2" *ngFor="let driver of driverData | paginate: { itemsPerPage: 6, currentPage: p }">
+        <div class="driver-card">
+            <input (click) ="disableItem('Disable',driver['userDetail'][0])" type="button" [class]="setClass(driver['userDetail'][0])" [title]="isVerified(driver['userDetail'][0])" [value]="isVerified(driver['userDetail'][0])">
+
+            <i class="fa fa-pencil driver-edit" aria-hidden="true" (click)="goToUpdatePage(driver.user)"></i>
+            <img  [src]="driver.userDetail[0].profilePictureUrl ? picUrl+driver.userDetail[0].profilePictureUrl : 'assets/images/userPlaceholder.png'"  (error)="errorHandler($event)"class="driver-image" alt="">
+
+            <div class="driver-name">
+             {{driver.userDetail[0].firstName ? driver.userDetail[0].firstName + ' ' + driver.userDetail[0].lastName : 'User' }}
+            </div>
+            <div class="driver-ID">
+              {{driver.userDetail[0] ? driver.userDetail[0].userId : "" }}
+            </div>
+
+            <div class="driver-recent-booking">
+              <div class="driver-recent-booking-title">
+                {{'driverManagement.recentBookings' | translate}}
+              </div>
+              <div class="driver-recent-booking-section">
+                <div class="driver-recent-booking-val">
+                  
+                </div>
+                <div class="driver-recent-booking-val">
+                
+                </div>
+                <div class="driver-recent-booking-val">
+                 
+                </div>
+                <div class="driver-recent-booking-val">
+                  +14
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+
+</div>
+<div id="background" *ngIf="driverData.length <= 0" >
+    <p id="bg-text">No Driver found</p>
+  </div>
+<pagination-controls  *ngIf="grid" (pageChange)="p = $event"></pagination-controls>
+
+<div class="row" style="margin:1em 0 1em 0 !important;" *ngIf="!grid">
+    <div class="col-lg-12 col-md-12 col-sm-12">
+        <agm-map [latitude]="lat" [longitude]="lng" [styles]="styles">
+            <agm-marker *ngFor="let m of markers; let i = index" (markerClick)="clickedMarker(m.label, i)" [latitude]="m.lat" [longitude]="m.lng"
+              [label]="m.label" [title]="m.title">
+        
+              <agm-info-window>
+              
+                <strong>{{'Name'+"-" +m.firstName}}</strong><br/>
+                <strong>{{'Email'+ "-"+m.title}}</strong><br/>
+              </agm-info-window>
+        
+            </agm-marker>
+          </agm-map>
+    </div>
+</div>
+
+<div>
+

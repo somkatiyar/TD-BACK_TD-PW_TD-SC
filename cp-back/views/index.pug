@@ -1,0 +1,56 @@
+
+
+
+
+
+<script src="https://js.stripe.com/v3/"></script>
+div#loadinghCover
+  img#loading.loadingClass(src="public/loader.gif")
+html  
+  head
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+  style
+   include style.css
+body(class="body_Main")
+  div.paymentHead Payment Detail
+  div.paymentContainer
+    form(action="/charge", method="post" id="payment-form" class="form_render")
+      table.tableResponsive
+        tr
+          td Name:
+          td #{name}
+        tr
+          td No Of Days: 
+          td #{numberOfDay }
+        tr
+          td No Of Lesson: 
+          td #{numberOfLesson} 
+        tr
+          td Price: 
+          td £#{amount}
+        tr
+          td Tax:
+          td £#{tax}
+        tr
+          td Total Price:
+          td £#{finalAmount} 
+
+      input(type="hidden" name="userToken" id="userToken" value=userToken)
+      input(type="hidden" name="orderId" id="orderId" value=orderId)
+      input(type="hidden" name="amount" id="amount" value=amount)
+      input(type="hidden" name="finalAmount" id="finalAmount" value=finalAmount)
+      input(type="hidden" name="lurnrEmail" id="lurnrEmail" value=lurnrEmail)
+
+      div(class="form-row")
+   
+        div(id="card-element")
+        
+        div(id="card-errors" role="alert")
+      
+        //-  input(type="hidden" id="token")
+
+        button(class="submit_btn") Submit Payment
+
+        script
+          include script.js
+

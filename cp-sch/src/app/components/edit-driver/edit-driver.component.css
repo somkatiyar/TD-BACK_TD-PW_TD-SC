@@ -1,0 +1,235 @@
+
+select{
+    display: block;
+    border: none;
+    margin: 0px;
+    border: 1px solid #c2c2c2;
+    border-radius: 7px;
+    padding: 10px;
+    padding-left: 23px;
+    outline: none;
+    width: 100%;
+    color: #555555;
+    background: white;
+    text-align: left;
+    height: 46px !important;
+}
+
+span{
+    color: #f00;
+    font-style: italic;
+    font-size: 13px;
+}
+
+.message-space{
+    height: 30px !important;
+}
+
+.submit-btn-section{
+    max-width: 300px;
+    margin: auto;
+}
+
+.submit-btn{
+    display: block;
+    font-family: 'Cabin', sans-serif;
+    background-color: #F9A11B;
+    color: #fff;
+    border-radius: 7px;
+    border: 1px solid #F9A11B;
+    padding: 10px;
+    text-align: center;
+    margin: 20px auto;
+    width: 300px;
+}
+
+.submit-btn:hover{
+    background-color: #fff;
+    color: #F9A11B;
+}
+
+
+
+.login-btn{
+    display: block;
+    font-family: 'Cabin', sans-serif;
+    color: #F9A11B;
+    border-radius: 7px;
+    border: 1px solid #F9A11B;
+    padding: 10px 0px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+a.login-btn:hover {
+    background: #F9A11B;
+    color: white;
+}
+
+.bottom-section{
+    max-width: 300px;
+    margin: auto;
+    margin-top: 35px;
+}
+
+input.mod_input {
+    margin: 0 !important;
+}
+
+
+.attach{
+    height: 46px !important;
+    border-radius: 7px;
+}
+
+.btn-outline-secondary {
+    color: #ffffff;
+    background-color: #ff9e00;
+    background-image: none;
+    border-color: #ff9e00;
+}
+
+.file{
+    visibility: hidden;
+    position: absolute;
+}
+
+.camera{
+    height: 132px;
+    position: absolute;
+    left: 0;
+    padding: 36%;
+    z-index: 999999;
+    width: 132px;
+    visibility: hidden;
+}
+
+.edit-profile-section{
+    position: absolute;
+    height: 132px;
+    width: 132px;
+    z-index: 99999;
+    border-radius: 50%;
+    top: 0;
+    left: 0;
+    margin-left: 1em !important;
+}
+
+.edit-profile-section:hover > .camera{
+    visibility: visible;
+}
+
+.photo_upload{
+    height: 132px;
+    width: 132px;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    box-shadow: 0px 0px 16px #777777;
+}
+
+.add-buddies{
+    font-family: 'Cabin', sans-serif;
+    background-color: #F9A11B;
+    color: #fff;
+    border-radius: 7px;
+    border: 1px solid #F9A11B;
+    padding: 10px;
+    text-align: center;
+    margin: auto auto 20px auto;
+    width: 300px;
+}
+
+.modal-content{
+    padding: 36px;
+    max-width: 400px;
+    margin: auto;
+    position: relative;
+    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+}
+
+.close-icon{
+    position: absolute;
+    cursor: pointer;
+    right: 28px;
+    top: 15px;
+    height: 20px;
+}
+
+.modal-title{
+    font-size: 23px;
+    margin-bottom: 30px;
+}
+
+.sm-image{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+}
+
+
+.buddy-name{
+    margin: auto;
+}
+
+.buddy-add{
+    margin: auto;
+}
+
+.buddy{
+    padding: 0.5em;
+    border: 1px solid #ddd;
+    margin: 0.5em 0 0 0 !important;
+    border-radius: 7px;
+    box-shadow: 0px 3px 20px #ddd;
+}
+
+.buddy-search-box{
+    border: 1px solid #ddd;
+    box-shadow: 0px 3px 20px #ddd;
+}
+
+.buddy-image{
+    display: block;
+    height: 64px;
+    width: 64px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.buddy-remove{
+    height: 18px;
+    width: 18px;
+    display: block;
+    position: absolute;
+    right: 22%;
+    top: -7px;
+    left: 80px;
+
+}
+.doc_detail {
+    display:inline-flex;
+
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+  }
+  
+  a:hover {
+    background-color: #ddd;
+    color: black;
+    cursor: pointer;
+  }
+  
+  .previous {
+    background-color: #f1f1f1;
+    color: black;
+  }
+
+  
+  .round {
+    border-radius: 50%;
+  }

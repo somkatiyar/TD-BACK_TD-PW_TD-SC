@@ -1,0 +1,56 @@
+.side-bar{
+    height: calc(100vh - 56px);
+    width: 240px;
+    background-color: #555555 !important;
+}
+
+.navbar{
+    background-color: #555555 !important;
+}
+
+a{
+    text-decoration: none !important;
+    color: #fff !important;
+    border: none !important
+}
+
+a:hover{
+    color: #fff !important;
+}
+
+.brand{
+    width: 100%;
+    padding: 30px 15px;
+    display: -webkit-box;
+}
+
+.brand > img{
+    display: block;
+    margin: 0 auto;
+    height: 35px;
+}
+
+li{
+    padding: 10px 5px 10px 30px !important;
+}
+
+svg{
+    margin-right: 10px !important;
+}
+
+path.fa_icon.nav_icon{
+    fill: white;
+}
+
+li:hover{
+    background-color:#ff9897;
+    cursor: pointer;
+}
+
+a{
+    outline: -webkit-focus-ring-color auto 0px !important;
+}
+
+.active{
+    background-color: #f00;
+}

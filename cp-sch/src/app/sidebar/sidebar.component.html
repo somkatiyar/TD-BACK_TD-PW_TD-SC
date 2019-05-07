@@ -1,0 +1,67 @@
+
+  <div class="side-bar" role="navigation">
+    <div class="navbar-collapse">
+      <nav>
+        <a class="brand">
+          <img src="assets/images/logo1.png" class="aside_logo" alt="aside logo">
+        </a>
+        <ul class="nav flex-column">
+          <li routerLink="/dashboard" [ngClass]="tabActive == 1 ? 'active' : ''" (click)="tabActive = 1;this.varCtrl._opened = false"  routerLinkActive="active">
+            <a>
+              <svg   width="20" height="9" viewBox="0 0 20 9" >
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M12.512 0L6.79601 5.79004L4.05099 3.15503L4.04401 3.16211L4.03799 3.15601L0 7.38599L1.453 8.80005L4.11501 6.03296L6.85899 8.65308L12.512 2.88501L15.252 5.65991C15.545 5.02791 16.046 4.51401 16.666 4.20801L12.512 0ZM20 6.95996C20 8.08696 19.098 9 17.986 9C16.874 9 15.973 8.08696 15.973 6.95996C15.973 5.83296 16.874 4.91992 17.986 4.91992C19.098 4.91992 20 5.83296 20 6.95996Z" class="fa_icon nav_icon"/>
+              </svg>
+              {{'sidebar.dashboard' | translate}}
+            </a>
+          </li>
+
+
+         
+          <li  routerLink="/driver-management" [ngClass]="tabActive == 2 ? 'active' : ''" (click)="tabActive = 2;this.varCtrl._opened = false" routerLinkActive="active">
+            <a>
+              
+                <svg width="20" height="20" viewBox="0 0 20 20"  >
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M5 16C4.448 16 4 15.552 4 15C4 14.448 4.448 14 5 14C5.552 14 6 14.448 6 15C6 15.552 5.552 16 5 16ZM15 14C15.552 14 16 14.448 16 15C16 15.552 15.552 16 15 16C14.448 16 14 15.552 14 15C14 14.448 14.448 14 15 14ZM6.602 2H13.398C13.896 2 14.318 2.36589 14.388 2.85889L15.694 12H4.306L5.612 2.85889C5.682 2.36589 6.104 2 6.602 2ZM20 9C20 8.448 19.552 8 19 8H17.143L16.245 1.7168C16.105 0.731797 15.261 0 14.265 0H5.735C4.739 0 3.895 0.731797 3.755 1.7168L2.857 8H1C0.448 8 0 8.448 0 9C0 9.552 0.448 10 1 10H2.571L2.286 12H2C0.895 12 0 12.895 0 14V16C0 17.105 0.895 18 2 18V19C2 19.552 2.448 20 3 20H5C5.552 20 6 19.552 6 19V18H14V19C14 19.552 14.448 20 15 20H17C17.552 20 18 19.552 18 19V18C19.105 18 20 17.105 20 16V14C20 12.895 19.105 12 18 12H17.714L17.429 10H19C19.552 10 20 9.552 20 9Z" class="fa_icon nav_icon" />
+                  </svg>
+  
+                  {{'sidebar.driverManagement' | translate}} </a>
+          </li>
+           <li routerLink="/appointment" [ngClass]="tabActive == 3 ? 'active' : ''" (click)="tabActive = 3;this.varCtrl._opened = false" routerLinkActive="active">
+            <a>
+              <svg width="20" height="20" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M17.9712 8H1.99681V4.97095C1.99681 4.43495 2.43111 4 2.96625 4H3.99361V6H5.99042V4H13.9776V6H15.9744V4H16.9728C17.524 4 17.9712 4.448 17.9712 5V8ZM17.9712 17C17.9712 17.55 17.522 18 16.9728 18H2.99521C2.44409 18 1.99681 17.552 1.99681 17V10H17.9712V17ZM0.0638976 17.761C0.0638976 18.865 1.02137 20 2.1236 20H18.098C19.2013 20 20 18.979 20 17.761C20 17.372 19.9681 5.36001 19.9681 4.70801C19.9681 2.62601 19.6875 2 15.9744 2V0H13.9776V2H5.99042V0H3.99361V2H1.99681C0.898562 2 0 2.9 0 4L0.0638976 17.761Z" class="fa_icon nav_icon"/>
+              </svg>
+
+              {{'sidebar.appointment' | translate}} </a>
+          </li>
+           <li routerLink="/profile" [ngClass]="tabActive == 4 ? 'active' : ''" (click)="tabActive = 4;this.varCtrl._opened = false" routerLinkActive="active">
+            <a>
+              <svg width="20" height="20" viewBox="0 0 20 20" >
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M14.899 11C15.031 10.349 15.036 9.673 14.899 9H17.93C18.022 9.733 18.023 10.261 17.93 11H14.899ZM13 17.4111V13.9771C13.479 13.7921 13.768 13.392 13.977 13H17.411C16.598 15 15 16.5981 13 17.4111ZM10 13C6.035 13 6.035 7 10 7C13.964 7 13.964 13 10 13ZM9 18H11V15H9V18ZM7 17.4111C5 16.5981 3.402 15 2.589 13H6.022C6.302 13.37 7 13.6981 7 13.9771V17.4111ZM2.069 9H5.101C4.968 9.651 4.964 10.327 5.101 11H2.069C1.977 10.267 1.976 9.739 2.069 9ZM10 2C13.35 2 16.221 4.072 17.411 7H13.977C13.064 5.792 11.63 5 10 5C8.369 5 6.935 5.792 6.022 7H2.589C3.778 4.072 6.65 2 10 2ZM10 0C4.477 0 0 4.477 0 10C0 15.523 4.477 20 10 20C15.523 20 20 15.523 20 10C20 4.477 15.523 0 10 0Z" class="fa_icon nav_icon"/>
+                </svg>
+
+                {{'sidebar.profile' | translate}}</a>
+          </li>
+          <li routerLink="/payment-history" [ngClass]="tabActive == 5 ? 'active' : ''" (click)="tabActive = 5;this.varCtrl._opened = false" routerLinkActive="active">
+              <a>
+                <svg width="21" height="20" viewBox="0 0 21 20" >
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M18.9 8H14.7H2.10001V15.167C2.10001 16.729 3.43455 18 5.07465 18H18.9V8ZM2.10001 6H12.6V4.83299C12.6 3.27099 11.1783 2 9.53716 2H9.45H2.10001V6ZM21 6V20H5.07465C2.2722 20 0 17.836 0 15.167V0H9.71249C12.5149 0 14.7 2.16399 14.7 4.83299V6H21ZM14.8754 13C14.8754 12.448 15.3447 12 15.9254 12C16.505 12 16.9754 12.448 16.9754 13C16.9754 13.552 16.505 14 15.9254 14C15.3447 14 14.8754 13.552 14.8754 13Z" class="fa_icon nav_icon"/>
+                  </svg>
+  
+                  {{'sidebar.paymentHistory' | translate}} </a>
+            </li>
+          
+          <li style="list-style: none;" (click)="logout()">
+              <a>
+                <img style="margin-right: 10px !important;" src="assets/images/log_out.png" width="21" height="21" alt="">
+  
+                {{'sidebar.logOut' | translate}}  </a>
+            </li>
+
+
+        </ul>
+       
+       
+      </nav>
+    </div>
+  </div> 

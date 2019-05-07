@@ -1,0 +1,51 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>Pending Orders</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Pending Orders</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card *ngFor="let item of pendingOrderList">
+    <ion-card-content >
+      <ion-grid>
+        <ion-row>
+          <ion-col><b>#Transaction Type:</b></ion-col>
+          <ion-col>{{ item.TransactionType ? item.TransactionType : "NA"}}</ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col><b>Street:</b></ion-col>
+          <ion-col>{{ item.SiteStreet ? item.SiteStreet : "NA" }}</ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col><b>City:</b></ion-col>
+          <ion-col>{{ item.SiteCity ? item.SiteCity : "NA"}}</ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col><b>State:</b></ion-col>
+          <ion-col>{{ item.SiteState ? item.SiteState : "NA"}}</ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col><b>Date Requested:</b></ion-col>
+          <ion-col>{{ item.DateRequested ? item.DateRequested  : "NA"}}</ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col><b>date Scheduled:</b></ion-col>
+          <ion-col>{{ item.DateScheduled }}</ion-col>
+        </ion-row>
+
+      </ion-grid>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

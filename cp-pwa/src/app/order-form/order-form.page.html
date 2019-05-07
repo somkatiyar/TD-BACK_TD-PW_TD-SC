@@ -1,0 +1,184 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>Order Form</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+
+
+
+
+
+  <form #form="ngForm"  (ngSubmit)="form.form.valid && submit(form)">
+    <ion-grid>
+      <ion-row>
+        <ion-col size="8">
+          <br />
+          <div class="heading">Address</div>
+          <div class="normalText">Add Address</div>
+        </ion-col>
+        <ion-col size="4">
+          <br />
+          <ion-fab >
+            <ion-fab-button (click)="openAddressModel()">
+              <ion-icon name="add"></ion-icon>
+            </ion-fab-button>
+          </ion-fab>
+        </ion-col>
+      </ion-row>
+
+      <ion-row>
+        <ion-col size="12">
+          <br />
+          {{ address }}
+          <hr class="horizonatalLine" />
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col size="10">
+          <div class="heading">Get order pictures in your Email</div>
+        </ion-col>
+        <ion-col>
+          <ion-checkbox ngModel    
+           #GETORDERPICTURE="ngModel" 
+          [ngClass]="{ 'is-invalid': f.submitted && GETORDERPICTURE.invalid }"
+           name="getOrderPicture" checked="false">
+
+          </ion-checkbox>
+
+          <span class="validation_class" padding *ngIf="GETORDERPICTURE.touched && GETORDERPICTURE?.errors && GETORDERPICTURE?.errors.required || form.submitted && GETORDERPICTURE.invalid">
+            Enter Password
+          </span>
+
+
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col size="12">
+          <hr class="horizonatalLine" />
+        </ion-col>
+      </ion-row>
+
+      <ion-row>
+        <ion-col size="6">
+          <ion-label><b>Processing Order to do:</b> </ion-label>
+        </ion-col>
+        <ion-col size="6">
+          {{transactiondata ? transactiondata[0].WebDescription : "NA"}}
+        </ion-col>
+
+        <ion-col size="6">
+          <ion-label>
+            <b>Company Name:</b>
+          </ion-label>
+        </ion-col>
+        <ion-col size="6">
+         {{profileDetail ? profileDetail.OfficeName : "NA"}}
+        </ion-col>
+
+        <ion-col size="6">
+          <ion-label><b>Office Phone Number:</b> </ion-label>
+        </ion-col>
+        <ion-col size="6">
+            {{profileDetail ? profileDetail.PhoneNumber : "NA"}}
+     
+        </ion-col>
+      </ion-row>
+
+      <ion-row>
+        <ion-col size="12">
+          <ion-list>
+            <ion-item>
+              <ion-label>Panels</ion-label>
+              <ion-select name= "panel" ngModel >
+                <ion-select-option *ngFor="let item of panelList">{{
+                  item.TypeOfPanel
+                }}</ion-select-option>
+              </ion-select>
+            </ion-item>
+          </ion-list>
+        </ion-col>
+      </ion-row>
+
+      <ion-row  *ngIf="riderTextBox">
+        <ion-item>
+          <ion-label position="floating">Rider1</ion-label>
+          <ion-input type="text" name="RiderInformation" ngModel></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="floating">Rider2</ion-label>
+          <ion-input type="text" name="RiderInformation1" ngModel></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="floating">Rider3</ion-label>
+          <ion-input type="text" name="RiderInformation2" ngModel></ion-input>
+        </ion-item>
+      </ion-row>
+
+
+
+      <ion-row>
+        <ion-col>
+          <div class="headingSemiBold">Underground Objects:</div>
+        </ion-col>
+      </ion-row>
+
+
+
+      <ion-list>
+          <ion-item *ngFor="let item of underGoesItems">
+            <ion-label>{{item.val}}</ion-label>
+            <ion-checkbox (ionChange)="selectUnderGroundObject(item)" slot="end"
+             name ="underGoesitemValue" [(ngModel)]="item.isChecked"></ion-checkbox>
+          </ion-item>
+      </ion-list>
+
+
+      <ion-row>
+        <ion-col size="12">
+          <hr class="horizonatalLine" />
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <div class="heading">Directions</div>
+          <small class="smallText"
+            >Nearest cross street and/or sign placement instructions</small
+          >
+          <ion-item>
+            <ion-label position="floating">Description</ion-label>
+            <ion-textarea name="direction" ngModel></ion-textarea>
+          </ion-item>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col size="12">
+          <ion-row>
+            <ion-col size="1">
+              <ion-checkbox (ionChange)="termAndCondiationCheck($event)"></ion-checkbox>
+            </ion-col>
+            <ion-col size="11">
+              <small class="smallText">
+                I have read all
+                <a [routerLink]="['/sign-policies']" routerLinkActive="router-link-active" class="termsLink" > Terms & Privacy Policy</a></small
+              >
+            </ion-col>
+          </ion-row>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col size="12">
+          <ion-button size="large" expand="block" type="submit" [class.button-disabled]="isDisableNextbtn" >Next</ion-button
+          >
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </form>
+</ion-content>

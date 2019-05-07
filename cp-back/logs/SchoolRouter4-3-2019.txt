@@ -1,0 +1,175 @@
+
+ Request was on : 2019-03-04T07:23:18.848Z
+ Req: /api/v1/school/create 
+ Req body was: {"schoolName":"Test School","taxId":"10023787893","contactPersonName":"Barun Pandit","contactPersonMobileNumber":"9044074921","contactPersonEmail":"barun.panRdit@testschool.com","facebookLink":"https://www.facebook.com/","InstagramLink":"https://www.instagram.com/","googleLink":"https://www.google.com/","twitterLink":"https://www.twitter.com/","bankDetail":{"bankName":"XYZ","accountNumber":"8394729479","IFSCCode":"KKBK8712JJSBH","branchName":"ABC"},"user":{"mobileNumber":"8076990874","alternativeMobileNumber":"","email":"info@tesFtschool.com","password":"123456","userType":"PORTAL_USER","userRole":"SCHOOL_USER"},"address":{"name":"Test Center Example 1","addressLineOne":"Trignodev Softwares Pvt Ltd","addressLineTwo":"B-149, Sector 63","city":"Noida","state":"Uttar Pradesh","pincode":"201301","country":"India","lat":"28.6150","long":"77.3774","addressOf":"SCHOOL_USER"}}
+ Response was on : 2019-03-04T07:23:18.848Z
+ Res: {"status":1,"message":"School registered successfully."}
+this is the end line 
+
+ Request was on : 2019-03-04T07:25:42.389Z
+ Req: /api/v1/school/create 
+ Req body was: {"schoolName":"Test School","taxId":"10023787893","contactPersonName":"Barun Pandit","contactPersonMobileNumber":"9044074921","contactPersonEmail":"barun.panRdrit@testschool.com","facebookLink":"https://www.facebook.com/","InstagramLink":"https://www.instagram.com/","googleLink":"https://www.google.com/","twitterLink":"https://www.twitter.com/","bankDetail":{"bankName":"XYZ","accountNumber":"8394729479","IFSCCode":"KKBK8712JJSBH","branchName":"ABC"},"user":{"mobileNumber":"8076990874","alternativeMobileNumber":"","email":"info@tesFtrschool.com","password":"123456","userType":"PORTAL_USER","userRole":"SCHOOL_USER"},"address":{"name":"Test Center Example 1","addressLineOne":"Trignodev Softwares Pvt Ltd","addressLineTwo":"B-149, Sector 63","city":"Noida","state":"Uttar Pradesh","pincode":"201301","country":"India","lat":"28.6150","long":"77.3774","addressOf":"SCHOOL_USER"}}
+ Response was on : 2019-03-04T07:25:42.389Z
+ Res: {"status":1,"message":"School registered successfully."}
+this is the end line 
+
+ Request was on : 2019-03-04T09:12:53.328Z
+ Req: /api/v1/school/create 
+ Req body was: {"schoolName":"Test School","taxId":"10023787893","contactPersonName":"Barun Pandit","contactPersonMobileNumber":"9044074921","contactPersonEmail":"barun.panRddrfit@testschool.com","facebookLink":"https://www.facebook.com/","InstagramLink":"https://www.instagram.com/","googleLink":"https://www.google.com/","twitterLink":"https://www.twitter.com/","bankDetail":{"bankName":"XYZ","accountNumber":"8394729479","IFSCCode":"KKBK8712JJSBH","branchName":"ABC"},"user":{"mobileNumber":"8076990874","alternativeMobileNumber":"","email":"info@tesFfdtrschool.com","password":"123456","userType":"PORTAL_USER","userRole":"SCHOOL_USER"},"address":{"name":"Test Center Example 1","addressLineOne":"Trignodev Softwares Pvt Ltd","addressLineTwo":"B-149, Sector 63","city":"Noida","state":"Uttar Pradesh","pincode":"201301","country":"India","lat":"28.6150","long":"77.3774","addressOf":"SCHOOL_USER"}}
+ Response was on : 2019-03-04T09:12:53.328Z
+ Res: {"status":1,"message":"School registered successfully."}
+this is the end line 
+
+ Request was on : 2019-03-04T12:39:41.827Z
+ Req: /api/v1/school/create 
+ Req body was: {"schoolName":"Test School","taxId":"10023787893","contactPersonName":"Barun Pandit","contactPersonMobileNumber":"9044074921","contactPersonEmail":"ygdfttg.com","facebookLink":"https://www.faecebook.com/","InstagramLink":"https://www.instagram.com/","googleLink":"https://www.google.com/","twitterLink":"https://www.twitter.com/","bankDetail":{"bankName":"XYZ","accountNumber":"8394729479","IFSCCode":"KKBK8712JJSBH","branchName":"ABC"},"user":{"mobileNumber":"8076990874","alternativeMobileNumber":"","email":"gttfddr.com","password":"123456","userType":"PORTAL_USER","userRole":"SCHOOL_USER"},"address":{"name":"Test Center Example 1","addressLineOne":"Trignodev Softwares Pvt Ltd","addressLineTwo":"B-149, Sector 63","city":"Noida","state":"Uttar Pradesh","pincode":"201301","country":"India","lat":"28.6150","long":"77.3774","addressOf":"SCHOOL_USER"}}
+ Response was on : 2019-03-04T12:39:41.827Z
+ Res: {"status":1,"message":"School registered successfully."}
+this is the end line 
+
+ Request was on : 2019-03-04T12:40:43.080Z
+ Req: /api/v1/school/create 
+ Req body was: {"schoolName":"Test School","taxId":"10023787893","contactPersonName":"Barun Pandit","contactPersonMobileNumber":"9044074921","contactPersonEmail":"ygdfdttg.com","facebookLink":"https://www.faecebook.com/","InstagramLink":"https://www.instagram.com/","googleLink":"https://www.google.com/","twitterLink":"https://www.twitter.com/","bankDetail":{"bankName":"XYZ","accountNumber":"8394729479","IFSCCode":"KKBK8712JJSBH","branchName":"ABC"},"user":{"mobileNumber":"8076990874","alternativeMobileNumber":"","email":"gtdtfddr.com","password":"123456","userType":"PORTAL_USER","userRole":"SCHOOL_USER"},"address":{"name":"Test Center Example 1","addressLineOne":"Trignodev Softwares Pvt Ltd","addressLineTwo":"B-149, Sector 63","city":"Noida","state":"Uttar Pradesh","pincode":"201301","country":"India","lat":"28.6150","long":"77.3774","addressOf":"SCHOOL_USER"}}
+ Response was on : 2019-03-04T12:40:43.080Z
+ Res: {"status":1,"message":"School registered successfully."}
+this is the end line 
+
+ Request was on : 2019-03-04T12:43:49.073Z
+ Req: /api/v1/school/create 
+ Req body was: {"schoolName":"Test School","taxId":"10023787893","contactPersonName":"Barun Pandit","contactPersonMobileNumber":"9044074921","contactPersonEmail":"ygddfdttg.com","facebookLink":"https://www.faecebook.com/","InstagramLink":"https://www.instagram.com/","googleLink":"https://www.google.com/","twitterLink":"https://www.twitter.com/","bankDetail":{"bankName":"XYZ","accountNumber":"8394729479","IFSCCode":"KKBK8712JJSBH","branchName":"ABC"},"user":{"mobileNumber":"8076990874","alternativeMobileNumber":"","email":"gtddtfddr.com","password":"123456","userType":"PORTAL_USER","userRole":"SCHOOL_USER"},"address":{"name":"Test Center Example 1","addressLineOne":"Trignodev Softwares Pvt Ltd","addressLineTwo":"B-149, Sector 63","city":"Noida","state":"Uttar Pradesh","pincode":"201301","country":"India","lat":"28.6150","long":"77.3774","addressOf":"SCHOOL_USER"}}
+ Response was on : 2019-03-04T12:43:49.074Z
+ Res: {"status":1,"message":"School registered successfully."}
+this is the end line 
+
+ Request was on : 2019-03-04T12:45:19.467Z
+ Req: /api/v1/school/create 
+ Req body was: {"schoolName":"Test School","taxId":"10023787893","contactPersonName":"Barun Pandit","contactPersonMobileNumber":"9044074921","contactPersonEmail":"ygddfdfttg.com","facebookLink":"https://www.faecebook.com/","InstagramLink":"https://www.instagram.com/","googleLink":"https://www.google.com/","twitterLink":"https://www.twitter.com/","bankDetail":{"bankName":"XYZ","accountNumber":"8394729479","IFSCCode":"KKBK8712JJSBH","branchName":"ABC"},"user":{"mobileNumber":"8076990874","alternativeMobileNumber":"","email":"gtdddtfddr.com","password":"123456","userType":"PORTAL_USER","userRole":"SCHOOL_USER"},"address":{"name":"Test Center Example 1","addressLineOne":"Trignodev Softwares Pvt Ltd","addressLineTwo":"B-149, Sector 63","city":"Noida","state":"Uttar Pradesh","pincode":"201301","country":"India","lat":"28.6150","long":"77.3774","addressOf":"SCHOOL_USER"}}
+ Response was on : 2019-03-04T12:45:19.467Z
+ Res: {"status":1,"message":"School registered successfully."}
+this is the end line 
+
+ Request was on : 2019-03-04T12:58:43.631Z
+ Req: /api/v1/school/create 
+ Req body was: {"schoolName":"Test School","taxId":"10023787893","contactPersonName":"Barun Pandit","contactPersonMobileNumber":"9044074921","contactPersonEmail":"ygtddfdfttg.com","facebookLink":"https://www.faecebook.com/","InstagramLink":"https://www.instagram.com/","googleLink":"https://www.google.com/","twitterLink":"https://www.twitter.com/","bankDetail":{"bankName":"XYZ","accountNumber":"8394729479","IFSCCode":"KKBK8712JJSBH","branchName":"ABC"},"user":{"mobileNumber":"8076990874","alternativeMobileNumber":"","email":"gtdddttfddr.com","password":"123456","userType":"PORTAL_USER","userRole":"SCHOOL_USER"},"address":{"name":"Test Center Example 1","addressLineOne":"Trignodev Softwares Pvt Ltd","addressLineTwo":"B-149, Sector 63","city":"Noida","state":"Uttar Pradesh","pincode":"201301","country":"India","lat":"28.6150","long":"77.3774","addressOf":"SCHOOL_USER"}}
+ Response was on : 2019-03-04T12:58:43.631Z
+ Res: {"status":1,"message":"School registered successfully."}
+this is the end line 
+
+ Request was on : 2019-03-04T12:58:46.087Z
+ Req: /api/v1/school/create 
+ Req body was: {"schoolName":"Test School","taxId":"10023787893","contactPersonName":"Barun Pandit","contactPersonMobileNumber":"9044074921","contactPersonEmail":"ygtddfdfttg.com","facebookLink":"https://www.faecebook.com/","InstagramLink":"https://www.instagram.com/","googleLink":"https://www.google.com/","twitterLink":"https://www.twitter.com/","bankDetail":{"bankName":"XYZ","accountNumber":"8394729479","IFSCCode":"KKBK8712JJSBH","branchName":"ABC"},"user":{"mobileNumber":"8076990874","alternativeMobileNumber":"","email":"gtdddttfddr.com","password":"123456","userType":"PORTAL_USER","userRole":"SCHOOL_USER"},"address":{"name":"Test Center Example 1","addressLineOne":"Trignodev Softwares Pvt Ltd","addressLineTwo":"B-149, Sector 63","city":"Noida","state":"Uttar Pradesh","pincode":"201301","country":"India","lat":"28.6150","long":"77.3774","addressOf":"SCHOOL_USER"}}
+ Response was on : 2019-03-04T12:58:46.087Z
+ Res: {"status":0,"errorCode":2,"message":"This is email id already exists. Please enter new email id."}
+this is the end line 
+
+ Request was on : 2019-03-04T13:01:03.827Z
+ Req: /api/v1/school/create 
+ Req body was: {"schoolName":"Test School","taxId":"10023787893","contactPersonName":"Barun Pandit","contactPersonMobileNumber":"9044074921","contactPersonEmail":"ygtddfdftwtg.com","facebookLink":"https://www.faecebook.com/","InstagramLink":"https://www.instagram.com/","googleLink":"https://www.google.com/","twitterLink":"https://www.twitter.com/","bankDetail":{"bankName":"XYZ","accountNumber":"8394729479","IFSCCode":"KKBK8712JJSBH","branchName":"ABC"},"user":{"mobileNumber":"8076990874","alternativeMobileNumber":"","email":"gtdddttfddwr.com","password":"123456","userType":"PORTAL_USER","userRole":"SCHOOL_USER"},"address":{"name":"Test Center Example 1","addressLineOne":"Trignodev Softwares Pvt Ltd","addressLineTwo":"B-149, Sector 63","city":"Noida","state":"Uttar Pradesh","pincode":"201301","country":"India","lat":"28.6150","long":"77.3774","addressOf":"SCHOOL_USER"}}
+ Response was on : 2019-03-04T13:01:03.827Z
+ Res: {"status":1,"message":"School registered successfully."}
+this is the end line 
+
+ Request was on : 2019-03-04T13:03:25.612Z
+ Req: /api/v1/school/create 
+ Req body was: {"schoolName":"Test School","taxId":"10023787893","contactPersonName":"Barun Pandit","contactPersonMobileNumber":"9044074921","contactPersonEmail":"ygtddfdftwdftg.com","facebookLink":"https://www.faecebook.com/","InstagramLink":"https://www.instagram.com/","googleLink":"https://www.google.com/","twitterLink":"https://www.twitter.com/","bankDetail":{"bankName":"XYZ","accountNumber":"8394729479","IFSCCode":"KKBK8712JJSBH","branchName":"ABC"},"user":{"mobileNumber":"8076990874","alternativeMobileNumber":"","email":"gtdddttfddfdwr.com","password":"123456","userType":"PORTAL_USER","userRole":"SCHOOL_USER"},"address":{"name":"Test Center Example 1","addressLineOne":"Trignodev Softwares Pvt Ltd","addressLineTwo":"B-149, Sector 63","city":"Noida","state":"Uttar Pradesh","pincode":"201301","country":"India","lat":"28.6150","long":"77.3774","addressOf":"SCHOOL_USER"}}
+ Response was on : 2019-03-04T13:03:25.612Z
+ Res: {"status":1,"message":"School registered successfully."}
+this is the end line 
+
+ Request was on : 2019-03-04T13:04:49.991Z
+ Req: /api/v1/school/create 
+ Req body was: {"schoolName":"Test School","taxId":"10023787893","contactPersonName":"Barun Pandit","contactPersonMobileNumber":"9044074921","contactPersonEmail":"ygtddfdftwddftg.com","facebookLink":"https://www.faecebook.com/","InstagramLink":"https://www.instagram.com/","googleLink":"https://www.google.com/","twitterLink":"https://www.twitter.com/","bankDetail":{"bankName":"XYZ","accountNumber":"8394729479","IFSCCode":"KKBK8712JJSBH","branchName":"ABC"},"user":{"mobileNumber":"8076990874","alternativeMobileNumber":"","email":"gtdddttfdddfdwr.com","password":"123456","userType":"PORTAL_USER","userRole":"SCHOOL_USER"},"address":{"name":"Test Center Example 1","addressLineOne":"Trignodev Softwares Pvt Ltd","addressLineTwo":"B-149, Sector 63","city":"Noida","state":"Uttar Pradesh","pincode":"201301","country":"India","lat":"28.6150","long":"77.3774","addressOf":"SCHOOL_USER"}}
+ Response was on : 2019-03-04T13:04:49.991Z
+ Res: {"status":1,"message":"School registered successfully."}
+this is the end line 
+
+ Request was on : 2019-03-04T13:10:53.636Z
+ Req: /api/v1/school/create 
+ Req body was: {"schoolName":"Test School","taxId":"10023787893","contactPersonName":"Barun Pandit","contactPersonMobileNumber":"9044074921","contactPersonEmail":"ygtddfdftwddssftg.com","facebookLink":"https://www.faecebook.com/","InstagramLink":"https://www.instagram.com/","googleLink":"https://www.google.com/","twitterLink":"https://www.twitter.com/","bankDetail":{"bankName":"XYZ","accountNumber":"8394729479","IFSCCode":"KKBK8712JJSBH","branchName":"ABC"},"user":{"mobileNumber":"8076990874","alternativeMobileNumber":"","email":"gtdddttfdddssfdwr.com","password":"123456","userType":"PORTAL_USER","userRole":"SCHOOL_USER"},"address":{"name":"Test Center Example 1","addressLineOne":"Trignodev Softwares Pvt Ltd","addressLineTwo":"B-149, Sector 63","city":"Noida","state":"Uttar Pradesh","pincode":"201301","country":"India","lat":"28.6150","long":"77.3774","addressOf":"SCHOOL_USER"}}
+ Response was on : 2019-03-04T13:10:53.636Z
+ Res: {"status":1,"message":"School registered successfully."}
+this is the end line 
+
+ Request was on : 2019-03-04T13:11:56.006Z
+ Req: /api/v1/school/create 
+ Req body was: {"schoolName":"Test School","taxId":"10023787893","contactPersonName":"Barun Pandit","contactPersonMobileNumber":"9044074921","contactPersonEmail":"ygtddfdftwaddssftg.com","facebookLink":"https://www.faecebook.com/","InstagramLink":"https://www.instagram.com/","googleLink":"https://www.google.com/","twitterLink":"https://www.twitter.com/","bankDetail":{"bankName":"XYZ","accountNumber":"8394729479","IFSCCode":"KKBK8712JJSBH","branchName":"ABC"},"user":{"mobileNumber":"8076990874","alternativeMobileNumber":"","email":"gtdddttfddadssfdwr.com","password":"123456","userType":"PORTAL_USER","userRole":"SCHOOL_USER"},"address":{"name":"Test Center Example 1","addressLineOne":"Trignodev Softwares Pvt Ltd","addressLineTwo":"B-149, Sector 63","city":"Noida","state":"Uttar Pradesh","pincode":"201301","country":"India","lat":"28.6150","long":"77.3774","addressOf":"SCHOOL_USER"}}
+ Response was on : 2019-03-04T13:11:56.006Z
+ Res: {"status":1,"message":"School registered successfully."}
+this is the end line 
+
+ Request was on : 2019-03-04T13:13:58.460Z
+ Req: /api/v1/school/create 
+ Req body was: {"schoolName":"Test School","taxId":"10023787893","contactPersonName":"Barun Pandit","contactPersonMobileNumber":"9044074921","contactPersonEmail":"ygtddfdftwa1ddssftg.com","facebookLink":"https://www.faecebook.com/","InstagramLink":"https://www.instagram.com/","googleLink":"https://www.google.com/","twitterLink":"https://www.twitter.com/","bankDetail":{"bankName":"XYZ","accountNumber":"8394729479","IFSCCode":"KKBK8712JJSBH","branchName":"ABC"},"user":{"mobileNumber":"8076990874","alternativeMobileNumber":"","email":"gtdddttfdda1dssfdwr.com","password":"123456","userType":"PORTAL_USER","userRole":"SCHOOL_USER"},"address":{"name":"Test Center Example 1","addressLineOne":"Trignodev Softwares Pvt Ltd","addressLineTwo":"B-149, Sector 63","city":"Noida","state":"Uttar Pradesh","pincode":"201301","country":"India","lat":"28.6150","long":"77.3774","addressOf":"SCHOOL_USER"}}
+ Response was on : 2019-03-04T13:13:58.460Z
+ Res: {"status":1,"message":"School registered successfully."}
+this is the end line 
+
+ Request was on : 2019-03-04T13:17:31.248Z
+ Req: /api/v1/school/create 
+ Req body was: {"schoolName":"Test School","taxId":"10023787893","contactPersonName":"Barun Pandit","contactPersonMobileNumber":"9044074921","contactPersonEmail":"ygtddfdftwa13ddssftg.com","facebookLink":"https://www.faecebook.com/","InstagramLink":"https://www.instagram.com/","googleLink":"https://www.google.com/","twitterLink":"https://www.twitter.com/","bankDetail":{"bankName":"XYZ","accountNumber":"8394729479","IFSCCode":"KKBK8712JJSBH","branchName":"ABC"},"user":{"mobileNumber":"8076990874","alternativeMobileNumber":"","email":"gtdddttfdda13dssfdwr.com","password":"123456","userType":"PORTAL_USER","userRole":"SCHOOL_USER"},"address":{"name":"Test Center Example 1","addressLineOne":"Trignodev Softwares Pvt Ltd","addressLineTwo":"B-149, Sector 63","city":"Noida","state":"Uttar Pradesh","pincode":"201301","country":"India","lat":"28.6150","long":"77.3774","addressOf":"SCHOOL_USER"}}
+ Response was on : 2019-03-04T13:17:31.248Z
+ Res: {"status":1,"message":"School registered successfully."}
+this is the end line 
+
+ Request was on : 2019-03-04T13:18:38.498Z
+ Req: /api/v1/school/create 
+ Req body was: {"schoolName":"Test School","taxId":"10023787893","contactPersonName":"Barun Pandit","contactPersonMobileNumber":"9044074921","contactPersonEmail":"ygtddfdftwa2213ddssftg.com","facebookLink":"https://www.faecebook.com/","InstagramLink":"https://www.instagram.com/","googleLink":"https://www.google.com/","twitterLink":"https://www.twitter.com/","bankDetail":{"bankName":"XYZ","accountNumber":"8394729479","IFSCCode":"KKBK8712JJSBH","branchName":"ABC"},"user":{"mobileNumber":"8076990874","alternativeMobileNumber":"","email":"gtdddttfdda2213dssfdwr.com","password":"123456","userType":"PORTAL_USER","userRole":"SCHOOL_USER"},"address":{"name":"Test Center Example 1","addressLineOne":"Trignodev Softwares Pvt Ltd","addressLineTwo":"B-149, Sector 63","city":"Noida","state":"Uttar Pradesh","pincode":"201301","country":"India","lat":"28.6150","long":"77.3774","addressOf":"SCHOOL_USER"}}
+ Response was on : 2019-03-04T13:18:38.498Z
+ Res: {"status":1,"message":"School registered successfully."}
+this is the end line 
+
+ Request was on : 2019-03-04T14:09:13.075Z
+ Req: /api/v1/school/create 
+ Req body was: {"schoolName":"Test School","taxId":"10023787893","contactPersonName":"Barun Pandit","contactPersonMobileNumber":"9044074921","contactPersonEmail":"ygtddfdftwaaa221ab3ddssftg.com","facebookLink":"https://www.faecebook.com/","InstagramLink":"https://www.instagram.com/","googleLink":"https://www.google.com/","twitterLink":"https://www.twitter.com/","bankDetail":{"bankName":"XYZ","accountNumber":"8394729479","IFSCCode":"KKBK8712JJSBH","branchName":"ABC"},"user":{"mobileNumber":"8076990874","alternativeMobileNumber":"","email":"gtdddttfddaaaab2213dssfdwr.com","password":"123456","userType":"PORTAL_USER","userRole":"SCHOOL_USER"},"address":{"name":"Test Center Example 1","addressLineOne":"Trignodev Softwares Pvt Ltd","addressLineTwo":"B-149, Sector 63","city":"Noida","state":"Uttar Pradesh","pincode":"201301","country":"India","lat":"28.6150","long":"77.3774","addressOf":"SCHOOL_USER"}}
+ Response was on : 2019-03-04T14:09:13.075Z
+ Res: {"status":1,"message":"School registered successfully."}
+this is the end line 
+
+ Request was on : 2019-03-04T14:15:39.021Z
+ Req: /api/v1/school/create 
+ Req body was: {"schoolName":"Test School","taxId":"10023787893","contactPersonName":"Barun Pandit","contactPersonMobileNumber":"9044074921","contactPersonEmail":"ygtddfdftwaafa221ab3ddssftg.com","facebookLink":"https://www.faecebook.com/","InstagramLink":"https://www.instagram.com/","googleLink":"https://www.google.com/","twitterLink":"https://www.twitter.com/","bankDetail":{"bankName":"XYZ","accountNumber":"8394729479","IFSCCode":"KKBK8712JJSBH","branchName":"ABC"},"user":{"mobileNumber":"8076990874","alternativeMobileNumber":"","email":"gtdddttfddaaaab221f3dssfdwr.com","password":"123456","userType":"PORTAL_USER","userRole":"SCHOOL_USER"},"address":{"name":"Test Center Example 1","addressLineOne":"Trignodev Softwares Pvt Ltd","addressLineTwo":"B-149, Sector 63","city":"Noida","state":"Uttar Pradesh","pincode":"201301","country":"India","lat":"28.6150","long":"77.3774","addressOf":"SCHOOL_USER"}}
+ Response was on : 2019-03-04T14:15:39.021Z
+ Res: {"status":1,"message":"School registered successfully."}
+this is the end line 
+
+ Request was on : 2019-03-04T14:17:37.769Z
+ Req: /api/v1/school/create 
+ Req body was: {"schoolName":"Test School","taxId":"10023787893","contactPersonName":"Barun Pandit","contactPersonMobileNumber":"9044074921","contactPersonEmail":"ygtddfdftwaafa221fab3ddssftg.com","facebookLink":"https://www.faecebook.com/","InstagramLink":"https://www.instagram.com/","googleLink":"https://www.google.com/","twitterLink":"https://www.twitter.com/","bankDetail":{"bankName":"XYZ","accountNumber":"8394729479","IFSCCode":"KKBK8712JJSBH","branchName":"ABC"},"user":{"mobileNumber":"8076990874","alternativeMobileNumber":"","email":"gtdddttfddaafaab221f3dssfdwr.com","password":"123456","userType":"PORTAL_USER","userRole":"SCHOOL_USER"},"address":{"name":"Test Center Example 1","addressLineOne":"Trignodev Softwares Pvt Ltd","addressLineTwo":"B-149, Sector 63","city":"Noida","state":"Uttar Pradesh","pincode":"201301","country":"India","lat":"28.6150","long":"77.3774","addressOf":"SCHOOL_USER"}}
+ Response was on : 2019-03-04T14:17:37.769Z
+ Res: {"status":1,"message":"School registered successfully."}
+this is the end line 
+
+ Request was on : 2019-03-04T14:19:57.170Z
+ Req: /api/v1/school/create 
+ Req body was: {"schoolName":"Test School","taxId":"10023787893","contactPersonName":"Barun Pandit","contactPersonMobileNumber":"9044074921","contactPersonEmail":"ygtddfdftwaafa221fabf3ddssftg.com","facebookLink":"https://www.faecebook.com/","InstagramLink":"https://www.instagram.com/","googleLink":"https://www.google.com/","twitterLink":"https://www.twitter.com/","bankDetail":{"bankName":"XYZ","accountNumber":"8394729479","IFSCCode":"KKBK8712JJSBH","branchName":"ABC"},"user":{"mobileNumber":"8076990874","alternativeMobileNumber":"","email":"gtdddttfddaafaab221ff3dssfdwr.com","password":"123456","userType":"PORTAL_USER","userRole":"SCHOOL_USER"},"address":{"name":"Test Center Example 1","addressLineOne":"Trignodev Softwares Pvt Ltd","addressLineTwo":"B-149, Sector 63","city":"Noida","state":"Uttar Pradesh","pincode":"201301","country":"India","lat":"28.6150","long":"77.3774","addressOf":"SCHOOL_USER"}}
+ Response was on : 2019-03-04T14:19:57.170Z
+ Res: {"status":1,"message":"School registered successfully."}
+this is the end line 
+
+ Request was on : 2019-03-04T14:21:20.107Z
+ Req: /api/v1/school/create 
+ Req body was: {"schoolName":"Test School","taxId":"10023787893","contactPersonName":"Barun Pandit","contactPersonMobileNumber":"9044074921","contactPersonEmail":"ygtddfdftwaafa221dfabf3ddssftg.com","facebookLink":"https://www.faecebook.com/","InstagramLink":"https://www.instagram.com/","googleLink":"https://www.google.com/","twitterLink":"https://www.twitter.com/","bankDetail":{"bankName":"XYZ","accountNumber":"8394729479","IFSCCode":"KKBK8712JJSBH","branchName":"ABC"},"user":{"mobileNumber":"8076990874","alternativeMobileNumber":"","email":"gtdddttfddaafaab221ffd3dssfdwr.com","password":"123456","userType":"PORTAL_USER","userRole":"SCHOOL_USER"},"address":{"name":"Test Center Example 1","addressLineOne":"Trignodev Softwares Pvt Ltd","addressLineTwo":"B-149, Sector 63","city":"Noida","state":"Uttar Pradesh","pincode":"201301","country":"India","lat":"28.6150","long":"77.3774","addressOf":"SCHOOL_USER"}}
+ Response was on : 2019-03-04T14:21:20.107Z
+ Res: {"status":1,"message":"School registered successfully."}
+this is the end line 
+
+ Request was on : 2019-03-04T14:25:34.700Z
+ Req: /api/v1/school/create 
+ Req body was: {"schoolName":"Test School","taxId":"10023787893","contactPersonName":"Barun Pandit","contactPersonMobileNumber":"9044074921","contactPersonEmail":"ygtddfdftwaafa22t1dfabf3ddssftg.com","facebookLink":"https://www.faecebook.com/","InstagramLink":"https://www.instagram.com/","googleLink":"https://www.google.com/","twitterLink":"https://www.twitter.com/","bankDetail":{"bankName":"XYZ","accountNumber":"8394729479","IFSCCode":"KKBK8712JJSBH","branchName":"ABC"},"user":{"mobileNumber":"8076990874","alternativeMobileNumber":"","email":"gtdddttfddaafaab221tffd3dssfdwr.com","password":"123456","userType":"PORTAL_USER","userRole":"SCHOOL_USER"},"address":{"name":"Test Center Example 1","addressLineOne":"Trignodev Softwares Pvt Ltd","addressLineTwo":"B-149, Sector 63","city":"Noida","state":"Uttar Pradesh","pincode":"201301","country":"India","lat":"28.6150","long":"77.3774","addressOf":"SCHOOL_USER"}}
+ Response was on : 2019-03-04T14:25:34.700Z
+ Res: {"status":1,"message":"School registered successfully."}
+this is the end line 
+
+ Request was on : 2019-03-04T14:29:57.192Z
+ Req: /api/v1/school/create 
+ Req body was: {"schoolName":"Test School","taxId":"10023787893","contactPersonName":"Barun Pandit","contactPersonMobileNumber":"9044074921","contactPersonEmail":"ygtddfdftwaafa22t1dffabf3ddssftg.com","facebookLink":"https://www.faecebook.com/","InstagramLink":"https://www.instagram.com/","googleLink":"https://www.google.com/","twitterLink":"https://www.twitter.com/","bankDetail":{"bankName":"XYZ","accountNumber":"8394729479","IFSCCode":"KKBK8712JJSBH","branchName":"ABC"},"user":{"mobileNumber":"8076990874","alternativeMobileNumber":"","email":"gtdddttfddaafaab221tffd3dfssfdwr.com","password":"123456","userType":"PORTAL_USER","userRole":"SCHOOL_USER"},"address":{"name":"Test Center Example 1","addressLineOne":"Trignodev Softwares Pvt Ltd","addressLineTwo":"B-149, Sector 63","city":"Noida","state":"Uttar Pradesh","pincode":"201301","country":"India","lat":"28.6150","long":"77.3774","addressOf":"SCHOOL_USER"}}
+ Response was on : 2019-03-04T14:29:57.192Z
+ Res: {"status":1,"message":"School registered successfully."}
+this is the end line 
+
+ Request was on : 2019-03-04T14:36:32.010Z
+ Req: /api/v1/school/create 
+ Req body was: {"schoolName":"Test School","taxId":"10023787893","contactPersonName":"Barun Pandit","contactPersonMobileNumber":"9044074921","contactPersonEmail":"ygtddfdftwaafa22t1dffabdf3ddssftg.com","facebookLink":"https://www.faecebook.com/","InstagramLink":"https://www.instagram.com/","googleLink":"https://www.google.com/","twitterLink":"https://www.twitter.com/","bankDetail":{"bankName":"XYZ","accountNumber":"8394729479","IFSCCode":"KKBK8712JJSBH","branchName":"ABC"},"user":{"mobileNumber":"8076990874","alternativeMobileNumber":"","email":"gtdddttfddaafaab221tffd3ddfssfdwr.com","password":"123456","userType":"PORTAL_USER","userRole":"SCHOOL_USER"},"address":{"name":"Test Center Example 1","addressLineOne":"Trignodev Softwares Pvt Ltd","addressLineTwo":"B-149, Sector 63","city":"Noida","state":"Uttar Pradesh","pincode":"201301","country":"India","lat":"28.6150","long":"77.3774","addressOf":"SCHOOL_USER"}}
+ Response was on : 2019-03-04T14:36:32.010Z
+ Res: {"status":1,"message":"School registered successfully."}
+this is the end line 

@@ -1,0 +1,218 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>Successfull Order Processed</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Your Order has been successfully placed.</ion-title>
+
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-subtitle>Order Information:</ion-card-subtitle>
+      <ion-label
+        >Transaction: Up+Rider (Installing a Sign with a rider)</ion-label>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-item>
+        <ion-label text-wrap>
+          <ion-text>
+            <b>Customer Tracking Number:</b>
+          </ion-text>
+        </ion-label>
+        <div>
+          {{paymentDetail ? paymentDetail[0].CustomerTrackingNumber : "NA"}}
+        </div>
+      </ion-item>
+
+      <ion-item>
+        <ion-label text-wrap>
+          <ion-text>
+            <b>Address:</b>
+          </ion-text>
+        </ion-label>
+        <div>
+            {{paymentDetail ? paymentDetail[0].Address : "NA"}}
+        </div>
+      </ion-item>
+
+      <ion-item>
+        <ion-label text-wrap>
+          <ion-text>
+            <b>City:</b>
+          </ion-text>
+        </ion-label>
+        <div>
+            {{paymentDetail ? paymentDetail[0].SiteCity : "NA"}}
+        </div>
+      </ion-item>
+
+      <ion-item>
+        <ion-label text-wrap>
+          <ion-text>
+            <b>State:</b>
+          </ion-text>
+        </ion-label>
+        <div>
+            {{paymentDetail ? paymentDetail[0].SiteState : "NA"}}
+        </div>
+      </ion-item>
+
+      <ion-item>
+        <ion-label text-wrap>
+          <ion-text>
+            <b>Underground Object:</b>
+          </ion-text>
+        </ion-label>
+        <div>
+            {{paymentDetail ? paymentDetail[0].HOName : "NA"}}
+        </div>
+      </ion-item>
+
+      <ion-item>
+        <ion-label text-wrap>
+          <ion-text>
+            <b>Phone Number:</b>
+          </ion-text>
+        </ion-label>
+        <div>
+            {{paymentDetail ? paymentDetail[0].PhoneNumber : "NA"}}
+        </div>
+      </ion-item>
+
+      <ion-item>
+        <ion-label text-wrap>
+          <ion-text>
+            <b>Color/Style:</b>
+          </ion-text>
+        </ion-label>
+        <div>
+            {{paymentDetail ? paymentDetail[0].ColorAndStyle : "NA"}}
+        </div>
+      </ion-item>
+
+      <ion-item>
+        <ion-label text-wrap>
+          <ion-text>
+            <b>Direction:</b>
+          </ion-text>
+        </ion-label>
+        <div>
+            {{paymentDetail ? paymentDetail[0].Directions : "NA"}}
+        </div>
+      </ion-item>
+
+      <ion-item>
+        <ion-label text-wrap>
+          <ion-text>
+            <b>Rider1:</b>
+          </ion-text>
+        </ion-label>
+        <div>
+            {{paymentDetail ? paymentDetail[0].RiderInformation : "NA"}}
+        </div>
+      </ion-item>
+
+      <ion-item>
+        <ion-label text-wrap>
+          <ion-text>
+            <b>Rider2:</b>
+          </ion-text>
+        </ion-label>
+        <div>
+            {{paymentDetail ? paymentDetail[0].RiderInformation2 : "NA"}}
+        </div>
+      </ion-item>
+
+      <ion-item>
+        <ion-label text-wrap>
+          <ion-text>
+            <b>Rider3:</b>
+          </ion-text>
+        </ion-label>
+        <div>
+            {{paymentDetail ? paymentDetail[0].RiderInformation3 : "NA"}}
+        </div>
+      </ion-item>
+
+      <ion-item>
+        <ion-label text-wrap>
+          <ion-text>
+            <b>Who Ordered::</b>
+          </ion-text>
+        </ion-label>
+        <div>
+            {{paymentDetail ? paymentDetail[0].WhoEntered : "NA"}}
+        </div>
+      </ion-item>
+
+      <ion-item>
+        <ion-label text-wrap>
+          <ion-text>
+            <b>Date Requested:</b>
+          </ion-text>
+        </ion-label>
+        <div>
+            {{paymentDetail ? paymentDetail[0].DateRequested : "NA"}}
+        </div>
+      </ion-item>
+
+      <ion-item>
+        <ion-label text-wrap>
+          <ion-text>
+            <b>Fuel Surcharge :</b>
+          </ion-text>
+        </ion-label>
+        <div>
+            {{paymentDetail ? paymentDetail[0].SurCharge : "NA"}}
+        </div>
+      </ion-item>
+
+      <ion-item>
+        <ion-label text-wrap>
+          <ion-text>
+            <b>Price :</b>
+          </ion-text>
+        </ion-label>
+        <div>
+            {{paymentDetail ? paymentDetail[0].Price : "NA"}}
+        </div>
+      </ion-item>
+
+      <ion-item>
+        <ion-label text-wrap>
+          <ion-text>
+            <b>Total :</b>
+          </ion-text>
+        </ion-label>
+        <div>
+            {{paymentDetail ? paymentDetail[0].TotalPriceWithTax : "NA"}}
+        </div>
+      </ion-item>
+
+
+         <ion-item>
+          <ion-label text-wrap>
+            <ion-text>
+              <b>If you would like to pay now with a credit card, please use the "Pay Here" button:</b>
+            </ion-text>
+          </ion-label>
+ 
+        </ion-item>
+
+        <ion-item>
+       <ion-button (click)="payment()">Paynow</ion-button>
+        </ion-item>
+
+
+    </ion-card-content>
+  </ion-card>
+</ion-content>

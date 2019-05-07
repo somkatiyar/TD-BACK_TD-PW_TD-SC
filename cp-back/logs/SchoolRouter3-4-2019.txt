@@ -1,0 +1,35 @@
+
+ Request was on : 2019-04-03T05:41:43.427Z
+ Req: /api/v1/school/login 
+ Req body was: {"email":"Navdeep.kaur@trignodev.com","password":"12345678"}
+ Response was on : 2019-04-03T05:41:43.427Z
+ Res: {"status":1,"data":{"userDetail":{"mobileNumber":"88601241179","alternativeMobileNumber":"","firstName":"","lastName":"","email":"Navdeep.kaur@trignodev.com","isEmailVerified":false,"dob":null,"drivingLicense":"","password":"12345678","profilePictureUrl":"","token":"e2bc85ed62811f05c86137db9ab0ea19","adiOrPdiBadgeNumber":"","userType":"PORTAL_USER","userRole":"SCHOOL_USER","companions":[],"addresses":[{"name":null,"addressLineOne":"India","addressLineTwo":"","city":"[{\"name\":\"Noida\",\"description\":\"good 11\",\"value\":\"5c47fba122293312657546b9\",\"parent\":\"3\",\"isArchived\":false,\"_id\":\"5c47fba122293312657546b9\",\"createdDate\":\"2019-01-23T05:29:05.749Z\",\"updatedDate\":\"2019-02-07T14:54:41.672Z\",\"__v\":0,\"updatedBy\":\"5bc46aa390ca385b460fabf4\"}]","state":"[{\"name\":\"Uttar Pradesh\",\"description\":\"nyc\",\"value\":\"3\",\"parent\":\"2\",\"isArchived\":false,\"_id\":\"5c47fb4d105d530f969936c2\",\"createdDate\":\"2019-01-23T05:27:41.042Z\",\"updatedDate\":\"2019-02-07T14:40:54.651Z\",\"__v\":0,\"updatedBy\":\"5bc46aa390ca385b460fabf4\"}]","pincode":"201301","country":"[{\"name\":\"India\",\"description\":\"India is a vast South Asian country with diverse terrain – from Himalayan .\",\"value\":\"2\",\"isArchived\":false,\"countryCode\":\"+91\",\"_id\":\"5c47f8b5105d530f969936ba\",\"createdDate\":\"2019-01-23T05:16:37.564Z\",\"updatedDate\":\"2019-02-07T08:04:18.334Z\",\"__v\":0,\"updatedBy\":\"5bc7587b1d7b314cebcf3f35\"}]","lat":"","long":"","addressType":"PRIMARY","addressOf":"APP_USER","isArchived":false,"_id":"5c52d462cf5ed0365bb5670e","createdBy":null,"createdDate":"2019-01-31T10:56:34.204Z","updatedDate":"2019-02-08T06:37:05.909Z","__v":0,"updatedBy":null}],"documents":[],"isArchived":false,"aboutme":" ","countryCode":"","_id":"5c52d462cf5ed0365bb5670f","createdBy":null,"createdDate":"2019-01-31T10:56:34.205Z","updatedDate":"2019-04-01T06:57:54.647Z","__v":0,"updatedBy":"5c52d462cf5ed0365bb5670f"},"schoolDetail":{"schoolName":"NK School","taxId":"12345","contactPersonName":"nini","contactPersonMobileNumber":"8854561235","contactPersonEmail":"tes@td.com","facebookLink":"","InstagramLink":"","googleLink":"","twitterLink":"","isArchived":false,"_id":"5c52d462cf5ed0365bb56711","bankDetail":"5c52d462cf5ed0365bb56710","createdBy":null,"createdDate":"2019-01-31T10:56:34.206Z","updatedDate":"2019-02-08T06:37:05.904Z","__v":0,"updatedBy":null}}}
+this is the end line 
+
+ Request was on : 2019-04-03T06:06:37.705Z
+ Req: /api/v1/school/create 
+ Req body was: {"schoolName":"test","user":{"mobileNumber":"7456794569","email":"dfggs@gmail.com"},"address":"kasnpur"}
+ Response was on : 2019-04-03T06:06:37.705Z
+ Res: {"status":1,"message":"School registered successfully."}
+this is the end line 
+
+ Request was on : 2019-04-03T06:17:25.081Z
+ Req: /api/v1/school/create 
+ Req body was: {"user":{"email":"manish@lurnr.co","mobileNumber":"787689787"},"password":"LurnrAdmin@123!","schoolName":"abc pvt lmt","address":"678978977"}
+ Response was on : 2019-04-03T06:17:25.081Z
+ Res: {"status":0,"errorCode":2,"message":"This is email id already exists. Please enter new email id."}
+this is the end line 
+
+ Request was on : 2019-04-03T06:23:06.311Z
+ Req: /api/v1/school/create 
+ Req body was: {"user":{"email":"som@school.com","mobileNumber":"74837373838"},"schoolName":"Hshshshs","password":"123456","address":"Bsisbsi"}
+ Response was on : 2019-04-03T06:23:06.311Z
+ Res: {"status":1,"message":"School registered successfully."}
+this is the end line 
+
+ Request was on : 2019-04-03T06:25:03.186Z
+ Req: /api/v1/school/login 
+ Req body was: {"email":"manish@school.com","password":"manish123"}
+ Response was on : 2019-04-03T06:25:03.186Z
+ Res: {"status":0,"errorCode":2,"message":"Your email or password is not valid."}
+this is the end line 

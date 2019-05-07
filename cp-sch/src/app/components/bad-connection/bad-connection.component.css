@@ -1,0 +1,31 @@
+
+.main-page1 {
+    background: #C20000;
+    text-align: center;
+    min-height: calc(100vh - 56px);
+    padding-top: 100px;
+
+}
+span.url {
+  color: white;
+  font-size: 11px;
+  position: absolute;
+  margin-left: 50px;
+  top: 35%;
+}
+h1.Bad_net {
+    color: white;
+    margin: 50px 0px 19px 0px;
+}
+.text-white {
+    color: white;
+}
+.img_con {
+  position: relative;
+  margin-top: 60px;
+}
+img.aside_logo {
+    margin-bottom: 30px;
+    margin-left: 26%;
+    height: 35px;
+}

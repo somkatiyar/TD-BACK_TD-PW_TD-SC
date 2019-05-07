@@ -1,0 +1,16 @@
+
+<app-loading [hidden]="!varCtrl.isLoading" ></app-loading>
+<!-- <app-loading *ngIf="!varCtrl.isLoading"></app-loading> -->
+<app-header *ngIf="varCtrl.isHeader"></app-header>  
+<ng-sidebar-container [ngStyle]="{'height': varCtrl.isHeader ? 'calc(100vh - 56px)' : 'calc(100vh - 56px)' }">
+   
+  <!-- A sidebar -->
+  <ng-sidebar *ngIf="varCtrl.isSideBar" [(opened)]="varCtrl._opened" mode="push" position="left">
+    <app-sidebar *ngIf="varCtrl.isSideBar"></app-sidebar>
+  </ng-sidebar>
+
+  <!-- Page content -->
+  <div ng-sidebar-content style="overflow-x: hidden !important;">
+    <router-outlet></router-outlet>
+  </div>
+</ng-sidebar-container>

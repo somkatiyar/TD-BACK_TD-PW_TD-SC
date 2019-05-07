@@ -1,0 +1,128 @@
+.contain_data {
+    width: 100%;
+    margin: auto;
+}
+
+agm-map {
+    height: calc(100vh - 142px);
+    width: 100%;
+}
+.switch_wrap {    
+  margin-top: 29px;
+  text-align: right;
+  padding: 25px;
+}
+button.btn.btn-primary.add_dvr {
+  vertical-align: super;
+  margin-left: 18px;
+}
+.mat-radio-button {
+  margin-right: 15px;
+}
+
+.driver-card{
+    text-align: center;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 0 0 7px 1px #bbbbbb;
+    padding-top: 35px;
+    margin-bottom: 10px;
+}
+
+.driver-edit{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 14px;
+    color: #525252;
+    cursor: pointer;
+}
+
+.driver-image{
+    display: block;
+    height: 132px;
+    width: 132px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.driver-name{
+    font-family: 'Cabin', sans-serif;
+    font-size: 18px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    letter-spacing: 0.5px;
+    font-weight: 700;
+    color: #555;
+}
+
+.driver-ID{
+    font-size: 15px;
+    margin-bottom: 10px;
+
+}
+
+.driver-recent-booking{
+    background: #E5E5E5;
+    padding: 31px 0px;
+    
+}
+
+.driver-recent-booking-title{
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-family: 'Cabin', sans-serif;
+    color: #555;
+}
+
+.driver-recent-booking-section{
+    text-align: center;
+    display: flex;
+    padding: 0px 11px;
+    margin-bottom: 6px;
+}
+
+.driver-recent-booking-val{
+    display: inline-block;
+    background: #fff;
+    padding: 14px 21px;
+    margin: auto;
+    font-size: 13px;
+    border: 1px solid #e5e5e5;
+    min-height: 46px;
+    color: #555;
+}
+#background{
+    position:absolute;
+    z-index:0;
+    background:white;
+    display:block;
+    min-height:50%; 
+    min-width:50%;
+    color:yellow;
+}
+#content{
+    position:absolute;
+    z-index:1;
+}
+
+#bg-text
+{
+    color:lightgrey;
+    font-size:82px;
+    transform:rotate(300deg);
+    -webkit-transform: rotate(360deg);
+    margin-left: 335px;
+    cursor: default
+}
+
+div.b {
+
+        white-space: nowrap;
+        width: 127px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+
+    
+  }

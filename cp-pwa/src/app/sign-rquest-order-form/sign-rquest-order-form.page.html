@@ -1,0 +1,55 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Sign In Request Order Form</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-radio-group>
+    <ion-item *ngFor="let item of radioItemList">
+      <ion-grid>
+        <ion-row>
+          <ion-col size="2">
+            <div>
+              <ion-radio slot="start" (ionSelect)="radioChecked(item)">
+              </ion-radio>
+            </div>
+          </ion-col>
+          <ion-col size="10">
+            <ion-row>
+              <div>
+                <b>{{ item.Transaction_Code }}</b>
+              </div>
+            </ion-row>
+
+            <ion-row>
+              <div>{{ item.WebDescription }}</div>
+            </ion-row>
+          </ion-col>
+        </ion-row>
+
+        <div *ngIf="item.Transaction_Code == 'Up' && innerList">
+          <ion-item *ngFor="let i of insideView">
+            <ion-col size="2">
+              <div>
+                <ion-checkbox
+                  slot="start"
+                  (ionChange)="selectBox(i)">
+                </ion-checkbox>
+              </div>
+            </ion-col>
+            <ion-col size="10">{{ i.val }}</ion-col>
+          </ion-item>
+        </div>
+      </ion-grid>
+    </ion-item>
+  </ion-radio-group>
+
+  <div padding>
+    <ion-button size="large" expand="block" (click)="goToOrderForm()"
+      >Next</ion-button>
+  </div>
+</ion-content>

@@ -1,0 +1,47 @@
+<ion-header>
+    <ion-toolbar color="primary">
+      <ion-title>Current Sign Up Detail</ion-title>
+      <ion-buttons slot="start">
+        <ion-back-button></ion-back-button>
+      </ion-buttons>
+    </ion-toolbar>
+  </ion-header>
+  
+  <ion-header>
+    <ion-toolbar>
+      <ion-title>Current Sign Up Detail</ion-title>
+
+    </ion-toolbar>
+  </ion-header>
+  
+  <ion-content>
+    <ion-card *ngFor="let item of currentSignUpList">
+      <ion-card-content >
+        <ion-grid>
+          <ion-row>
+            <ion-col><b>#Site:</b></ion-col>
+            <ion-col>{{ item.SiteNumber ? item.SiteNumber : "NA"}}</ion-col>
+          </ion-row>
+          <ion-row>
+            <ion-col><b>Street:</b></ion-col>
+            <ion-col>{{ item.SiteStreet ? item.SiteStreet  : "NA" }}</ion-col>
+          </ion-row>
+          <ion-row>
+            <ion-col><b>City:</b></ion-col>
+            <ion-col>{{ item.SiteCity ? item.SiteCity : "NA"}}</ion-col>
+          </ion-row>
+          <ion-row>
+            <ion-col><b>State:</b></ion-col>
+            <ion-col>{{ item.SiteState ?  item.SiteState : "NA" }}</ion-col>
+          </ion-row>
+          <ion-row>
+            <ion-col><b>Date Installed:</b></ion-col>
+            <ion-col>{{ item.DateInstalled ?  item.DateInstalled : "NA"}}</ion-col>
+          </ion-row>
+     
+  
+        </ion-grid>
+      </ion-card-content>
+    </ion-card>
+  </ion-content>
+  

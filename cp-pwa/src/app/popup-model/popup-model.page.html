@@ -1,0 +1,66 @@
+
+ <div padding>
+   <ion-grid>
+     <ion-row>
+       <ion-col size=10></ion-col>
+       <ion-col size=2>
+        <button ion-button icon-only (click)="onModelDismiss(form)">
+          <ion-icon name="close"></ion-icon>
+        </button>
+          
+       </ion-col>
+     </ion-row>
+   </ion-grid>
+ </div>
+ 
+
+
+
+<ion-content>
+  <form #form="ngForm" (ngSubmit)="onModelDismiss(form)">
+      <ion-grid>
+    <ion-row justify-content-center>
+      <ion-col align-self-center size-md="6" size-lg="5" size-xs="12">
+        <div text-center>
+          <h4>Add Address</h4>
+        </div>
+        <div padding>
+          <ion-item>
+            <ion-label position="floating">House Number</ion-label>
+            <ion-input type="text" name="houseNumber" ngModel required></ion-input>
+          </ion-item>
+
+          <ion-item>
+            <ion-label position="floating">Street Number</ion-label>
+            <ion-input type="text" name="streetNumber" ngModel required></ion-input>
+          </ion-item>
+
+          <ion-item>
+            <ion-label position="floating">City</ion-label>
+            <ion-input type="text" name="city" ngModel required></ion-input>
+          </ion-item>
+       
+  
+            <ion-item>
+              <ion-label>States</ion-label>
+              <ion-select name='state' ngModel required>
+                <ion-select-option *ngFor="let item of states">{{item.name}}</ion-select-option>
+              </ion-select>
+            </ion-item>
+      
+       
+          <ion-item>
+            <ion-label position="floating">Color and style of house</ion-label>
+            <ion-input type="text" name="color" ngModel required></ion-input>
+          </ion-item>
+        </div>
+
+        <div padding>
+          <ion-button size="large" expand="block" type="submit" [disabled]="form.invalid">Add</ion-button>
+        </div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</form>
+
+</ion-content>

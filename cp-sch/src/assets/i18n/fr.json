@@ -1,0 +1,179 @@
+{
+  "commonForm": {
+    "addschoolconfermation": "1",
+    "personalInfo": "1",
+    "firstname": "* 1",
+    "lastname": "* 1",
+    "email": "* 1",
+    "password": "* 1",
+    "confirmpassword": "* 1",
+    "phonenumber": "* 1",
+    "carinformation": "1",
+    "regnumber": "* 1",
+    "chessisnumber": "* 1",
+    "vechicaltype": "* 1",
+    "geartype": "*1",
+    "addressInformation": "A1",
+    "country": "* S1 ",
+    "county": "* Selecxfgdfht County",
+    "city": "* Selcdhgfhect City ",
+    "postcode": "* Postfghcode",
+    "permanent": "* dfhgfhgf Address",
+    "documents": "hgfh",
+    "badge": "* dghdfh Badge Number",
+    "driving": "* Driving dfthfgthLicence Number",
+   
+    "signUp": "Signfdghf Up",
+
+    "schoolInformation": "Schoofhgfhl Information",
+    "taxId": "Taxfhgfh Id",
+    "name": "Nfhgfhame",
+    "addressLineOne":"Addressfhgfhb line One",
+    "addressLineTwo":"Address fhfghline Two",
+    "alreadyAccount":"Already hafhgfhgfe an account ?",
+    "contactPersonInformation": "Contact fhgfhgfPerson Information",
+  
+  
+
+
+
+
+
+
+    "buttonTitle": {
+      "addbuddies": "Adfghgfhd Buddies",
+      "upload": "Uplfghgfoad",
+      "login":"Logfghgfhin",
+      "submit": "Sufhgfhbmit",
+      "update":"Updfhgfhate"
+    }
+  },
+  "commonValidation": {
+    "schoolName": "School Nghgfhgfhame is required",
+    "taxId":"Tax Id is rxfbdfbhequired",
+
+    "bankDetail":"bank dfhgfhfetails",
+    "acountNumber":"Accfghdfhfghount Number",
+    "ifscCode":"IFSC Codfhfghde",
+    "branchName": "Brancfghfghh Name",
+
+    "contactPersonName":"Contact Persofghgfhgfn Name is required!",
+    "contactPersonEmail":"Contact Peghgfhgfhrson Email is required!",
+    "contactPersonPhone":"Contact Pegfhgfhgfhrson Mobile Number is required!",
+    "firstname": "First Name ifghfghfgs required",
+    "lastname": "Last Name is gfhgfhgfrequired",
+    "email": "Email is requgfhgfhfired",
+    "validemail": "Enter vgfhgfhfalid email",
+    "password": "Password ifghfghs required",
+    "passwordlength": "Passworgfhgfhgfd Can't be less then 8 character",
+    "confirmpassword": "Confirgfhgfhfm Password is required",
+    "confirmpasslength": "Passfghghgfword and Confirm does not match (min 8 character)",
+    "phonenumber": "Mobile Numfghfghgfber is required!",
+    "phonelength": "Mobile Nufghgfhgfhmber can't more then 13 digit",
+    "phonerange": "Mobile Numbefhgfhgfr can't less then 9 and more then 13 digit",
+    "regnumber": "Registration fhgfhgfhis required",
+    "chessisnumber": "Chassis Nfghfghgfumber is required",
+    "vechicaltype": "Vehical gfhfghgfhType is required",
+    "geartype": "Gear type is rgfhgfhgfhequired",
+    "country": "Country isghfghgfh required",
+    "county": "County is gfhfghgfrequired",
+    "city": "City is rgfhgfhfgequired",
+    "postcode": "Postcode fghgfhgfis required!",
+    "permanent": " Address ifghgfhs required!",
+    "badge": "API/PDI BadgeNgfhfghfgumber is required",
+    "driving": "Driving Licenfghfghgfce is required",
+    "searchCompanions": "Searfhfghgfhch companions"
+  },
+
+  "header": {
+  "addDriver": "Add Dfghgfhgfhriver",
+  "dashboard": "DashghgfhgfBoard",
+  "driverManagement":"Driver fhfghManagement",
+  "updateDriver":"Driver Ughgfhgfpdate",
+  "apointment": "Apointmhffghfgent Diary",
+  "profile":"Proffghfghile",
+  "paymentHistory":"Paymenfghgfhgfh History"
+  },
+
+
+  "sidebar": {
+    "dashboard": "Dashgfhgfhfgboard",
+    "driverManagement" : "Drivefghfghr Management",
+    "appointment" : "Appoigfhgfhntments",
+    "profile":"Profifhgfhle",
+    "paymentHistory" : "Paymentfghgfh History",
+    "logOut" : "Log Ofghgfhut",
+    "logOutConfermation":"Do You Wrtyrtuant To Log Out..!"
+
+  },
+
+  "login": {
+    "AccessDriving": "Access gfhjgfjnyour Driving",
+    "schoolManagenet": "School Mgfhfhfanagement System",
+    "alreayAccount":"Already havegfhgfh an account ?",
+    "welcome": "Welfhgfhcome",
+    "forgetPass":"Forgotgfhgfh Password ?",
+    "newUser":"New User ? Sifghgfhgn Up",
+    "forgetPassPopup":"Forgetfghgfh Password",
+    "enterEmail": "Entgfhgfher Email",
+    
+    "loginButton": "Lofghgfhgin",
+    "signUpButton":"Sigghfgfhgfn Up",
+    "submitButton":"Sufghgfhbmit"
+  },
+  "dashBoard": {
+    "totalEarn": "Totafghgfhl Earn",
+    "totalLesson": "Totghgfhal Lesson",
+    "popUp": {
+      "popUpTitle": "Selgfhgfhect Option",
+      "oneMonth": "Lastfghgfh 1 month",
+      "threeMonth": "Lastfghg 3 month",
+      "sixMonth": "Last fghfg6 month",
+      "oneYear": "Last gfhgf1 Year",
+      "buttonTitle": "Ch Driver",
+      "disable": "Disgfhfgable",
+      "enable": "Enagfhgfhble"
+    }
+  },
+  "appontment": {
+    "placeholder": {
+      "driver": "Drifghgfver",
+      "chooseDriver": "Chooseghffh Driver...",
+      "date": "Dafghgfte",
+      "noData":"No Appointmentdrfgtrfh found"
+    }
+  },
+  "driverManagement": {
+    "recentBookings": "Recent dstgfBookings",
+    "buttonTitle": {
+      "addDriver": "Add dfgDriver",
+      "disable": "Disadfghble",
+      "enable": "Enabdfhgdfle"
+    }
+  },
+  "paymentHistory": {
+    "date": "Dafhgfhte",
+    "fromDate": "Frgfhgfom Date",
+    "toDate": "To Dghhate",
+    "amountRange": "Amoufghfghgnt range",
+    "amount": "Amgfhfghount",
+    "paymentId": "Paymegfhgfhnt Id",
+    "transactionId": "Tranfhfghsaction Id",
+    "noData": "No Payment Highgfhstory found"
+  },
+
+"toaster":{
+  "chooseProfile": "Pleasefghgfh choose a profile picture!",
+  "uploadBadge":"Please Uplfghgfhoad Badge File!",
+  "uploadDriving":"Please hgfhfgUpload Drivering Licence!",
+  "addbuddy":"Buddy Addegfhgfd Succesfully",
+  "buddyLimit": "You cangfhfgh choose ony 5 buddy",
+  "buddyAlReadyAdded":"Bughfgfhddy already added",
+  "buddyRemove": "Buddy Rfghgfhemoved Successfully",
+
+  "lesson":"No lesson datfhghgfa are available right now..",
+  "selectDriverAndDate":"Please select gfhfgjdriver and date!",
+  "loginsuccess": "Login succefhjgjssful..!"
+}
+
+}

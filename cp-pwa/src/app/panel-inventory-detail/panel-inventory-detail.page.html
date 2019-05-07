@@ -1,0 +1,40 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>Panel Inventory Detail</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Panel Inventory Detail</ion-title>
+
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card *ngFor="let item of panelInventoryList">
+    <ion-card-content>
+      <ion-grid>
+        <ion-row>
+          <ion-col size="12">
+    
+                  <ion-img [src]="item.PanelImage ? item.PanelImage :'/assets/images/panel.jpeg'"></ion-img>
+             
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col><b>Type Of Panel:</b></ion-col>
+          <ion-col>{{ item.TypeOfPanel? item.TypeOfPanel : "NA" }}</ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col><b>Type Of Panel:</b></ion-col>
+            <ion-col>{{ item. CountPanel ? item. CountPanel : "NA"}}</ion-col>
+          </ion-row>
+       
+      </ion-grid>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

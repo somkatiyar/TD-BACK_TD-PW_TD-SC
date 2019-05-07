@@ -1,0 +1,124 @@
+<div class="row" style="margin:0 !important;max-height: calc(100vh - 56px);height: calc(100vh - 56px);">
+    <div class="col-lg-6 col-md-6 col-sm-12 left_div" style="background-image: url('assets/images/section.png')">
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-12 right_div">
+        <div class="right-content">
+            <h4 class="title">{{'login.AccessDriving' | translate}}</h4>
+            <h4 class="title">{{'login.schoolManagenet' | translate}}</h4>
+            <button class="btn" type="button" name="button" routerLink="/signup">{{'login.signUpButton' | translate}}</button>
+            <h4 class="title small-title">{{'login.alreayAccount' | translate}}</h4>
+            <button class="btn" type="button" name="button" data-toggle="modal" data-target="#loginModal">{{'login.loginButton' | translate}}</button>
+        </div>
+    </div>
+    
+</div>
+
+<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <img src="assets/images/cancilPop.png" #close class="close-icon" data-dismiss="modal">
+                <h2 class="modal-title">{{'login.welcome' | translate}}</h2>
+           
+                    <div class="form-wrapper">
+                        <form action="" novalidate method="" class="pop_met" [formGroup]="myForm" (ngSubmit)="login()">
+                           
+
+
+
+
+
+                            <div class="Input">
+                                <input type="text" id="input"
+                                 class="Input-text"  formControlName="email" name="email" 
+                                 [(ngModel)]='details.email'
+                                  placeholder="{{'commonForm.email'| translate}}">
+                                <label for="input" class="Input-label">{{'commonForm.email'| translate}}</label>
+                            </div>
+
+
+                            <div style="min-height: 2.5em !important;">
+                                <span *ngIf="myForm.get('email').hasError('required') && myForm.get('email').touched ">Email is required!</span>
+                        
+                             </div>
+
+
+
+
+
+                            
+                   
+
+                            <div class="Input">
+                                <input [type]="show ? 'text' : 'password'"  
+                                class="Input-text" 
+                                autocomplete="new-password"
+                                placeholder="{{'commonForm.password'| translate}}"   formControlName="password" 
+                                name="password" [(ngModel)]='details.password' >
+                                <label for="input" class="Input-label">{{'commonForm.password'| translate}}</label>
+                                 <img src="assets/images/showpassword.png" alt="" style="cursor: pointer;" class="viewPassword" (click)="showHidePass()">
+
+                            </div>
+
+
+
+
+                              <!-- 
+                            <input type="text" class="input-field" 
+                            placeholder="{{'commonForm.email'| translate}}"
+                             formControlName="email" name="email" [(ngModel)]='details.email'>
+                            <div style="min-height: 1.5em !important;">
+                                    <span *ngIf="myForm.get('email').hasError('required') && myForm.get('email').touched ">Email is required!</span>
+                            
+                            </div> -->
+
+                              <!-- <div class="passwordImageWrap">
+                                <input [type]="show ? 'text' : 'password'"  
+                                class="mod_input driverpageab" 
+                                autocomplete="new-password"
+                                placeholder="{{'commonForm.password'| translate}}"   formControlName="password" 
+                                name="password" [(ngModel)]='details.password' >
+                                <img src="assets/images/showpassword.png" alt="" style="cursor: pointer;" class="viewPassword" (click)="showHidePass()">
+                            </div>  -->
+
+
+                            
+                            
+                            
+                            
+                            <div style="min-height: 1.5em !important;">
+                                    <span *ngIf="myForm.get('password').hasError('required') && myForm.get('password').touched">Password is required!</span>
+                            
+                            </div>
+                        
+                           <div class="forget" data-dismiss="modal"  (click)="forgotModal()" >{{'login.forgetPass' | translate}}</div>
+                            <input type="submit" name="" value="{{'login.loginButton' | translate}}" class="login-btn" [disabled]="myForm.invalid">
+                        </form>
+                        <div class="bottom-section">
+        
+                            <div>{{'login.newUser' | translate}}<a (click)="closeLoginModal()" class="signup-btn">{{'login.signUpButton' | translate}}</a></div>
+        
+                        </div>
+                    </div>
+            
+            </div>
+        </div>
+        </div>
+ 
+
+        <div class="modal fade" id="forgot" tabindex="-1" role="dialog" aria-labelledby="forgotLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <img src="assets/images/cancilPop.png" #close class="close-icon" data-dismiss="modal">
+                    <h2 style="cursor:pointer" class="modal-title">{{'login.forgetPassPopup'| translate}}</h2>
+               
+                        <div class="form-wrapper">
+
+                            <form action="" method="" class="pop_met">
+                                <input type="text" class="mod_input" placeholder="{{'login.enterEmail'| translate}}" name="email" [(ngModel)]="email">
+                                <input type="submit" name="" value="{{'login.submitButton' | translate}}" class="login-btn" (click)="forgotPassword()" >
+                            </form>
+                        </div>
+                
+                </div>
+            </div>
+            

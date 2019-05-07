@@ -1,0 +1,60 @@
+.chart-wrap{
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0 0 7px 0px #606060;
+    overflow: hidden;
+}
+
+.chart-header{
+    background: #555555;
+    text-align: right;
+    padding: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.chart-badge{
+    min-width: 150px;
+    text-align: center;
+    padding: 10px 20px;
+    margin-left: 35px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 7px 0px #606060;
+    position: absolute;
+    top: 25px;
+    display: block;
+    background: white;
+}
+
+.chart-label{
+    font-size: 20px;
+    font-weight: 500;
+    color: #555555;
+}
+
+.chart-label-val{
+    font-size: 20px;
+    font-weight: 500;
+    color: #ff0500;
+}
+
+.canvas-cover{
+    margin-top: 3em;
+    padding-bottom: 2em;
+}
+
+.modal-header{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 1rem;
+    border-bottom: 1px solid #e9ecef;
+    border-top-left-radius: 0.3rem;
+    border-top-right-radius: 0.3rem;
+}
+
+li{
+    padding: 0.5em;
+    font-size: 1em;
+    font-family: Cabin;
+}

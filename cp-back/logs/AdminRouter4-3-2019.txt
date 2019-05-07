@@ -1,0 +1,13 @@
+
+ Request was on : 2019-03-04T12:07:27.845Z
+ Req: e5fb6719d873c0bad5f587f6e0c7644a
+ Response was on : 2019-03-04T12:07:27.845Z
+ Res: "checking token fails."
+this is the end line 
+
+ Request was on : 2019-03-04T12:07:27.852Z
+ Req: /api/v1/admin/schoolCreate 
+ Req body was: {"userType":"LEARNER","role":"APP_USER","token":"e5fb6719d873c0bad5f587f6e0c7644a","page":0,"schoolName":"ewr","taxId":"56786589","contactPersonName":"sahnawaj alam","contactPersonEmail":"tfddsx6t6@gmail.com","contactPersonMobileNumber":"456547568","user":{"userType":"PORTAL_USER","userRole":"SCHOOL_USER","email":"tdfxddtst@gmail.com","mobileNumber":"68767897980","facebookLink":"","InstagramLink":"","googleLink":"","twitterLink":""},"address":{"addressOf":"SCHOOL_USER","addressLineOne":"111","city":"7","state":"4","pincode":"1112","country":"4"},"bankDetail":{}}
+ Response was on : 2019-03-04T12:07:27.852Z
+ Res: {"status":0,"errorCode":1,"message":"Invalid request!"}
+this is the end line 

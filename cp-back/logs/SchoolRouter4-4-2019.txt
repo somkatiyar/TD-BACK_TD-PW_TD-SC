@@ -1,0 +1,7 @@
+
+ Request was on : 2019-04-04T05:12:21.665Z
+ Req: /api/v1/school/login 
+ Req body was: {"email":"manish@school.com","password":"manish123"}
+ Response was on : 2019-04-04T05:12:21.665Z
+ Res: {"status":0,"errorCode":2,"message":"Your email or password is not valid."}
+this is the end line 

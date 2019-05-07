@@ -1,0 +1,78 @@
+<ng4-loading-spinner  [loadingText]="'Please wait...'"> </ng4-loading-spinner>
+<!-- <div  *ngIf="loading" class="lds-dual-ring"></div> -->
+<div class="row m-4" *ngIf="showPaypal">
+    <div class="col-lg-12 col-md-12 col-sm-12 mt-3">
+        <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+            <h5>Payment Detail</h5>
+        </div>
+    </div>
+    <div class="col-lg-12 col-md-12 col-sm-12 p-3">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+            <div class="row pt-2 pb-2">
+                <div class="col-lg-6 col-md-6 col-sm-6" style="width: 50%;">
+                    Name:
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6" style="width: 50%;">
+                    {{name ? name : 'NA'}}
+                </div>
+            </div>
+            <div class="row pt-2 pb-2">
+                <div class="col-lg-6 col-md-6 col-sm-6" style="width: 50%;">
+                    NO Of Day:
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6" style="width: 50%;">
+                    {{numberOfDay ?  numberOfDay : 'NA'}}
+                </div>
+            </div>
+            <div class="row pt-2 pb-2">
+                <div class="col-lg-6 col-md-6 col-sm-6" style="width: 50%;">
+                    No Of Lesson:
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6" style="width: 50%;">
+                    {{numberOfLesson ? numberOfLesson : 'NA'}}
+                </div>
+            </div>
+
+            <div class="row pt-2 pb-2">
+                <div class="col-lg-6 col-md-6 col-sm-6" style="width: 50%;">
+                    Price:
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6" style="width: 50%;">
+                   
+                    {{price ? "£"+ price : 'NA'}}
+                </div>
+            </div>
+
+            <div class="row pt-2 pb-2">
+                <div class="col-lg-6 col-md-6 col-sm-6" style="width: 50%;">
+                    Tax:
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6" style="width: 50%;">
+                    {{tax ? tax : 'NA'}}
+                </div>
+            </div>
+
+            <div class="row pt-2 pb-2">
+                <div class="col-lg-6 col-md-6 col-sm-6" style="width: 50%;">
+                   Total Price:
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6" style="width: 50%;">
+                    {{finalAmount ? "£"+ finalAmount : 'NA'}}
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-12 col-md-12 col-sm-12 mt-3">
+            <div id="paypal-button"></div>
+        </div>
+    </div>
+</div>
+
+<div class="row  mb-5 mt-5" *ngIf="!showPaypal">
+    <div class="col-lg-12 col-md-12 col-sm-12">
+        <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+            <div><h3>Thank You!</h3></div>
+            <div><h5>Payment completed successfully</h5></div>
+        </div>
+    </div>
+</div>
+

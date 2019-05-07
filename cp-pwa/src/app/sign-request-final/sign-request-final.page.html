@@ -1,0 +1,213 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>Sign Request Order Form</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button ></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-row>
+      <ion-col size="12">
+        <br />
+
+        <hr class="horizonatalLine" />
+      </ion-col>
+    </ion-row>
+
+    <ion-card-content>
+      <ion-item>
+        <ion-label text-wrap>
+          <ion-text>
+            <b>House Number:</b>
+          </ion-text>
+        </ion-label>
+        <div>
+          {{ oldPostFullDetail ? oldPostFullDetail[0].HOName : "NA" }}
+        </div>
+      </ion-item>
+
+      <ion-item>
+        <ion-label text-wrap>
+          <ion-text>
+            <b>Street Name:</b>
+          </ion-text>
+        </ion-label>
+        <div>
+          {{ oldPostFullDetail ? oldPostFullDetail[0].SiteStreet : "NA" }}
+        </div>
+      </ion-item>
+
+      <ion-item>
+        <ion-label text-wrap>
+          <ion-text>
+            <b>City:</b>
+          </ion-text>
+        </ion-label>
+        <div>
+          {{ oldPostFullDetail ? oldPostFullDetail[0].SiteCity : "NA" }}
+        </div>
+      </ion-item>
+
+      <ion-item>
+        <ion-label text-wrap>
+          <ion-text>
+            <b>State</b>
+          </ion-text>
+        </ion-label>
+        <div>
+          {{ oldPostFullDetail ? oldPostFullDetail[0].SiteState : "NA" }}
+        </div>
+      </ion-item>
+
+      <ion-item>
+        <ion-label text-wrap>
+          <ion-text>
+            <b>Panel:</b>
+          </ion-text>
+        </ion-label>
+        <div>
+          {{ oldPostFullDetail ? oldPostFullDetail[0].Panel : "NA" }}
+        </div>
+      </ion-item>
+
+      <ion-item>
+        <ion-label text-wrap>
+          <ion-text>
+            <b>Color and Style of House:</b>
+          </ion-text>
+        </ion-label>
+        <div>
+          {{ oldPostFullDetail ? oldPostFullDetail[0].ColorAndStyle : "NA" }}
+        </div>
+      </ion-item>
+
+      <ion-item>
+        <ion-label text-wrap>
+          <ion-text>
+            <b>Get Order Images:</b>
+          </ion-text>
+        </ion-label>
+        <div>
+          {{ oldPostFullDetail ? oldPostFullDetail[0].EmailOrderImages : "False" }}
+        </div>
+      </ion-item>
+
+      <ion-item>
+        <ion-label text-wrap>
+          <ion-text>
+            <b>Map Coordinates:</b>
+          </ion-text>
+        </ion-label>
+        <div>
+          {{ oldPostFullDetail ? oldPostFullDetail[0].MapCordinate : "NA" }}
+        </div>
+      </ion-item>
+
+      <ion-item>
+        <ion-label text-wrap>
+          <ion-text>
+            <b>Processing Order to do:</b>
+          </ion-text>
+        </ion-label>
+
+        <!-- <ion-row>     
+         {{transactionData[0].WebDescription ? transactionData[0].WebDescription : "NA" }}
+       </ion-row>        -->
+      </ion-item>
+
+      <ion-item>
+        <ion-label text-wrap>
+          <ion-text>
+            <b>Company Name:</b>
+          </ion-text>
+        </ion-label>
+        <div>
+          {{ profileDetail ? profileDetail.OfficeName : "NA" }}
+        </div>
+      </ion-item>
+
+      <ion-item>
+        <ion-label text-wrap>
+          <ion-text>
+            <b>Office Phone Number:</b>
+          </ion-text>
+        </ion-label>
+        <div>
+          {{ profileDetail ? profileDetail.PhoneNumber : "NA" }}
+        </div>
+      </ion-item>
+
+      <ion-item>
+        <ion-label text-wrap>
+          <ion-text>
+            <b>Underground Objects:</b>
+          </ion-text>
+        </ion-label>
+        <div>
+          {{ oldPostFullDetail ? oldPostFullDetail[0].ColorAndStyle : "NA" }}
+        </div>
+      </ion-item>
+
+      <ion-item>
+        <ion-label text-wrap>
+          <ion-text>
+            <b>Name of Person Submitting Request:</b>
+          </ion-text>
+        </ion-label>
+        <div>
+          {{ profileDetail ? profileDetail.Contact : "NA" }}
+        </div>
+      </ion-item>
+
+      <ion-item>
+        <ion-label text-wrap>
+          <ion-text>
+            <b>Contact E-mail Address:</b>
+          </ion-text>
+        </ion-label>
+        <div>
+          {{ profileDetail ? profileDetail.EMailAddress : "NA" }}
+        </div>
+      </ion-item>
+
+      <div>
+        <ion-item>
+          <ion-label position="floating">Send Copy to</ion-label>
+          <ion-input type="text" name="houseNumber" [readonly]="isReadonly" ngModel></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="floating">Send Copy to</ion-label>
+          <ion-input type="text" name="houseNumber" [readonly]="isReadonly" ngModel></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="floating">Send Copy to</ion-label>
+          <ion-input type="text" name="houseNumber" [readonly]="isReadonly" ngModel></ion-input>
+        </ion-item>
+      </div>
+
+      <ion-row>
+        <ion-label color="danger"
+          >Directions: (ALL LOTS MUST HAVE DIRECTIONS AND BE MARKED!)</ion-label>
+      </ion-row>
+      <ion-item>
+        <ion-textarea [readonly]="isReadonly" 
+          placeholder="Enter more information here..."
+        ></ion-textarea>
+      </ion-item>
+
+      <div padding>
+        <ion-button size="large" expand="block" type="submit" (click)="formCheckForSubmit()">{{btnTitle}}</ion-button>
+      </div>
+
+      <div padding>
+          <ion-button *ngIf="isReadonly" size="large" expand="block" type="submit" (click)="enableField()">Back</ion-button>
+        </div>
+      
+    </ion-card-content>
+  </ion-card>
+</ion-content>

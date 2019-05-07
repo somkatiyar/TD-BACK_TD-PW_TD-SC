@@ -1,0 +1,84 @@
+
+ Request was on : 2019-03-06T07:19:45.056Z
+ Req: /api/v1/school/login 
+ Req body was: {"email":"Navdeep.kaur@trignodev.com","password":"12345678"}
+ Response was on : 2019-03-06T07:19:45.056Z
+ Res: {"status":0,"errorCode":2,"message":"Your email or password is not valid."}
+this is the end line 
+
+ Request was on : 2019-03-06T07:24:28.029Z
+ Req: /api/v1/school/login 
+ Req body was: {"email":"manish@lurnr.co","password":"LurnrAdmin@123!"}
+ Response was on : 2019-03-06T07:24:28.029Z
+ Res: {"status":0,"errorCode":2,"message":"Your email or password is not valid."}
+this is the end line 
+
+ Request was on : 2019-03-06T07:26:12.837Z
+ Req: /api/v1/school/login 
+ Req body was: {"email":"som@gmail.com","password":"12345678"}
+ Response was on : 2019-03-06T07:26:12.837Z
+ Res: {"status":1,"data":{"userDetail":{"mobileNumber":"8076990874","alternativeMobileNumber":"","firstName":"","lastName":"","email":"som@gmail.com","isEmailVerified":false,"dob":null,"drivingLicense":"","password":"12345678","profilePictureUrl":"","token":"5f4872849fa67dd82b881b4b8b124f7a","adiOrPdiBadgeNumber":"","userType":"PORTAL_USER","userRole":"SCHOOL_USER","companions":[],"addresses":[{"name":"Test Center Example 1","addressLineOne":"Trignodev Softwares Pvt Ltd","addressLineTwo":"B-149, Sector 63","city":"[]","state":"[]","pincode":"201301","country":"[]","lat":"28.6150","long":"77.3774","addressType":"PRIMARY","addressOf":"APP_USER","isArchived":false,"_id":"5c7e12eda4b5ad1f5b458b34","createdBy":null,"createdDate":"2019-03-05T06:10:53.425Z","updatedDate":"2019-03-05T06:10:53.425Z","__v":0}],"documents":[],"isArchived":false,"aboutme":" ","countryCode":"","_id":"5c7e12eda4b5ad1f5b458b35","createdBy":null,"createdDate":"2019-03-05T06:10:53.426Z","updatedDate":"2019-03-05T06:10:53.426Z","__v":0},"schoolDetail":{"schoolName":"Test School","taxId":"10023787893","contactPersonName":"Barun Pandit","contactPersonMobileNumber":"9044074921","contactPersonEmail":"ygtddfdftwaafa22t1ddfffffabdf3ddssftg.com","facebookLink":"https://www.faecebook.com/","InstagramLink":"https://www.instagram.com/","googleLink":"https://www.google.com/","twitterLink":"https://www.twitter.com/","isArchived":false,"_id":"5c7e12eda4b5ad1f5b458b36","createdBy":null,"createdDate":"2019-03-05T06:10:53.427Z","updatedDate":"2019-03-05T06:10:53.427Z","__v":0}}}
+this is the end line 
+
+ Request was on : 2019-03-06T07:26:14.026Z
+ Req: /api/v1/school/totalEarning 
+ Req body was: {"token":"5f4872849fa67dd82b881b4b8b124f7a","months":1,"type":"WEEK"}
+ Response was on : 2019-03-06T07:26:14.026Z
+ Res: {"status":0,"errorCode":1,"message":"Invalid request!"}
+this is the end line 
+
+ Request was on : 2019-03-06T07:26:14.035Z
+ Req: /api/v1/school/totalLesson 
+ Req body was: {"token":"5f4872849fa67dd82b881b4b8b124f7a","months":1,"type":"WEEK"}
+ Response was on : 2019-03-06T07:26:14.035Z
+ Res: {"status":0,"errorCode":1,"message":"Invalid request!"}
+this is the end line 
+
+ Request was on : 2019-03-06T07:27:16.522Z
+ Req: /api/v1/school/login 
+ Req body was: {"email":"som@gmail.com","password":"12345678"}
+ Response was on : 2019-03-06T07:27:16.522Z
+ Res: {"status":1,"data":{"userDetail":{"mobileNumber":"8076990874","alternativeMobileNumber":"","firstName":"","lastName":"","email":"som@gmail.com","isEmailVerified":false,"dob":null,"drivingLicense":"","password":"12345678","profilePictureUrl":"","token":"b4514a05df65ae4524bd0602f5e77cfa","adiOrPdiBadgeNumber":"","userType":"PORTAL_USER","userRole":"SCHOOL_USER","companions":[],"addresses":[{"name":"Test Center Example 1","addressLineOne":"Trignodev Softwares Pvt Ltd","addressLineTwo":"B-149, Sector 63","city":"[]","state":"[]","pincode":"201301","country":"[]","lat":"28.6150","long":"77.3774","addressType":"PRIMARY","addressOf":"APP_USER","isArchived":false,"_id":"5c7e12eda4b5ad1f5b458b34","createdBy":null,"createdDate":"2019-03-05T06:10:53.425Z","updatedDate":"2019-03-05T06:10:53.425Z","__v":0}],"documents":[],"isArchived":false,"aboutme":" ","countryCode":"","_id":"5c7e12eda4b5ad1f5b458b35","createdBy":null,"createdDate":"2019-03-05T06:10:53.426Z","updatedDate":"2019-03-06T07:26:12.751Z","__v":0,"updatedBy":"5c7e12eda4b5ad1f5b458b35"},"schoolDetail":{"schoolName":"Test School","taxId":"10023787893","contactPersonName":"Barun Pandit","contactPersonMobileNumber":"9044074921","contactPersonEmail":"ygtddfdftwaafa22t1ddfffffabdf3ddssftg.com","facebookLink":"https://www.faecebook.com/","InstagramLink":"https://www.instagram.com/","googleLink":"https://www.google.com/","twitterLink":"https://www.twitter.com/","isArchived":false,"_id":"5c7e12eda4b5ad1f5b458b36","createdBy":null,"createdDate":"2019-03-05T06:10:53.427Z","updatedDate":"2019-03-05T06:10:53.427Z","__v":0}}}
+this is the end line 
+
+ Request was on : 2019-03-06T07:27:17.661Z
+ Req: /api/v1/school/totalLesson 
+ Req body was: {"token":"b4514a05df65ae4524bd0602f5e77cfa","months":1,"type":"WEEK"}
+ Response was on : 2019-03-06T07:27:17.661Z
+ Res: {"status":1,"data":[],"total":0}
+
+ Request was on : 2019-03-06T07:27:17.664Z
+ Req: /api/v1/school/totalEarning 
+ Req body was: {"token":"b4514a05df65ae4524bd0602f5e77cfa","months":1,"type":"WEEK"}
+ Response was on : 2019-03-06T07:27:17.664Z
+ Res: {"status":1,"data":[],"total":0}
+this is the end line 
+this is the end line 
+
+ Request was on : 2019-03-06T07:27:57.690Z
+ Req: /api/v1/school/login 
+ Req body was: {"email":"som@gmail.com","password":"12345678"}
+ Response was on : 2019-03-06T07:27:57.690Z
+ Res: {"status":1,"data":{"userDetail":{"mobileNumber":"8076990874","alternativeMobileNumber":"","firstName":"","lastName":"","email":"som@gmail.com","isEmailVerified":false,"dob":null,"drivingLicense":"","password":"12345678","profilePictureUrl":"","token":"b4514a05df65ae4524bd0602f5e77cfa","adiOrPdiBadgeNumber":"","userType":"PORTAL_USER","userRole":"SCHOOL_USER","companions":[],"addresses":[{"name":"Test Center Example 1","addressLineOne":"Trignodev Softwares Pvt Ltd","addressLineTwo":"B-149, Sector 63","city":"[]","state":"[]","pincode":"201301","country":"[]","lat":"28.6150","long":"77.3774","addressType":"PRIMARY","addressOf":"APP_USER","isArchived":false,"_id":"5c7e12eda4b5ad1f5b458b34","createdBy":null,"createdDate":"2019-03-05T06:10:53.425Z","updatedDate":"2019-03-05T06:10:53.425Z","__v":0}],"documents":[],"isArchived":false,"aboutme":" ","countryCode":"","_id":"5c7e12eda4b5ad1f5b458b35","createdBy":null,"createdDate":"2019-03-05T06:10:53.426Z","updatedDate":"2019-03-06T07:27:16.503Z","__v":0,"updatedBy":"5c7e12eda4b5ad1f5b458b35"},"schoolDetail":{"schoolName":"Test School","taxId":"10023787893","contactPersonName":"Barun Pandit","contactPersonMobileNumber":"9044074921","contactPersonEmail":"ygtddfdftwaafa22t1ddfffffabdf3ddssftg.com","facebookLink":"https://www.faecebook.com/","InstagramLink":"https://www.instagram.com/","googleLink":"https://www.google.com/","twitterLink":"https://www.twitter.com/","isArchived":false,"_id":"5c7e12eda4b5ad1f5b458b36","createdBy":null,"createdDate":"2019-03-05T06:10:53.427Z","updatedDate":"2019-03-05T06:10:53.427Z","__v":0}}}
+this is the end line 
+
+ Request was on : 2019-03-06T07:27:58.800Z
+ Req: /api/v1/school/totalEarning 
+ Req body was: {"token":"b4514a05df65ae4524bd0602f5e77cfa","months":1,"type":"WEEK"}
+ Response was on : 2019-03-06T07:27:58.800Z
+ Res: {"status":1,"data":[],"total":0}
+this is the end line 
+
+ Request was on : 2019-03-06T07:27:58.807Z
+ Req: /api/v1/school/totalLesson 
+ Req body was: {"token":"b4514a05df65ae4524bd0602f5e77cfa","months":1,"type":"WEEK"}
+ Response was on : 2019-03-06T07:27:58.807Z
+ Res: {"status":1,"data":[],"total":0}
+this is the end line 
+
+ Request was on : 2019-03-06T07:28:05.488Z
+ Req: /api/v1/school/drivers 
+ Req body was: {"token":"b4514a05df65ae4524bd0602f5e77cfa","schoolId":"5c7e12eda4b5ad1f5b458b36","type":"SCHOOL"}
+ Response was on : 2019-03-06T07:28:05.488Z
+ Res: {"status":1,"data":[]}
+this is the end line 

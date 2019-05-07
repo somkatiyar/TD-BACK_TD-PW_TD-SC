@@ -1,0 +1,4 @@
+export enum FileTypes{
+    PROFILE_PICTURE =  'PROFILE_PICTURE',
+    DRIVER_DOCS = 'DRIVER_DOCS'
+}

@@ -1,0 +1,920 @@
+
+ Request was on : 2019-03-11T05:49:55.052Z
+ Req: e5fb6719d873c0bad5f587f6e0c7644a
+ Response was on : 2019-03-11T05:49:55.052Z
+ Res: "checking token succeed."
+this is the end line 
+
+ Request was on : 2019-03-11T05:49:55.073Z
+ Req: /api/v1/master/attributeList 
+ Req body was: {"token":"e5fb6719d873c0bad5f587f6e0c7644a","page":0}
+ Response was on : 2019-03-11T05:49:55.073Z
+ Res: {"status":1,"data":[{"name":"Professional Behaviour1","description":"easy1","isArchived":true,"_id":"5bd947d227dc51711cb13af9","createdDate":"2018-10-31T06:12:34.018Z","updatedDate":"2019-02-05T13:20:34.605Z","__v":0,"updatedBy":"5bc7587b1d7b314cebcf3f35"},{"name":"On Timeee","description":"2222777222","isArchived":false,"_id":"5bd947ef27dc51711cb13afa","createdDate":"2018-10-31T06:13:03.373Z","updatedDate":"2018-10-31T06:13:03.373Z","__v":0},{"name":"Where Instructor Clear","description":"","isArchived":false,"_id":"5bd9480427dc51711cb13afb","createdDate":"2018-10-31T06:13:24.636Z","updatedDate":"2018-10-31T06:13:24.636Z","__v":0},{"name":"On time","description":"sdsff","isArchived":false,"_id":"5bed3b56ac8cb432e054f511","createdDate":"2018-11-15T09:24:38.961Z","updatedDate":"2018-11-15T09:24:38.961Z","__v":0},{"name":"on ride","description":"no dese avel","isArchived":false,"_id":"5c20ab451fd2661b482c4eeb","createdDate":"2018-12-24T09:47:49.369Z","updatedDate":"2018-12-24T09:47:49.370Z","__v":0},{"name":"On Road","description":"cccccc","isArchived":false,"_id":"5c20ac9885a4df1b929a271f","createdDate":"2018-12-24T09:53:28.162Z","updatedDate":"2018-12-24T09:53:28.162Z","__v":0},{"name":"late","description":"tttt","isArchived":false,"_id":"5c4093ab7ae9a62936a4d6f7","createdDate":"2019-01-17T14:39:39.453Z","updatedDate":"2019-01-17T14:39:39.453Z","__v":0},{"name":"On cancel ","description":"gdfdfgdf","isArchived":false,"_id":"5c4097167ae9a62936a4d6f8","createdDate":"2019-01-17T14:54:14.357Z","updatedDate":"2019-01-17T14:54:14.357Z","__v":0},{"name":"hh","description":"sefterg","isArchived":false,"_id":"5c4097447ae9a62936a4d6f9","createdDate":"2019-01-17T14:55:00.704Z","updatedDate":"2019-01-17T14:55:00.704Z","__v":0},{"name":"5555","description":"ftut","isArchived":true,"_id":"5c40977e7ae9a62936a4d6fa","createdDate":"2019-01-17T14:55:58.491Z","updatedDate":"2019-02-07T14:10:43.742Z","__v":0,"updatedBy":"5c5c2f310994673f5c8c3474"}],"totalPages":26}
+this is the end line 
+
+ Request was on : 2019-03-11T05:51:15.392Z
+ Req: e5fb6719d873c0bad5f587f6e0c7644a
+ Response was on : 2019-03-11T05:51:15.392Z
+ Res: "checking token succeed."
+this is the end line 
+
+ Request was on : 2019-03-11T05:51:15.411Z
+ Req: /api/v1/master/attributeList 
+ Req body was: {"token":"e5fb6719d873c0bad5f587f6e0c7644a","page":0}
+ Response was on : 2019-03-11T05:51:15.411Z
+ Res: {"status":1,"data":[{"name":"Professional Behaviour1","description":"easy1","isArchived":true,"_id":"5bd947d227dc51711cb13af9","createdDate":"2018-10-31T06:12:34.018Z","updatedDate":"2019-02-05T13:20:34.605Z","__v":0,"updatedBy":"5bc7587b1d7b314cebcf3f35"},{"name":"On Timeee","description":"2222777222","isArchived":false,"_id":"5bd947ef27dc51711cb13afa","createdDate":"2018-10-31T06:13:03.373Z","updatedDate":"2018-10-31T06:13:03.373Z","__v":0},{"name":"Where Instructor Clear","description":"","isArchived":false,"_id":"5bd9480427dc51711cb13afb","createdDate":"2018-10-31T06:13:24.636Z","updatedDate":"2018-10-31T06:13:24.636Z","__v":0},{"name":"On time","description":"sdsff","isArchived":false,"_id":"5bed3b56ac8cb432e054f511","createdDate":"2018-11-15T09:24:38.961Z","updatedDate":"2018-11-15T09:24:38.961Z","__v":0},{"name":"on ride","description":"no dese avel","isArchived":false,"_id":"5c20ab451fd2661b482c4eeb","createdDate":"2018-12-24T09:47:49.369Z","updatedDate":"2018-12-24T09:47:49.370Z","__v":0},{"name":"On Road","description":"cccccc","isArchived":false,"_id":"5c20ac9885a4df1b929a271f","createdDate":"2018-12-24T09:53:28.162Z","updatedDate":"2018-12-24T09:53:28.162Z","__v":0},{"name":"late","description":"tttt","isArchived":false,"_id":"5c4093ab7ae9a62936a4d6f7","createdDate":"2019-01-17T14:39:39.453Z","updatedDate":"2019-01-17T14:39:39.453Z","__v":0},{"name":"On cancel ","description":"gdfdfgdf","isArchived":false,"_id":"5c4097167ae9a62936a4d6f8","createdDate":"2019-01-17T14:54:14.357Z","updatedDate":"2019-01-17T14:54:14.357Z","__v":0},{"name":"hh","description":"sefterg","isArchived":false,"_id":"5c4097447ae9a62936a4d6f9","createdDate":"2019-01-17T14:55:00.704Z","updatedDate":"2019-01-17T14:55:00.704Z","__v":0},{"name":"5555","description":"ftut","isArchived":true,"_id":"5c40977e7ae9a62936a4d6fa","createdDate":"2019-01-17T14:55:58.491Z","updatedDate":"2019-02-07T14:10:43.742Z","__v":0,"updatedBy":"5c5c2f310994673f5c8c3474"}],"totalPages":26}
+this is the end line 
+
+ Request was on : 2019-03-11T05:52:28.157Z
+ Req: e5fb6719d873c0bad5f587f6e0c7644a
+ Response was on : 2019-03-11T05:52:28.157Z
+ Res: "checking token succeed."
+this is the end line 
+
+ Request was on : 2019-03-11T05:52:28.173Z
+ Req: /api/v1/master/attributeList 
+ Req body was: {"token":"e5fb6719d873c0bad5f587f6e0c7644a","page":0}
+ Response was on : 2019-03-11T05:52:28.173Z
+ Res: {"status":1,"data":[{"name":"Professional Behaviour1","description":"easy1","isArchived":true,"_id":"5bd947d227dc51711cb13af9","createdDate":"2018-10-31T06:12:34.018Z","updatedDate":"2019-02-05T13:20:34.605Z","__v":0,"updatedBy":"5bc7587b1d7b314cebcf3f35"},{"name":"On Timeee","description":"2222777222","isArchived":false,"_id":"5bd947ef27dc51711cb13afa","createdDate":"2018-10-31T06:13:03.373Z","updatedDate":"2018-10-31T06:13:03.373Z","__v":0},{"name":"Where Instructor Clear","description":"","isArchived":false,"_id":"5bd9480427dc51711cb13afb","createdDate":"2018-10-31T06:13:24.636Z","updatedDate":"2018-10-31T06:13:24.636Z","__v":0},{"name":"On time","description":"sdsff","isArchived":false,"_id":"5bed3b56ac8cb432e054f511","createdDate":"2018-11-15T09:24:38.961Z","updatedDate":"2018-11-15T09:24:38.961Z","__v":0},{"name":"on ride","description":"no dese avel","isArchived":false,"_id":"5c20ab451fd2661b482c4eeb","createdDate":"2018-12-24T09:47:49.369Z","updatedDate":"2018-12-24T09:47:49.370Z","__v":0},{"name":"On Road","description":"cccccc","isArchived":false,"_id":"5c20ac9885a4df1b929a271f","createdDate":"2018-12-24T09:53:28.162Z","updatedDate":"2018-12-24T09:53:28.162Z","__v":0},{"name":"late","description":"tttt","isArchived":false,"_id":"5c4093ab7ae9a62936a4d6f7","createdDate":"2019-01-17T14:39:39.453Z","updatedDate":"2019-01-17T14:39:39.453Z","__v":0},{"name":"On cancel ","description":"gdfdfgdf","isArchived":false,"_id":"5c4097167ae9a62936a4d6f8","createdDate":"2019-01-17T14:54:14.357Z","updatedDate":"2019-01-17T14:54:14.357Z","__v":0},{"name":"hh","description":"sefterg","isArchived":false,"_id":"5c4097447ae9a62936a4d6f9","createdDate":"2019-01-17T14:55:00.704Z","updatedDate":"2019-01-17T14:55:00.704Z","__v":0},{"name":"5555","description":"ftut","isArchived":true,"_id":"5c40977e7ae9a62936a4d6fa","createdDate":"2019-01-17T14:55:58.491Z","updatedDate":"2019-02-07T14:10:43.742Z","__v":0,"updatedBy":"5c5c2f310994673f5c8c3474"}],"totalPages":26}
+this is the end line 
+
+ Request was on : 2019-03-11T05:56:55.671Z
+ Req: e5fb6719d873c0bad5f587f6e0c7644a
+ Response was on : 2019-03-11T05:56:55.671Z
+ Res: "checking token succeed."
+
+ Request was on : 2019-03-11T05:56:55.703Z
+ Req: /api/v1/master/attributeList 
+ Req body was: {"token":"e5fb6719d873c0bad5f587f6e0c7644a","page":0}
+ Response was on : 2019-03-11T05:56:55.703Z
+ Res: {"status":1,"data":[{"name":"Professional Behaviour1","description":"easy1","isArchived":true,"_id":"5bd947d227dc51711cb13af9","createdDate":"2018-10-31T06:12:34.018Z","updatedDate":"2019-02-05T13:20:34.605Z","__v":0,"updatedBy":"5bc7587b1d7b314cebcf3f35"},{"name":"On Timeee","description":"2222777222","isArchived":false,"_id":"5bd947ef27dc51711cb13afa","createdDate":"2018-10-31T06:13:03.373Z","updatedDate":"2018-10-31T06:13:03.373Z","__v":0},{"name":"Where Instructor Clear","description":"","isArchived":false,"_id":"5bd9480427dc51711cb13afb","createdDate":"2018-10-31T06:13:24.636Z","updatedDate":"2018-10-31T06:13:24.636Z","__v":0},{"name":"On time","description":"sdsff","isArchived":false,"_id":"5bed3b56ac8cb432e054f511","createdDate":"2018-11-15T09:24:38.961Z","updatedDate":"2018-11-15T09:24:38.961Z","__v":0},{"name":"on ride","description":"no dese avel","isArchived":false,"_id":"5c20ab451fd2661b482c4eeb","createdDate":"2018-12-24T09:47:49.369Z","updatedDate":"2018-12-24T09:47:49.370Z","__v":0},{"name":"On Road","description":"cccccc","isArchived":false,"_id":"5c20ac9885a4df1b929a271f","createdDate":"2018-12-24T09:53:28.162Z","updatedDate":"2018-12-24T09:53:28.162Z","__v":0},{"name":"late","description":"tttt","isArchived":false,"_id":"5c4093ab7ae9a62936a4d6f7","createdDate":"2019-01-17T14:39:39.453Z","updatedDate":"2019-01-17T14:39:39.453Z","__v":0},{"name":"On cancel ","description":"gdfdfgdf","isArchived":false,"_id":"5c4097167ae9a62936a4d6f8","createdDate":"2019-01-17T14:54:14.357Z","updatedDate":"2019-01-17T14:54:14.357Z","__v":0},{"name":"hh","description":"sefterg","isArchived":false,"_id":"5c4097447ae9a62936a4d6f9","createdDate":"2019-01-17T14:55:00.704Z","updatedDate":"2019-01-17T14:55:00.704Z","__v":0},{"name":"5555","description":"ftut","isArchived":true,"_id":"5c40977e7ae9a62936a4d6fa","createdDate":"2019-01-17T14:55:58.491Z","updatedDate":"2019-02-07T14:10:43.742Z","__v":0,"updatedBy":"5c5c2f310994673f5c8c3474"}],"totalPages":26}
+this is the end line 
+this is the end line 
+
+ Request was on : 2019-03-11T05:59:32.534Z
+ Req: e5fb6719d873c0bad5f587f6e0c7644a
+ Response was on : 2019-03-11T05:59:32.534Z
+ Res: "checking token succeed."
+this is the end line 
+
+ Request was on : 2019-03-11T05:59:32.561Z
+ Req: /api/v1/master/attributeList 
+ Req body was: {"token":"e5fb6719d873c0bad5f587f6e0c7644a","page":0}
+ Response was on : 2019-03-11T05:59:32.561Z
+ Res: {"status":1,"data":[{"name":"Professional Behaviour1","description":"easy1","isArchived":true,"_id":"5bd947d227dc51711cb13af9","createdDate":"2018-10-31T06:12:34.018Z","updatedDate":"2019-02-05T13:20:34.605Z","__v":0,"updatedBy":"5bc7587b1d7b314cebcf3f35"},{"name":"On Timeee","description":"2222777222","isArchived":false,"_id":"5bd947ef27dc51711cb13afa","createdDate":"2018-10-31T06:13:03.373Z","updatedDate":"2018-10-31T06:13:03.373Z","__v":0},{"name":"Where Instructor Clear","description":"","isArchived":false,"_id":"5bd9480427dc51711cb13afb","createdDate":"2018-10-31T06:13:24.636Z","updatedDate":"2018-10-31T06:13:24.636Z","__v":0},{"name":"On time","description":"sdsff","isArchived":false,"_id":"5bed3b56ac8cb432e054f511","createdDate":"2018-11-15T09:24:38.961Z","updatedDate":"2018-11-15T09:24:38.961Z","__v":0},{"name":"on ride","description":"no dese avel","isArchived":false,"_id":"5c20ab451fd2661b482c4eeb","createdDate":"2018-12-24T09:47:49.369Z","updatedDate":"2018-12-24T09:47:49.370Z","__v":0},{"name":"On Road","description":"cccccc","isArchived":false,"_id":"5c20ac9885a4df1b929a271f","createdDate":"2018-12-24T09:53:28.162Z","updatedDate":"2018-12-24T09:53:28.162Z","__v":0},{"name":"late","description":"tttt","isArchived":false,"_id":"5c4093ab7ae9a62936a4d6f7","createdDate":"2019-01-17T14:39:39.453Z","updatedDate":"2019-01-17T14:39:39.453Z","__v":0},{"name":"On cancel ","description":"gdfdfgdf","isArchived":false,"_id":"5c4097167ae9a62936a4d6f8","createdDate":"2019-01-17T14:54:14.357Z","updatedDate":"2019-01-17T14:54:14.357Z","__v":0},{"name":"hh","description":"sefterg","isArchived":false,"_id":"5c4097447ae9a62936a4d6f9","createdDate":"2019-01-17T14:55:00.704Z","updatedDate":"2019-01-17T14:55:00.704Z","__v":0},{"name":"5555","description":"ftut","isArchived":true,"_id":"5c40977e7ae9a62936a4d6fa","createdDate":"2019-01-17T14:55:58.491Z","updatedDate":"2019-02-07T14:10:43.742Z","__v":0,"updatedBy":"5c5c2f310994673f5c8c3474"}],"totalPages":26}
+this is the end line 
+
+ Request was on : 2019-03-11T06:00:18.115Z
+ Req: e5fb6719d873c0bad5f587f6e0c7644a
+ Response was on : 2019-03-11T06:00:18.115Z
+ Res: "checking token succeed."
+this is the end line 
+
+ Request was on : 2019-03-11T06:00:18.179Z
+ Req: /api/v1/master/addAttribute 
+ Req body was: {"name":"ffff","description":"cv","token":"e5fb6719d873c0bad5f587f6e0c7644a"}
+ Response was on : 2019-03-11T06:00:18.179Z
+ Res: {"status":200,"message":"Master data added successfully."}
+this is the end line 
+
+ Request was on : 2019-03-11T06:00:23.632Z
+ Req: e5fb6719d873c0bad5f587f6e0c7644a
+ Response was on : 2019-03-11T06:00:23.632Z
+ Res: "checking token succeed."
+this is the end line 
+
+ Request was on : 2019-03-11T06:00:23.649Z
+ Req: /api/v1/master/attributeList 
+ Req body was: {"name":"ffff","description":"cv","token":"e5fb6719d873c0bad5f587f6e0c7644a","page":2}
+ Response was on : 2019-03-11T06:00:23.649Z
+ Res: {"status":1,"data":[{"name":"sdf","description":"sef","isArchived":false,"_id":"5c46f34a2a2ccf24db1ab3df","createdDate":"2019-01-22T10:41:14.944Z","updatedDate":"2019-01-22T10:41:14.944Z","__v":0},{"name":"drfs","description":"rf","isArchived":false,"_id":"5c46f3602a2ccf24db1ab3e0","createdDate":"2019-01-22T10:41:36.598Z","updatedDate":"2019-01-22T10:41:36.598Z","__v":0},{"name":"rrr","description":"rrr","isArchived":false,"_id":"5c5849377a05583f0ee9d2ca","createdBy":"5c3ecec7142a5616f09e07a1","createdDate":"2019-02-04T14:16:23.390Z","updatedDate":"2019-02-04T14:16:23.390Z","__v":0},{"name":"ewr","description":"wer","isArchived":false,"_id":"5c593bef02c3142693bf9b3b","createdBy":"5bc7587b1d7b314cebcf3f35","createdDate":"2019-02-05T07:31:59.017Z","updatedDate":"2019-02-05T07:31:59.017Z","__v":0},{"name":"Operate the Car.","description":"","isArchived":false,"_id":"5c5c3c71da944b471f9e0e1f","createdBy":"5c5c2f310994673f5c8c3474","createdDate":"2019-02-07T14:10:57.812Z","updatedDate":"2019-02-07T14:10:57.812Z","__v":0},{"name":"ON Road","description":null,"isArchived":false,"_id":"5c5c3c86da944b471f9e0e20","createdBy":"5c5c2f310994673f5c8c3474","createdDate":"2019-02-07T14:11:18.182Z","updatedDate":"2019-02-07T14:11:18.182Z","__v":0},{"name":"ffff","description":"cv","isArchived":false,"_id":"5c85f972f664bc186b73ea75","createdBy":"5c7cc784334bd328daff66ea","createdDate":"2019-03-11T06:00:18.120Z","updatedDate":"2019-03-11T06:00:18.120Z","__v":0}],"totalPages":27}
+this is the end line 
+
+ Request was on : 2019-03-11T06:03:16.754Z
+ Req: e5fb6719d873c0bad5f587f6e0c7644a
+ Response was on : 2019-03-11T06:03:16.754Z
+ Res: "checking token succeed."
+this is the end line 
+
+ Request was on : 2019-03-11T06:03:16.776Z
+ Req: /api/v1/master/attributeList 
+ Req body was: {"token":"e5fb6719d873c0bad5f587f6e0c7644a","page":0}
+ Response was on : 2019-03-11T06:03:16.776Z
+ Res: {"status":1,"data":[{"name":"Professional Behaviour1","description":"easy1","isArchived":true,"_id":"5bd947d227dc51711cb13af9","createdDate":"2018-10-31T06:12:34.018Z","updatedDate":"2019-02-05T13:20:34.605Z","__v":0,"updatedBy":"5bc7587b1d7b314cebcf3f35"},{"name":"On Timeee","description":"2222777222","isArchived":false,"_id":"5bd947ef27dc51711cb13afa","createdDate":"2018-10-31T06:13:03.373Z","updatedDate":"2018-10-31T06:13:03.373Z","__v":0},{"name":"Where Instructor Clear","description":"","isArchived":false,"_id":"5bd9480427dc51711cb13afb","createdDate":"2018-10-31T06:13:24.636Z","updatedDate":"2018-10-31T06:13:24.636Z","__v":0},{"name":"On time","description":"sdsff","isArchived":false,"_id":"5bed3b56ac8cb432e054f511","createdDate":"2018-11-15T09:24:38.961Z","updatedDate":"2018-11-15T09:24:38.961Z","__v":0},{"name":"on ride","description":"no dese avel","isArchived":false,"_id":"5c20ab451fd2661b482c4eeb","createdDate":"2018-12-24T09:47:49.369Z","updatedDate":"2018-12-24T09:47:49.370Z","__v":0},{"name":"On Road","description":"cccccc","isArchived":false,"_id":"5c20ac9885a4df1b929a271f","createdDate":"2018-12-24T09:53:28.162Z","updatedDate":"2018-12-24T09:53:28.162Z","__v":0},{"name":"late","description":"tttt","isArchived":false,"_id":"5c4093ab7ae9a62936a4d6f7","createdDate":"2019-01-17T14:39:39.453Z","updatedDate":"2019-01-17T14:39:39.453Z","__v":0},{"name":"On cancel ","description":"gdfdfgdf","isArchived":false,"_id":"5c4097167ae9a62936a4d6f8","createdDate":"2019-01-17T14:54:14.357Z","updatedDate":"2019-01-17T14:54:14.357Z","__v":0},{"name":"hh","description":"sefterg","isArchived":false,"_id":"5c4097447ae9a62936a4d6f9","createdDate":"2019-01-17T14:55:00.704Z","updatedDate":"2019-01-17T14:55:00.704Z","__v":0},{"name":"5555","description":"ftut","isArchived":true,"_id":"5c40977e7ae9a62936a4d6fa","createdDate":"2019-01-17T14:55:58.491Z","updatedDate":"2019-02-07T14:10:43.742Z","__v":0,"updatedBy":"5c5c2f310994673f5c8c3474"}],"totalPages":27}
+this is the end line 
+
+ Request was on : 2019-03-11T06:03:20.624Z
+ Req: e5fb6719d873c0bad5f587f6e0c7644a
+ Response was on : 2019-03-11T06:03:20.624Z
+ Res: "checking token succeed."
+this is the end line 
+
+ Request was on : 2019-03-11T06:03:20.639Z
+ Req: /api/v1/master/attributeList 
+ Req body was: {"token":"e5fb6719d873c0bad5f587f6e0c7644a","page":2}
+ Response was on : 2019-03-11T06:03:20.639Z
+ Res: {"status":1,"data":[{"name":"sdf","description":"sef","isArchived":false,"_id":"5c46f34a2a2ccf24db1ab3df","createdDate":"2019-01-22T10:41:14.944Z","updatedDate":"2019-01-22T10:41:14.944Z","__v":0},{"name":"drfs","description":"rf","isArchived":false,"_id":"5c46f3602a2ccf24db1ab3e0","createdDate":"2019-01-22T10:41:36.598Z","updatedDate":"2019-01-22T10:41:36.598Z","__v":0},{"name":"rrr","description":"rrr","isArchived":false,"_id":"5c5849377a05583f0ee9d2ca","createdBy":"5c3ecec7142a5616f09e07a1","createdDate":"2019-02-04T14:16:23.390Z","updatedDate":"2019-02-04T14:16:23.390Z","__v":0},{"name":"ewr","description":"wer","isArchived":false,"_id":"5c593bef02c3142693bf9b3b","createdBy":"5bc7587b1d7b314cebcf3f35","createdDate":"2019-02-05T07:31:59.017Z","updatedDate":"2019-02-05T07:31:59.017Z","__v":0},{"name":"Operate the Car.","description":"","isArchived":false,"_id":"5c5c3c71da944b471f9e0e1f","createdBy":"5c5c2f310994673f5c8c3474","createdDate":"2019-02-07T14:10:57.812Z","updatedDate":"2019-02-07T14:10:57.812Z","__v":0},{"name":"ON Road","description":null,"isArchived":false,"_id":"5c5c3c86da944b471f9e0e20","createdBy":"5c5c2f310994673f5c8c3474","createdDate":"2019-02-07T14:11:18.182Z","updatedDate":"2019-02-07T14:11:18.182Z","__v":0},{"name":"ffff","description":"cv","isArchived":false,"_id":"5c85f972f664bc186b73ea75","createdBy":"5c7cc784334bd328daff66ea","createdDate":"2019-03-11T06:00:18.120Z","updatedDate":"2019-03-11T06:00:18.120Z","__v":0}],"totalPages":27}
+this is the end line 
+
+ Request was on : 2019-03-11T06:03:23.114Z
+ Req: e5fb6719d873c0bad5f587f6e0c7644a
+ Response was on : 2019-03-11T06:03:23.114Z
+ Res: "checking token succeed."
+this is the end line 
+
+ Request was on : 2019-03-11T06:03:23.119Z
+ Req: /api/v1/master/attributebyId 
+ Req body was: {"token":"e5fb6719d873c0bad5f587f6e0c7644a","page":2,"attributeId":"5c85f972f664bc186b73ea75"}
+ Response was on : 2019-03-11T06:03:23.119Z
+ Res: {"status":1,"data":[{"name":"ffff","description":"cv","isArchived":false,"_id":"5c85f972f664bc186b73ea75","createdBy":"5c7cc784334bd328daff66ea","createdDate":"2019-03-11T06:00:18.120Z","updatedDate":"2019-03-11T06:00:18.120Z","__v":0}]}
+this is the end line 
+
+ Request was on : 2019-03-11T06:04:54.703Z
+ Req: e5fb6719d873c0bad5f587f6e0c7644a
+ Response was on : 2019-03-11T06:04:54.703Z
+ Res: "checking token succeed."
+this is the end line 
+
+ Request was on : 2019-03-11T06:04:54.733Z
+ Req: /api/v1/master/attributeList 
+ Req body was: {"token":"e5fb6719d873c0bad5f587f6e0c7644a","page":0}
+ Response was on : 2019-03-11T06:04:54.733Z
+ Res: {"status":1,"data":[{"name":"Professional Behaviour1","description":"easy1","isArchived":true,"_id":"5bd947d227dc51711cb13af9","createdDate":"2018-10-31T06:12:34.018Z","updatedDate":"2019-02-05T13:20:34.605Z","__v":0,"updatedBy":"5bc7587b1d7b314cebcf3f35"},{"name":"On Timeee","description":"2222777222","isArchived":false,"_id":"5bd947ef27dc51711cb13afa","createdDate":"2018-10-31T06:13:03.373Z","updatedDate":"2018-10-31T06:13:03.373Z","__v":0},{"name":"Where Instructor Clear","description":"","isArchived":false,"_id":"5bd9480427dc51711cb13afb","createdDate":"2018-10-31T06:13:24.636Z","updatedDate":"2018-10-31T06:13:24.636Z","__v":0},{"name":"On time","description":"sdsff","isArchived":false,"_id":"5bed3b56ac8cb432e054f511","createdDate":"2018-11-15T09:24:38.961Z","updatedDate":"2018-11-15T09:24:38.961Z","__v":0},{"name":"on ride","description":"no dese avel","isArchived":false,"_id":"5c20ab451fd2661b482c4eeb","createdDate":"2018-12-24T09:47:49.369Z","updatedDate":"2018-12-24T09:47:49.370Z","__v":0},{"name":"On Road","description":"cccccc","isArchived":false,"_id":"5c20ac9885a4df1b929a271f","createdDate":"2018-12-24T09:53:28.162Z","updatedDate":"2018-12-24T09:53:28.162Z","__v":0},{"name":"late","description":"tttt","isArchived":false,"_id":"5c4093ab7ae9a62936a4d6f7","createdDate":"2019-01-17T14:39:39.453Z","updatedDate":"2019-01-17T14:39:39.453Z","__v":0},{"name":"On cancel ","description":"gdfdfgdf","isArchived":false,"_id":"5c4097167ae9a62936a4d6f8","createdDate":"2019-01-17T14:54:14.357Z","updatedDate":"2019-01-17T14:54:14.357Z","__v":0},{"name":"hh","description":"sefterg","isArchived":false,"_id":"5c4097447ae9a62936a4d6f9","createdDate":"2019-01-17T14:55:00.704Z","updatedDate":"2019-01-17T14:55:00.704Z","__v":0},{"name":"5555","description":"ftut","isArchived":true,"_id":"5c40977e7ae9a62936a4d6fa","createdDate":"2019-01-17T14:55:58.491Z","updatedDate":"2019-02-07T14:10:43.742Z","__v":0,"updatedBy":"5c5c2f310994673f5c8c3474"}],"totalPages":27}
+this is the end line 
+
+ Request was on : 2019-03-11T06:05:00.761Z
+ Req: e5fb6719d873c0bad5f587f6e0c7644a
+ Response was on : 2019-03-11T06:05:00.761Z
+ Res: "checking token succeed."
+this is the end line 
+
+ Request was on : 2019-03-11T06:05:00.773Z
+ Req: /api/v1/master/attributeList 
+ Req body was: {"token":"e5fb6719d873c0bad5f587f6e0c7644a","page":2}
+ Response was on : 2019-03-11T06:05:00.773Z
+ Res: {"status":1,"data":[{"name":"sdf","description":"sef","isArchived":false,"_id":"5c46f34a2a2ccf24db1ab3df","createdDate":"2019-01-22T10:41:14.944Z","updatedDate":"2019-01-22T10:41:14.944Z","__v":0},{"name":"drfs","description":"rf","isArchived":false,"_id":"5c46f3602a2ccf24db1ab3e0","createdDate":"2019-01-22T10:41:36.598Z","updatedDate":"2019-01-22T10:41:36.598Z","__v":0},{"name":"rrr","description":"rrr","isArchived":false,"_id":"5c5849377a05583f0ee9d2ca","createdBy":"5c3ecec7142a5616f09e07a1","createdDate":"2019-02-04T14:16:23.390Z","updatedDate":"2019-02-04T14:16:23.390Z","__v":0},{"name":"ewr","description":"wer","isArchived":false,"_id":"5c593bef02c3142693bf9b3b","createdBy":"5bc7587b1d7b314cebcf3f35","createdDate":"2019-02-05T07:31:59.017Z","updatedDate":"2019-02-05T07:31:59.017Z","__v":0},{"name":"Operate the Car.","description":"","isArchived":false,"_id":"5c5c3c71da944b471f9e0e1f","createdBy":"5c5c2f310994673f5c8c3474","createdDate":"2019-02-07T14:10:57.812Z","updatedDate":"2019-02-07T14:10:57.812Z","__v":0},{"name":"ON Road","description":null,"isArchived":false,"_id":"5c5c3c86da944b471f9e0e20","createdBy":"5c5c2f310994673f5c8c3474","createdDate":"2019-02-07T14:11:18.182Z","updatedDate":"2019-02-07T14:11:18.182Z","__v":0},{"name":"ffff","description":"cv","isArchived":false,"_id":"5c85f972f664bc186b73ea75","createdBy":"5c7cc784334bd328daff66ea","createdDate":"2019-03-11T06:00:18.120Z","updatedDate":"2019-03-11T06:00:18.120Z","__v":0}],"totalPages":27}
+this is the end line 
+
+ Request was on : 2019-03-11T06:05:05.610Z
+ Req: e5fb6719d873c0bad5f587f6e0c7644a
+ Response was on : 2019-03-11T06:05:05.610Z
+ Res: "checking token succeed."
+this is the end line 
+
+ Request was on : 2019-03-11T06:05:05.616Z
+ Req: /api/v1/master/attributebyId 
+ Req body was: {"token":"e5fb6719d873c0bad5f587f6e0c7644a","page":2,"attributeId":"5c85f972f664bc186b73ea75"}
+ Response was on : 2019-03-11T06:05:05.616Z
+ Res: {"status":1,"data":[{"name":"ffff","description":"cv","isArchived":false,"_id":"5c85f972f664bc186b73ea75","createdBy":"5c7cc784334bd328daff66ea","createdDate":"2019-03-11T06:00:18.120Z","updatedDate":"2019-03-11T06:00:18.120Z","__v":0}]}
+this is the end line 
+
+ Request was on : 2019-03-11T06:13:57.882Z
+ Req: e5fb6719d873c0bad5f587f6e0c7644a
+ Response was on : 2019-03-11T06:13:57.882Z
+ Res: "checking token succeed."
+this is the end line 
+
+ Request was on : 2019-03-11T06:13:57.905Z
+ Req: /api/v1/master/attributeList 
+ Req body was: {"token":"e5fb6719d873c0bad5f587f6e0c7644a","page":0}
+ Response was on : 2019-03-11T06:13:57.905Z
+ Res: {"status":1,"data":[{"name":"Professional Behaviour1","description":"easy1","isArchived":true,"_id":"5bd947d227dc51711cb13af9","createdDate":"2018-10-31T06:12:34.018Z","updatedDate":"2019-02-05T13:20:34.605Z","__v":0,"updatedBy":"5bc7587b1d7b314cebcf3f35"},{"name":"On Timeee","description":"2222777222","isArchived":false,"_id":"5bd947ef27dc51711cb13afa","createdDate":"2018-10-31T06:13:03.373Z","updatedDate":"2018-10-31T06:13:03.373Z","__v":0},{"name":"Where Instructor Clear","description":"","isArchived":false,"_id":"5bd9480427dc51711cb13afb","createdDate":"2018-10-31T06:13:24.636Z","updatedDate":"2018-10-31T06:13:24.636Z","__v":0},{"name":"On time","description":"sdsff","isArchived":false,"_id":"5bed3b56ac8cb432e054f511","createdDate":"2018-11-15T09:24:38.961Z","updatedDate":"2018-11-15T09:24:38.961Z","__v":0},{"name":"on ride","description":"no dese avel","isArchived":false,"_id":"5c20ab451fd2661b482c4eeb","createdDate":"2018-12-24T09:47:49.369Z","updatedDate":"2018-12-24T09:47:49.370Z","__v":0},{"name":"On Road","description":"cccccc","isArchived":false,"_id":"5c20ac9885a4df1b929a271f","createdDate":"2018-12-24T09:53:28.162Z","updatedDate":"2018-12-24T09:53:28.162Z","__v":0},{"name":"late","description":"tttt","isArchived":false,"_id":"5c4093ab7ae9a62936a4d6f7","createdDate":"2019-01-17T14:39:39.453Z","updatedDate":"2019-01-17T14:39:39.453Z","__v":0},{"name":"On cancel ","description":"gdfdfgdf","isArchived":false,"_id":"5c4097167ae9a62936a4d6f8","createdDate":"2019-01-17T14:54:14.357Z","updatedDate":"2019-01-17T14:54:14.357Z","__v":0},{"name":"hh","description":"sefterg","isArchived":false,"_id":"5c4097447ae9a62936a4d6f9","createdDate":"2019-01-17T14:55:00.704Z","updatedDate":"2019-01-17T14:55:00.704Z","__v":0},{"name":"5555","description":"ftut","isArchived":true,"_id":"5c40977e7ae9a62936a4d6fa","createdDate":"2019-01-17T14:55:58.491Z","updatedDate":"2019-02-07T14:10:43.742Z","__v":0,"updatedBy":"5c5c2f310994673f5c8c3474"}],"totalPages":27}
+this is the end line 
+
+ Request was on : 2019-03-11T06:34:14.307Z
+ Req: e5fb6719d873c0bad5f587f6e0c7644a
+ Response was on : 2019-03-11T06:34:14.307Z
+ Res: "checking token succeed."
+this is the end line 
+
+ Request was on : 2019-03-11T06:34:14.328Z
+ Req: /api/v1/master/curriculumById 
+ Req body was: {"page":0,"token":"e5fb6719d873c0bad5f587f6e0c7644a","curriculumId":"5bc0af7690ca385b460faacc"}
+ Response was on : 2019-03-11T06:34:14.328Z
+ Res: {"status":1,"data":{"name":"Operate the Car","description":"The basic skills you need to 2","isArchived":false,"_id":"5bc0af7690ca385b460faacc","createdDate":"2018-10-12T14:28:06.652Z","updatedDate":"2019-02-07T13:59:20.541Z","__v":0,"updatedBy":"5c5c2f310994673f5c8c3474"}}
+this is the end line 
+
+ Request was on : 2019-03-11T06:38:37.356Z
+ Req: e5fb6719d873c0bad5f587f6e0c7644a
+ Response was on : 2019-03-11T06:38:37.356Z
+ Res: "checking token succeed."
+this is the end line 
+
+ Request was on : 2019-03-11T06:38:37.365Z
+ Req: /api/v1/master/gearTypes 
+ Req body was: {"page":0,"token":"e5fb6719d873c0bad5f587f6e0c7644a"}
+ Response was on : 2019-03-11T06:38:37.365Z
+ Res: {"status":1,"data":[{"name":"Automatic","isArchived":false,"_id":"5c00e94293dd8f1e38b71626","createdDate":"2018-11-30T07:39:46.344Z","updatedDate":"2019-02-07T14:00:33.862Z","__v":0,"updatedBy":"5c5c2f310994673f5c8c3474"},{"name":"Manual","isArchived":false,"_id":"5c00e95a93dd8f1e38b71627","createdDate":"2018-11-30T07:40:10.832Z","updatedDate":"2018-11-30T07:40:10.832Z","__v":0},{"name":"Automatic 2","isArchived":false,"_id":"5c02238d5770840fcfaa555d","createdDate":"2018-12-01T06:00:45.439Z","updatedDate":"2018-12-01T06:00:45.439Z","__v":0},{"name":"On 6756","isArchived":false,"_id":"5c4182e5b955e3169c836a23","createdDate":"2019-01-18T07:40:21.463Z","updatedDate":"2019-01-18T07:40:21.463Z","__v":0},{"name":"test","isArchived":false,"_id":"5c5c3aeeda944b471f9e0e19","createdBy":"5bc8d9ab507520741e088e21","createdDate":"2019-02-07T14:04:30.433Z","updatedDate":"2019-02-07T14:04:30.433Z","__v":0}],"totalPages":5}
+this is the end line 
+
+ Request was on : 2019-03-11T06:40:53.479Z
+ Req: e5fb6719d873c0bad5f587f6e0c7644a
+ Response was on : 2019-03-11T06:40:53.479Z
+ Res: "checking token succeed."
+this is the end line 
+
+ Request was on : 2019-03-11T06:40:53.485Z
+ Req: /api/v1/master/gearTypes 
+ Req body was: {"page":0,"token":"e5fb6719d873c0bad5f587f6e0c7644a"}
+ Response was on : 2019-03-11T06:40:53.485Z
+ Res: {"status":1,"data":[{"name":"Automatic","isArchived":false,"_id":"5c00e94293dd8f1e38b71626","createdDate":"2018-11-30T07:39:46.344Z","updatedDate":"2019-02-07T14:00:33.862Z","__v":0,"updatedBy":"5c5c2f310994673f5c8c3474"},{"name":"Manual","isArchived":false,"_id":"5c00e95a93dd8f1e38b71627","createdDate":"2018-11-30T07:40:10.832Z","updatedDate":"2018-11-30T07:40:10.832Z","__v":0},{"name":"Automatic 2","isArchived":false,"_id":"5c02238d5770840fcfaa555d","createdDate":"2018-12-01T06:00:45.439Z","updatedDate":"2018-12-01T06:00:45.439Z","__v":0},{"name":"On 6756","isArchived":false,"_id":"5c4182e5b955e3169c836a23","createdDate":"2019-01-18T07:40:21.463Z","updatedDate":"2019-01-18T07:40:21.463Z","__v":0},{"name":"test","isArchived":false,"_id":"5c5c3aeeda944b471f9e0e19","createdBy":"5bc8d9ab507520741e088e21","createdDate":"2019-02-07T14:04:30.433Z","updatedDate":"2019-02-07T14:04:30.433Z","__v":0}],"totalPages":5}
+this is the end line 
+
+ Request was on : 2019-03-11T06:43:13.105Z
+ Req: e5fb6719d873c0bad5f587f6e0c7644a
+ Response was on : 2019-03-11T06:43:13.105Z
+ Res: "checking token succeed."
+this is the end line 
+
+ Request was on : 2019-03-11T06:43:13.113Z
+ Req: /api/v1/master/gearTypes 
+ Req body was: {"page":0,"token":"e5fb6719d873c0bad5f587f6e0c7644a"}
+ Response was on : 2019-03-11T06:43:13.113Z
+ Res: {"status":1,"data":[{"name":"Automatic","isArchived":false,"_id":"5c00e94293dd8f1e38b71626","createdDate":"2018-11-30T07:39:46.344Z","updatedDate":"2019-02-07T14:00:33.862Z","__v":0,"updatedBy":"5c5c2f310994673f5c8c3474"},{"name":"Manual","isArchived":false,"_id":"5c00e95a93dd8f1e38b71627","createdDate":"2018-11-30T07:40:10.832Z","updatedDate":"2018-11-30T07:40:10.832Z","__v":0},{"name":"Automatic 2","isArchived":false,"_id":"5c02238d5770840fcfaa555d","createdDate":"2018-12-01T06:00:45.439Z","updatedDate":"2018-12-01T06:00:45.439Z","__v":0},{"name":"On 6756","isArchived":false,"_id":"5c4182e5b955e3169c836a23","createdDate":"2019-01-18T07:40:21.463Z","updatedDate":"2019-01-18T07:40:21.463Z","__v":0},{"name":"test","isArchived":false,"_id":"5c5c3aeeda944b471f9e0e19","createdBy":"5bc8d9ab507520741e088e21","createdDate":"2019-02-07T14:04:30.433Z","updatedDate":"2019-02-07T14:04:30.433Z","__v":0}],"totalPages":5}
+this is the end line 
+
+ Request was on : 2019-03-11T06:45:49.469Z
+ Req: e5fb6719d873c0bad5f587f6e0c7644a
+ Response was on : 2019-03-11T06:45:49.469Z
+ Res: "checking token succeed."
+this is the end line 
+
+ Request was on : 2019-03-11T06:45:49.499Z
+ Req: /api/v1/master/gearTypeById 
+ Req body was: {"page":0,"token":"e5fb6719d873c0bad5f587f6e0c7644a","gearId":"5c00e94293dd8f1e38b71626"}
+ Response was on : 2019-03-11T06:45:49.499Z
+ Res: {"status":1,"data":{"name":"Automatic","isArchived":false,"_id":"5c00e94293dd8f1e38b71626","createdDate":"2018-11-30T07:39:46.344Z","updatedDate":"2019-02-07T14:00:33.862Z","__v":0,"updatedBy":"5c5c2f310994673f5c8c3474"}}
+this is the end line 
+
+ Request was on : 2019-03-11T06:53:48.940Z
+ Req: e5fb6719d873c0bad5f587f6e0c7644a
+ Response was on : 2019-03-11T06:53:48.940Z
+ Res: "checking token succeed."
+this is the end line 
+
+ Request was on : 2019-03-11T06:53:48.948Z
+ Req: /api/v1/master/taxes 
+ Req body was: {"token":"e5fb6719d873c0bad5f587f6e0c7644a","page":0}
+ Response was on : 2019-03-11T06:53:48.948Z
+ Res: {"status":1,"data":[{"countryCode":1,"description":"1","taxFor":"school nd users","taxPercentage":23,"isArchived":false,"_id":"5c1c984bba98331bd7b0254d","createdDate":"2018-12-21T07:37:47.197Z","updatedDate":"2019-02-07T14:00:18.160Z","__v":0,"updatedBy":"5c5c2f310994673f5c8c3474"},{"countryCode":4,"description":"233","taxFor":"driver","taxPercentage":1,"isArchived":true,"_id":"5c1c9888ba98331bd7b0254e","createdDate":"2018-12-21T07:38:48.635Z","updatedDate":"2019-02-07T14:55:16.005Z","__v":0,"updatedBy":"5bc46aa390ca385b460fabf4"},{"countryCode":1,"description":"213123","taxFor":"3","taxPercentage":21,"isArchived":false,"_id":"5c5c46eb4058875058c432f9","createdBy":"5bc46aa390ca385b460fabf4","createdDate":"2019-02-07T14:55:39.521Z","updatedDate":"2019-02-07T14:55:39.521Z","__v":0}],"totalPages":3}
+this is the end line 
+
+ Request was on : 2019-03-11T06:53:48.953Z
+ Req: e5fb6719d873c0bad5f587f6e0c7644a
+ Response was on : 2019-03-11T06:53:48.953Z
+ Res: "checking token succeed."
+this is the end line 
+
+ Request was on : 2019-03-11T06:53:48.994Z
+ Req: /api/v1/master/packages 
+ Req body was: {"token":"e5fb6719d873c0bad5f587f6e0c7644a","page":0}
+ Response was on : 2019-03-11T06:53:48.994Z
+ Res: {"status":1,"data":[{"name":"Beginners","description":null,"numberOfLesson":8,"numberOfDay":7,"price":101,"isArchived":true,"_id":"5bc0a18c90ca385b460faaba","tax":7,"createdDate":"2018-10-12T13:28:44.281Z","updatedDate":"2018-10-12T13:28:44.281Z","__v":0},{"name":"Intermideate","description":null,"numberOfLesson":1,"numberOfDay":1,"price":16,"isArchived":false,"_id":"5bc89e10507520741e088d63","tax":1,"createdDate":"2018-10-18T14:52:00.317Z","updatedDate":"2018-10-18T14:52:00.317Z","__v":0},{"name":"Expert Package","description":null,"numberOfLesson":1,"numberOfDay":1,"price":10,"isArchived":true,"_id":"5bfe8640dbc870525694f689","tax":1,"createdDate":"2018-11-28T12:12:48.750Z","updatedDate":"2018-11-28T12:12:48.750Z","__v":0},{"name":"Experience","description":null,"numberOfLesson":54,"numberOfDay":5,"price":3543,"isArchived":true,"_id":"5c000b289aaf8d68ae9318c5","tax":3,"createdDate":"2018-11-29T15:52:08.193Z","updatedDate":"2018-11-29T15:52:08.193Z","__v":0},{"name":"super","description":"","numberOfLesson":2,"numberOfDay":2,"price":2,"isArchived":false,"_id":"5c000bc09aaf8d68ae9318c6","tax":2,"createdDate":"2018-11-29T15:54:40.808Z","updatedDate":"2018-11-29T15:54:40.808Z","__v":0},{"name":"Expert Package","description":"","numberOfLesson":1,"numberOfDay":1,"price":100,"isArchived":false,"_id":"5c1b3a09f1b54e0f53bc4bc9","tax":6,"createdDate":"2018-12-20T06:43:21.974Z","updatedDate":"2018-12-20T06:43:21.974Z","__v":0},{"name":"super","description":"","numberOfLesson":12,"numberOfDay":12,"price":43,"isArchived":false,"_id":"5c593bbf02c3142693bf9b3a","tax":23,"createdBy":"5bc7587b1d7b314cebcf3f35","createdDate":"2019-02-05T07:31:11.872Z","updatedDate":"2019-02-05T07:31:11.872Z","__v":0},{"name":"ssssss","description":"","numberOfLesson":12,"numberOfDay":12,"price":234,"isArchived":false,"_id":"5c5ac6a552317d0eb0cb2ec0","tax":0,"createdBy":"5bc7587b1d7b314cebcf3f35","createdDate":"2019-02-06T11:36:05.635Z","updatedDate":"2019-02-06T11:36:05.635Z","__v":0},{"name":"Professional 222","description":"","numberOfLesson":22,"numberOfDay":11,"price":34,"isArchived":false,"_id":"5c5ac7b152317d0eb0cb2ec2","tax":0,"createdBy":"5bc7587b1d7b314cebcf3f35","createdDate":"2019-02-06T11:40:33.081Z","updatedDate":"2019-02-06T11:40:33.081Z","__v":0},{"name":"555","description":"","numberOfLesson":11,"numberOfDay":11,"price":43,"isArchived":false,"_id":"5c5acb36300ceb210a2b52b2","tax":0,"createdBy":"5bc7587b1d7b314cebcf3f35","createdDate":"2019-02-06T11:55:34.613Z","updatedDate":"2019-02-06T11:55:34.613Z","__v":0}],"totalPages":15}
+this is the end line 
+
+ Request was on : 2019-03-11T06:54:28.153Z
+ Req: e5fb6719d873c0bad5f587f6e0c7644a
+ Response was on : 2019-03-11T06:54:28.153Z
+ Res: "checking token succeed."
+this is the end line 
+
+ Request was on : 2019-03-11T06:54:28.158Z
+ Req: /api/v1/master/packageById 
+ Req body was: {"token":"e5fb6719d873c0bad5f587f6e0c7644a","page":0,"packageId":"5bc0a18c90ca385b460faaba"}
+ Response was on : 2019-03-11T06:54:28.158Z
+ Res: {"status":1,"data":{"name":"Beginners","description":null,"numberOfLesson":8,"numberOfDay":7,"price":101,"isArchived":true,"_id":"5bc0a18c90ca385b460faaba","tax":7,"createdDate":"2018-10-12T13:28:44.281Z","updatedDate":"2018-10-12T13:28:44.281Z","__v":0}}
+this is the end line 
+
+ Request was on : 2019-03-11T07:01:02.039Z
+ Req: e5fb6719d873c0bad5f587f6e0c7644a
+ Response was on : 2019-03-11T07:01:02.039Z
+ Res: "checking token succeed."
+
+ Request was on : 2019-03-11T07:01:02.044Z
+ Req: e5fb6719d873c0bad5f587f6e0c7644a
+ Response was on : 2019-03-11T07:01:02.044Z
+ Res: "checking token succeed."
+
+ Request was on : 2019-03-11T07:01:02.052Z
+ Req: /api/v1/master/taxes 
+ Req body was: {"token":"e5fb6719d873c0bad5f587f6e0c7644a","page":0}
+ Response was on : 2019-03-11T07:01:02.052Z
+ Res: {"status":1,"data":[{"countryCode":1,"description":"1","taxFor":"school nd users","taxPercentage":23,"isArchived":false,"_id":"5c1c984bba98331bd7b0254d","createdDate":"2018-12-21T07:37:47.197Z","updatedDate":"2019-02-07T14:00:18.160Z","__v":0,"updatedBy":"5c5c2f310994673f5c8c3474"},{"countryCode":4,"description":"233","taxFor":"driver","taxPercentage":1,"isArchived":true,"_id":"5c1c9888ba98331bd7b0254e","createdDate":"2018-12-21T07:38:48.635Z","updatedDate":"2019-02-07T14:55:16.005Z","__v":0,"updatedBy":"5bc46aa390ca385b460fabf4"},{"countryCode":1,"description":"213123","taxFor":"3","taxPercentage":21,"isArchived":false,"_id":"5c5c46eb4058875058c432f9","createdBy":"5bc46aa390ca385b460fabf4","createdDate":"2019-02-07T14:55:39.521Z","updatedDate":"2019-02-07T14:55:39.521Z","__v":0}],"totalPages":3}
+this is the end line 
+this is the end line 
+this is the end line 
+
+ Request was on : 2019-03-11T07:01:02.072Z
+ Req: /api/v1/master/packages 
+ Req body was: {"token":"e5fb6719d873c0bad5f587f6e0c7644a","page":0}
+ Response was on : 2019-03-11T07:01:02.072Z
+ Res: {"status":1,"data":[{"name":"Beginners","description":null,"numberOfLesson":8,"numberOfDay":7,"price":101,"isArchived":true,"_id":"5bc0a18c90ca385b460faaba","tax":7,"createdDate":"2018-10-12T13:28:44.281Z","updatedDate":"2018-10-12T13:28:44.281Z","__v":0},{"name":"Intermideate","description":null,"numberOfLesson":1,"numberOfDay":1,"price":16,"isArchived":false,"_id":"5bc89e10507520741e088d63","tax":1,"createdDate":"2018-10-18T14:52:00.317Z","updatedDate":"2018-10-18T14:52:00.317Z","__v":0},{"name":"Expert Package","description":null,"numberOfLesson":1,"numberOfDay":1,"price":10,"isArchived":true,"_id":"5bfe8640dbc870525694f689","tax":1,"createdDate":"2018-11-28T12:12:48.750Z","updatedDate":"2018-11-28T12:12:48.750Z","__v":0},{"name":"Experience","description":null,"numberOfLesson":54,"numberOfDay":5,"price":3543,"isArchived":true,"_id":"5c000b289aaf8d68ae9318c5","tax":3,"createdDate":"2018-11-29T15:52:08.193Z","updatedDate":"2018-11-29T15:52:08.193Z","__v":0},{"name":"super","description":"","numberOfLesson":2,"numberOfDay":2,"price":2,"isArchived":false,"_id":"5c000bc09aaf8d68ae9318c6","tax":2,"createdDate":"2018-11-29T15:54:40.808Z","updatedDate":"2018-11-29T15:54:40.808Z","__v":0},{"name":"Expert Package","description":"","numberOfLesson":1,"numberOfDay":1,"price":100,"isArchived":false,"_id":"5c1b3a09f1b54e0f53bc4bc9","tax":6,"createdDate":"2018-12-20T06:43:21.974Z","updatedDate":"2018-12-20T06:43:21.974Z","__v":0},{"name":"super","description":"","numberOfLesson":12,"numberOfDay":12,"price":43,"isArchived":false,"_id":"5c593bbf02c3142693bf9b3a","tax":23,"createdBy":"5bc7587b1d7b314cebcf3f35","createdDate":"2019-02-05T07:31:11.872Z","updatedDate":"2019-02-05T07:31:11.872Z","__v":0},{"name":"ssssss","description":"","numberOfLesson":12,"numberOfDay":12,"price":234,"isArchived":false,"_id":"5c5ac6a552317d0eb0cb2ec0","tax":0,"createdBy":"5bc7587b1d7b314cebcf3f35","createdDate":"2019-02-06T11:36:05.635Z","updatedDate":"2019-02-06T11:36:05.635Z","__v":0},{"name":"Professional 222","description":"","numberOfLesson":22,"numberOfDay":11,"price":34,"isArchived":false,"_id":"5c5ac7b152317d0eb0cb2ec2","tax":0,"createdBy":"5bc7587b1d7b314cebcf3f35","createdDate":"2019-02-06T11:40:33.081Z","updatedDate":"2019-02-06T11:40:33.081Z","__v":0},{"name":"555","description":"","numberOfLesson":11,"numberOfDay":11,"price":43,"isArchived":false,"_id":"5c5acb36300ceb210a2b52b2","tax":0,"createdBy":"5bc7587b1d7b314cebcf3f35","createdDate":"2019-02-06T11:55:34.613Z","updatedDate":"2019-02-06T11:55:34.613Z","__v":0}],"totalPages":15}
+this is the end line 
+
+ Request was on : 2019-03-11T07:01:09.279Z
+ Req: e5fb6719d873c0bad5f587f6e0c7644a
+ Response was on : 2019-03-11T07:01:09.279Z
+ Res: "checking token succeed."
+this is the end line 
+
+ Request was on : 2019-03-11T07:01:09.287Z
+ Req: /api/v1/master/taxes 
+ Req body was: {"token":"e5fb6719d873c0bad5f587f6e0c7644a","page":0}
+ Response was on : 2019-03-11T07:01:09.287Z
+ Res: {"status":1,"data":[{"countryCode":1,"description":"1","taxFor":"school nd users","taxPercentage":23,"isArchived":false,"_id":"5c1c984bba98331bd7b0254d","createdDate":"2018-12-21T07:37:47.197Z","updatedDate":"2019-02-07T14:00:18.160Z","__v":0,"updatedBy":"5c5c2f310994673f5c8c3474"},{"countryCode":4,"description":"233","taxFor":"driver","taxPercentage":1,"isArchived":true,"_id":"5c1c9888ba98331bd7b0254e","createdDate":"2018-12-21T07:38:48.635Z","updatedDate":"2019-02-07T14:55:16.005Z","__v":0,"updatedBy":"5bc46aa390ca385b460fabf4"},{"countryCode":1,"description":"213123","taxFor":"3","taxPercentage":21,"isArchived":false,"_id":"5c5c46eb4058875058c432f9","createdBy":"5bc46aa390ca385b460fabf4","createdDate":"2019-02-07T14:55:39.521Z","updatedDate":"2019-02-07T14:55:39.521Z","__v":0}],"totalPages":3}
+this is the end line 
+
+ Request was on : 2019-03-11T07:01:09.290Z
+ Req: e5fb6719d873c0bad5f587f6e0c7644a
+ Response was on : 2019-03-11T07:01:09.290Z
+ Res: "checking token succeed."
+this is the end line 
+
+ Request was on : 2019-03-11T07:01:09.417Z
+ Req: /api/v1/master/riderates 
+ Req body was: {"token":"e5fb6719d873c0bad5f587f6e0c7644a","page":0}
+ Response was on : 2019-03-11T07:01:09.417Z
+ Res: {"status":1,"data":[{"price":778,"isArchived":false,"isSchool":false,"isGeneric":true,"_id":"5c1c9930ba98331bd7b0254f","taxId":null,"createdDate":"2018-12-21T07:41:36.608Z","updatedDate":"2019-02-07T14:00:42.099Z","__v":0,"updatedBy":"5c5c2f310994673f5c8c3474","who":null},{"price":28,"isArchived":false,"isSchool":true,"isGeneric":false,"_id":"5c1cea3033fde71e47b1c086","who":null,"taxId":{"countryCode":4,"description":"233","taxFor":"driver","taxPercentage":1,"isArchived":true,"_id":"5c1c9888ba98331bd7b0254e","createdDate":"2018-12-21T07:38:48.635Z","updatedDate":"2019-02-07T14:55:16.005Z","__v":0,"updatedBy":"5bc46aa390ca385b460fabf4"},"createdDate":"2018-12-21T13:27:12.162Z","updatedDate":"2018-12-21T13:27:12.162Z","__v":0},{"price":50,"isArchived":false,"isSchool":true,"isGeneric":false,"_id":"5c2076ffab74ac10b3b5ee8e","who":null,"taxId":null,"createdDate":"2018-12-24T06:04:47.547Z","updatedDate":"2018-12-24T06:04:47.547Z","__v":0},{"price":56,"isArchived":false,"isSchool":true,"isGeneric":false,"_id":"5c2f57bd2bfd3c35a28faba9","who":null,"taxId":{"countryCode":4,"description":"233","taxFor":"driver","taxPercentage":1,"isArchived":true,"_id":"5c1c9888ba98331bd7b0254e","createdDate":"2018-12-21T07:38:48.635Z","updatedDate":"2019-02-07T14:55:16.005Z","__v":0,"updatedBy":"5bc46aa390ca385b460fabf4"},"createdDate":"2019-01-04T12:55:25.147Z","updatedDate":"2019-01-04T12:55:25.147Z","__v":0},{"price":2,"isArchived":false,"isSchool":true,"isGeneric":false,"_id":"5c5ac72552317d0eb0cb2ec1","who":null,"taxId":{"countryCode":4,"description":"233","taxFor":"driver","taxPercentage":1,"isArchived":true,"_id":"5c1c9888ba98331bd7b0254e","createdDate":"2018-12-21T07:38:48.635Z","updatedDate":"2019-02-07T14:55:16.005Z","__v":0,"updatedBy":"5bc46aa390ca385b460fabf4"},"createdBy":"5bc7587b1d7b314cebcf3f35","createdDate":"2019-02-06T11:38:13.501Z","updatedDate":"2019-02-06T13:40:04.011Z","__v":0,"updatedBy":"5bc7587b1d7b314cebcf3f35"},{"price":111,"isArchived":false,"isSchool":true,"isGeneric":false,"_id":"5c5ad8dcf8906e234cf73bc8","who":null,"taxId":null,"createdBy":"5bc7587b1d7b314cebcf3f35","createdDate":"2019-02-06T12:53:48.080Z","updatedDate":"2019-02-07T07:35:41.441Z","__v":0,"updatedBy":"5bc7587b1d7b314cebcf3f35"},{"price":56,"isArchived":false,"isSchool":false,"isGeneric":false,"_id":"5c5bdf80675a5321d875fcaf","who":null,"taxId":{"countryCode":1,"description":"1","taxFor":"school nd users","taxPercentage":23,"isArchived":false,"_id":"5c1c984bba98331bd7b0254d","createdDate":"2018-12-21T07:37:47.197Z","updatedDate":"2019-02-07T14:00:18.160Z","__v":0,"updatedBy":"5c5c2f310994673f5c8c3474"},"createdBy":"5bc7587b1d7b314cebcf3f35","createdDate":"2019-02-07T07:34:24.081Z","updatedDate":"2019-02-07T07:34:24.081Z","__v":0},{"price":34,"isArchived":false,"isSchool":true,"isGeneric":false,"_id":"5c5c3a14b530554653752a42","who":null,"createdBy":"5c5c2f310994673f5c8c3474","createdDate":"2019-02-07T14:00:52.239Z","updatedDate":"2019-02-07T14:00:52.239Z","__v":0},{"price":111,"isArchived":false,"isSchool":true,"isGeneric":false,"_id":"5c5c3baada944b471f9e0e1c","who":null,"taxId":{"countryCode":1,"description":"1","taxFor":"school nd users","taxPercentage":23,"isArchived":false,"_id":"5c1c984bba98331bd7b0254d","createdDate":"2018-12-21T07:37:47.197Z","updatedDate":"2019-02-07T14:00:18.160Z","__v":0,"updatedBy":"5c5c2f310994673f5c8c3474"},"createdBy":"5bc8d9ab507520741e088e21","createdDate":"2019-02-07T14:07:38.014Z","updatedDate":"2019-02-07T14:07:38.014Z","__v":0},{"price":0.01,"isArchived":false,"isSchool":false,"isGeneric":false,"_id":"5c5c54d3da632757e1562f3b","who":null,"taxId":{"countryCode":1,"description":"213123","taxFor":"3","taxPercentage":21,"isArchived":false,"_id":"5c5c46eb4058875058c432f9","createdBy":"5bc46aa390ca385b460fabf4","createdDate":"2019-02-07T14:55:39.521Z","updatedDate":"2019-02-07T14:55:39.521Z","__v":0},"createdBy":"5bc8d9ab507520741e088e21","createdDate":"2019-02-07T15:54:59.445Z","updatedDate":"2019-02-07T15:54:59.445Z","__v":0}],"totalPages":19}
+this is the end line 
+
+ Request was on : 2019-03-11T07:01:40.099Z
+ Req: e5fb6719d873c0bad5f587f6e0c7644a
+ Response was on : 2019-03-11T07:01:40.099Z
+ Res: "checking token succeed."
+this is the end line 
+
+ Request was on : 2019-03-11T07:01:40.130Z
+ Req: /api/v1/master/riderates 
+ Req body was: {"token":"e5fb6719d873c0bad5f587f6e0c7644a","page":1}
+ Response was on : 2019-03-11T07:01:40.130Z
+ Res: {"status":1,"data":[{"price":0.001,"isArchived":false,"isSchool":true,"isGeneric":false,"_id":"5c5c57092d649c5ad9bfc4a9","who":null,"taxId":{"countryCode":1,"description":"213123","taxFor":"3","taxPercentage":21,"isArchived":false,"_id":"5c5c46eb4058875058c432f9","createdBy":"5bc46aa390ca385b460fabf4","createdDate":"2019-02-07T14:55:39.521Z","updatedDate":"2019-02-07T14:55:39.521Z","__v":0},"createdBy":"5bc8d9ab507520741e088e21","createdDate":"2019-02-07T16:04:25.260Z","updatedDate":"2019-02-07T16:04:25.260Z","__v":0},{"price":0.001,"isArchived":false,"isSchool":true,"isGeneric":false,"_id":"5c5c587c2d649c5ad9bfc4aa","who":{"schoolName":"james","taxId":"1223","contactPersonName":"sahnawaj alam","contactPersonMobileNumber":"alam@gmail","contactPersonEmail":"alam@gmail.com","facebookLink":null,"InstagramLink":null,"googleLink":null,"twitterLink":null,"isArchived":false,"_id":"5bc490e290ca385b460fabfa","bankDetail":"5bc490e290ca385b460fabf9","createdDate":"2018-10-15T13:06:42.742Z","updatedDate":"2019-02-05T05:54:01.211Z","__v":0,"updatedBy":"5bc7587b1d7b314cebcf3f35"},"taxId":{"countryCode":1,"description":"1","taxFor":"school nd users","taxPercentage":23,"isArchived":false,"_id":"5c1c984bba98331bd7b0254d","createdDate":"2018-12-21T07:37:47.197Z","updatedDate":"2019-02-07T14:00:18.160Z","__v":0,"updatedBy":"5c5c2f310994673f5c8c3474"},"createdBy":"5bc8d9ab507520741e088e21","createdDate":"2019-02-07T16:10:36.805Z","updatedDate":"2019-02-07T16:11:30.620Z","__v":0,"updatedBy":"5bc8d9ab507520741e088e21"},{"price":0.77,"isArchived":false,"isSchool":true,"isGeneric":false,"_id":"5c5c58d72d649c5ad9bfc4ab","who":{"schoolName":"trignodev265768","taxId":"34543","contactPersonName":"som ","contactPersonMobileNumber":"9999998988","contactPersonEmail":"vivek1@gmail.com","facebookLink":null,"InstagramLink":null,"googleLink":null,"twitterLink":null,"isArchived":false,"_id":"5bc4a01e90ca385b460fac0c","bankDetail":"5bc4a01e90ca385b460fac0b","createdDate":"2018-10-15T14:11:42.446Z","updatedDate":"2019-02-06T08:43:05.211Z","__v":0,"updatedBy":"5bc7587b1d7b314cebcf3f35"},"taxId":{"countryCode":1,"description":"1","taxFor":"school nd users","taxPercentage":23,"isArchived":false,"_id":"5c1c984bba98331bd7b0254d","createdDate":"2018-12-21T07:37:47.197Z","updatedDate":"2019-02-07T14:00:18.160Z","__v":0,"updatedBy":"5c5c2f310994673f5c8c3474"},"createdBy":"5bc8d9ab507520741e088e21","createdDate":"2019-02-07T16:12:07.823Z","updatedDate":"2019-02-07T16:12:07.823Z","__v":0},{"price":0.89,"isArchived":false,"isSchool":true,"isGeneric":false,"_id":"5c5c5cfea1a7c75f72df9444","who":{"schoolName":"abhay","taxId":"111","contactPersonName":"som","contactPersonMobileNumber":"9999998989","contactPersonEmail":"vivek@gmail.com","facebookLink":"","InstagramLink":"","googleLink":"","twitterLink":"","isArchived":false,"_id":"5bc6c0e755acbb0733c43106","bankDetail":"5bc6c0e755acbb0733c43105","createdDate":"2018-10-17T04:56:07.830Z","updatedDate":"2018-10-17T04:56:07.830Z","__v":0},"taxId":{"countryCode":1,"description":"213123","taxFor":"3","taxPercentage":21,"isArchived":false,"_id":"5c5c46eb4058875058c432f9","createdBy":"5bc46aa390ca385b460fabf4","createdDate":"2019-02-07T14:55:39.521Z","updatedDate":"2019-02-07T14:55:39.521Z","__v":0},"createdBy":"5bc8d9ab507520741e088e21","createdDate":"2019-02-07T16:29:50.994Z","updatedDate":"2019-02-07T16:29:50.994Z","__v":0},{"price":0.7777,"isArchived":false,"isSchool":false,"isGeneric":false,"_id":"5c5c60712466c06203988595","who":null,"taxId":{"countryCode":1,"description":"1","taxFor":"school nd users","taxPercentage":23,"isArchived":false,"_id":"5c1c984bba98331bd7b0254d","createdDate":"2018-12-21T07:37:47.197Z","updatedDate":"2019-02-07T14:00:18.160Z","__v":0,"updatedBy":"5c5c2f310994673f5c8c3474"},"createdBy":"5bc8d9ab507520741e088e21","createdDate":"2019-02-07T16:44:33.194Z","updatedDate":"2019-02-07T16:44:33.194Z","__v":0},{"price":96,"isArchived":false,"isSchool":true,"isGeneric":false,"_id":"5c5d2a99e0d0441ac933015e","who":{"schoolName":"james","taxId":"1223","contactPersonName":"sahnawaj alam","contactPersonMobileNumber":"alam@gmail","contactPersonEmail":"alam@gmail.com","facebookLink":null,"InstagramLink":null,"googleLink":null,"twitterLink":null,"isArchived":false,"_id":"5bc490e290ca385b460fabfa","bankDetail":"5bc490e290ca385b460fabf9","createdDate":"2018-10-15T13:06:42.742Z","updatedDate":"2019-02-05T05:54:01.211Z","__v":0,"updatedBy":"5bc7587b1d7b314cebcf3f35"},"taxId":{"countryCode":1,"description":"1","taxFor":"school nd users","taxPercentage":23,"isArchived":false,"_id":"5c1c984bba98331bd7b0254d","createdDate":"2018-12-21T07:37:47.197Z","updatedDate":"2019-02-07T14:00:18.160Z","__v":0,"updatedBy":"5c5c2f310994673f5c8c3474"},"createdBy":"5bc8d9ab507520741e088e21","createdDate":"2019-02-08T07:07:05.319Z","updatedDate":"2019-02-08T07:07:05.319Z","__v":0},{"price":0.008,"isArchived":false,"isSchool":true,"isGeneric":false,"_id":"5c5d481d0d51273398ad77f2","who":{"schoolName":"james","taxId":"1223","contactPersonName":"sahnawaj alam","contactPersonMobileNumber":"alam@gmail","contactPersonEmail":"alam@gmail.com","facebookLink":null,"InstagramLink":null,"googleLink":null,"twitterLink":null,"isArchived":false,"_id":"5bc490e290ca385b460fabfa","bankDetail":"5bc490e290ca385b460fabf9","createdDate":"2018-10-15T13:06:42.742Z","updatedDate":"2019-02-05T05:54:01.211Z","__v":0,"updatedBy":"5bc7587b1d7b314cebcf3f35"},"taxId":{"countryCode":1,"description":"213123","taxFor":"3","taxPercentage":21,"isArchived":false,"_id":"5c5c46eb4058875058c432f9","createdBy":"5bc46aa390ca385b460fabf4","createdDate":"2019-02-07T14:55:39.521Z","updatedDate":"2019-02-07T14:55:39.521Z","__v":0},"createdBy":"5bc8d9ab507520741e088e21","createdDate":"2019-02-08T09:13:01.466Z","updatedDate":"2019-02-08T09:13:01.466Z","__v":0},{"price":44,"isArchived":false,"isSchool":false,"isGeneric":false,"_id":"5c5d4a370d51273398ad77f3","who":null,"taxId":{"countryCode":1,"description":"1","taxFor":"school nd users","taxPercentage":23,"isArchived":false,"_id":"5c1c984bba98331bd7b0254d","createdDate":"2018-12-21T07:37:47.197Z","updatedDate":"2019-02-07T14:00:18.160Z","__v":0,"updatedBy":"5c5c2f310994673f5c8c3474"},"createdBy":"5bc8d9ab507520741e088e21","createdDate":"2019-02-08T09:21:59.791Z","updatedDate":"2019-02-08T09:21:59.791Z","__v":0},{"price":11,"isArchived":false,"isSchool":true,"isGeneric":false,"_id":"5c5d5276b8bbdb38165a594d","who":{"schoolName":"rupal","taxId":"1235456","contactPersonName":"rupal","contactPersonMobileNumber":"8860124117","contactPersonEmail":"rup.axis@gmail.com","facebookLink":"","InstagramLink":"","googleLink":"","twitterLink":"","isArchived":false,"_id":"5bf4e4f94b58ae123a7d07e4","bankDetail":"5bf4e4f94b58ae123a7d07e3","createdDate":"2018-11-21T04:54:17.325Z","updatedDate":"2018-11-21T04:54:17.325Z","__v":0},"taxId":{"countryCode":1,"description":"1","taxFor":"school nd users","taxPercentage":23,"isArchived":false,"_id":"5c1c984bba98331bd7b0254d","createdDate":"2018-12-21T07:37:47.197Z","updatedDate":"2019-02-07T14:00:18.160Z","__v":0,"updatedBy":"5c5c2f310994673f5c8c3474"},"createdBy":"5bc8d9ab507520741e088e21","createdDate":"2019-02-08T09:57:10.649Z","updatedDate":"2019-02-08T09:57:10.649Z","__v":0}],"totalPages":19}
+this is the end line 
+
+ Request was on : 2019-03-11T07:04:14.899Z
+ Req: e5fb6719d873c0bad5f587f6e0c7644a
+ Response was on : 2019-03-11T07:04:14.899Z
+ Res: "checking token succeed."
+this is the end line 
+
+ Request was on : 2019-03-11T07:04:14.909Z
+ Req: /api/v1/master/slots 
+ Req body was: {"page":0,"token":"e5fb6719d873c0bad5f587f6e0c7644a"}
+ Response was on : 2019-03-11T07:04:14.909Z
+ Res: {"status":1,"data":[{"name":"14:50 - 15:20","description":"Slot 71","fromTime":"15:51","toTime":"12:50","isArchived":true,"_id":"5bfe5b2ef26f7844b1ee314f","createdDate":"2018-11-28T09:09:02.836Z","updatedDate":"2019-02-08T09:02:07.451Z","__v":0,"updatedBy":"5bc8d9ab507520741e088e21"},{"name":"14:57 - 15:20","description":"Slot","fromTime":"14:57","toTime":"15:20","isArchived":true,"_id":"5bfe5c2ff26f7844b1ee315f","createdDate":"2018-11-28T09:13:19.953Z","updatedDate":"2018-11-28T09:13:19.953Z","__v":0},{"name":"15:02 - 15:20","description":"Slot","fromTime":"15:02","toTime":"15:20","isArchived":true,"_id":"5bfe5d6ff26f7844b1ee3166","createdDate":"2018-11-28T09:18:39.178Z","updatedDate":"2018-11-28T09:18:39.178Z","__v":0},{"name":"15:54 - 16:20","description":"Slot","fromTime":"15:54","toTime":"16:20","isArchived":true,"_id":"5bfe69b13d4b9c47b12cbab9","createdDate":"2018-11-28T10:10:57.146Z","updatedDate":"2018-11-28T10:10:57.146Z","__v":0},{"name":"16:54 - 17:20","description":"Slot","fromTime":"16:54","toTime":"17:20","isArchived":true,"_id":"5bfe77243d4b9c47b12cbacf","createdDate":"2018-11-28T11:08:20.263Z","updatedDate":"2018-11-28T11:08:20.263Z","__v":0},{"name":"17:38 - 17:55","description":"Slot","fromTime":"17:38","toTime":"17:55","isArchived":true,"_id":"5bfe847b7bf78c5164d65298","createdDate":"2018-11-28T12:05:15.355Z","updatedDate":"2018-11-28T12:05:15.355Z","__v":0},{"name":"17:50 - 17:55","description":"Slot","fromTime":"05:50","toTime":"05:55","isArchived":false,"_id":"5bfe84a0dbc870525694f679","createdDate":"2018-11-28T12:05:52.575Z","updatedDate":"2018-11-28T12:05:52.575Z","__v":0},{"name":"18:00 - 18:55","description":"Slot","fromTime":"18:00","toTime":"18:55","isArchived":false,"_id":"5bfe869ddbc870525694f68d","createdDate":"2018-11-28T12:14:21.630Z","updatedDate":"2018-11-28T12:14:21.630Z","__v":0},{"name":"20:48 - 20:55","description":"Slot","fromTime":"20:48","toTime":"18:55","isArchived":false,"_id":"5bfeac9f774ca5544cc81ed8","createdDate":"2018-11-28T14:56:31.204Z","updatedDate":"2018-11-28T14:56:31.204Z","__v":0},{"name":"21:15 - 21:55","description":"Slot","fromTime":"21:15","toTime":"21:55","isArchived":false,"_id":"5bfeb473774ca5544cc81ee5","createdDate":"2018-11-28T15:29:55.095Z","updatedDate":"2018-11-28T15:29:55.095Z","__v":0}],"totalPages":29}
+this is the end line 
+
+ Request was on : 2019-03-11T07:08:27.025Z
+ Req: e5fb6719d873c0bad5f587f6e0c7644a
+ Response was on : 2019-03-11T07:08:27.025Z
+ Res: "checking token succeed."
+this is the end line 
+
+ Request was on : 2019-03-11T07:08:27.043Z
+ Req: /api/v1/master/slots 
+ Req body was: {"page":0,"token":"e5fb6719d873c0bad5f587f6e0c7644a"}
+ Response was on : 2019-03-11T07:08:27.043Z
+ Res: {"status":1,"data":[{"name":"14:50 - 15:20","description":"Slot 71","fromTime":"15:51","toTime":"12:50","isArchived":true,"_id":"5bfe5b2ef26f7844b1ee314f","createdDate":"2018-11-28T09:09:02.836Z","updatedDate":"2019-02-08T09:02:07.451Z","__v":0,"updatedBy":"5bc8d9ab507520741e088e21"},{"name":"14:57 - 15:20","description":"Slot","fromTime":"14:57","toTime":"15:20","isArchived":true,"_id":"5bfe5c2ff26f7844b1ee315f","createdDate":"2018-11-28T09:13:19.953Z","updatedDate":"2018-11-28T09:13:19.953Z","__v":0},{"name":"15:02 - 15:20","description":"Slot","fromTime":"15:02","toTime":"15:20","isArchived":true,"_id":"5bfe5d6ff26f7844b1ee3166","createdDate":"2018-11-28T09:18:39.178Z","updatedDate":"2018-11-28T09:18:39.178Z","__v":0},{"name":"15:54 - 16:20","description":"Slot","fromTime":"15:54","toTime":"16:20","isArchived":true,"_id":"5bfe69b13d4b9c47b12cbab9","createdDate":"2018-11-28T10:10:57.146Z","updatedDate":"2018-11-28T10:10:57.146Z","__v":0},{"name":"16:54 - 17:20","description":"Slot","fromTime":"16:54","toTime":"17:20","isArchived":true,"_id":"5bfe77243d4b9c47b12cbacf","createdDate":"2018-11-28T11:08:20.263Z","updatedDate":"2018-11-28T11:08:20.263Z","__v":0},{"name":"17:38 - 17:55","description":"Slot","fromTime":"17:38","toTime":"17:55","isArchived":true,"_id":"5bfe847b7bf78c5164d65298","createdDate":"2018-11-28T12:05:15.355Z","updatedDate":"2018-11-28T12:05:15.355Z","__v":0},{"name":"17:50 - 17:55","description":"Slot","fromTime":"05:50","toTime":"05:55","isArchived":false,"_id":"5bfe84a0dbc870525694f679","createdDate":"2018-11-28T12:05:52.575Z","updatedDate":"2018-11-28T12:05:52.575Z","__v":0},{"name":"18:00 - 18:55","description":"Slot","fromTime":"18:00","toTime":"18:55","isArchived":false,"_id":"5bfe869ddbc870525694f68d","createdDate":"2018-11-28T12:14:21.630Z","updatedDate":"2018-11-28T12:14:21.630Z","__v":0},{"name":"20:48 - 20:55","description":"Slot","fromTime":"20:48","toTime":"18:55","isArchived":false,"_id":"5bfeac9f774ca5544cc81ed8","createdDate":"2018-11-28T14:56:31.204Z","updatedDate":"2018-11-28T14:56:31.204Z","__v":0},{"name":"21:15 - 21:55","description":"Slot","fromTime":"21:15","toTime":"21:55","isArchived":false,"_id":"5bfeb473774ca5544cc81ee5","createdDate":"2018-11-28T15:29:55.095Z","updatedDate":"2018-11-28T15:29:55.095Z","__v":0}],"totalPages":29}
+this is the end line 
+
+ Request was on : 2019-03-11T07:09:02.280Z
+ Req: e5fb6719d873c0bad5f587f6e0c7644a
+ Response was on : 2019-03-11T07:09:02.280Z
+ Res: "checking token succeed."
+this is the end line 
+
+ Request was on : 2019-03-11T07:09:02.284Z
+ Req: /api/v1/master/slotById 
+ Req body was: {"page":0,"token":"e5fb6719d873c0bad5f587f6e0c7644a","slotId":"5bfe5b2ef26f7844b1ee314f"}
+ Response was on : 2019-03-11T07:09:02.284Z
+ Res: {"status":1,"data":{"name":"14:50 - 15:20","description":"Slot 71","fromTime":"15:51","toTime":"12:50","isArchived":true,"_id":"5bfe5b2ef26f7844b1ee314f","createdDate":"2018-11-28T09:09:02.836Z","updatedDate":"2019-02-08T09:02:07.451Z","__v":0,"updatedBy":"5bc8d9ab507520741e088e21"}}
+this is the end line 
+
+ Request was on : 2019-03-11T07:13:14.106Z
+ Req: e5fb6719d873c0bad5f587f6e0c7644a
+ Response was on : 2019-03-11T07:13:14.106Z
+ Res: "checking token succeed."
+this is the end line 
+
+ Request was on : 2019-03-11T07:13:14.116Z
+ Req: /api/v1/master/slots 
+ Req body was: {"page":0,"token":"e5fb6719d873c0bad5f587f6e0c7644a"}
+ Response was on : 2019-03-11T07:13:14.116Z
+ Res: {"status":1,"data":[{"name":"14:50 - 15:20","description":"Slot 71","fromTime":"15:51","toTime":"12:50","isArchived":true,"_id":"5bfe5b2ef26f7844b1ee314f","createdDate":"2018-11-28T09:09:02.836Z","updatedDate":"2019-02-08T09:02:07.451Z","__v":0,"updatedBy":"5bc8d9ab507520741e088e21"},{"name":"14:57 - 15:20","description":"Slot","fromTime":"14:57","toTime":"15:20","isArchived":true,"_id":"5bfe5c2ff26f7844b1ee315f","createdDate":"2018-11-28T09:13:19.953Z","updatedDate":"2018-11-28T09:13:19.953Z","__v":0},{"name":"15:02 - 15:20","description":"Slot","fromTime":"15:02","toTime":"15:20","isArchived":true,"_id":"5bfe5d6ff26f7844b1ee3166","createdDate":"2018-11-28T09:18:39.178Z","updatedDate":"2018-11-28T09:18:39.178Z","__v":0},{"name":"15:54 - 16:20","description":"Slot","fromTime":"15:54","toTime":"16:20","isArchived":true,"_id":"5bfe69b13d4b9c47b12cbab9","createdDate":"2018-11-28T10:10:57.146Z","updatedDate":"2018-11-28T10:10:57.146Z","__v":0},{"name":"16:54 - 17:20","description":"Slot","fromTime":"16:54","toTime":"17:20","isArchived":true,"_id":"5bfe77243d4b9c47b12cbacf","createdDate":"2018-11-28T11:08:20.263Z","updatedDate":"2018-11-28T11:08:20.263Z","__v":0},{"name":"17:38 - 17:55","description":"Slot","fromTime":"17:38","toTime":"17:55","isArchived":true,"_id":"5bfe847b7bf78c5164d65298","createdDate":"2018-11-28T12:05:15.355Z","updatedDate":"2018-11-28T12:05:15.355Z","__v":0},{"name":"17:50 - 17:55","description":"Slot","fromTime":"05:50","toTime":"05:55","isArchived":false,"_id":"5bfe84a0dbc870525694f679","createdDate":"2018-11-28T12:05:52.575Z","updatedDate":"2018-11-28T12:05:52.575Z","__v":0},{"name":"18:00 - 18:55","description":"Slot","fromTime":"18:00","toTime":"18:55","isArchived":false,"_id":"5bfe869ddbc870525694f68d","createdDate":"2018-11-28T12:14:21.630Z","updatedDate":"2018-11-28T12:14:21.630Z","__v":0},{"name":"20:48 - 20:55","description":"Slot","fromTime":"20:48","toTime":"18:55","isArchived":false,"_id":"5bfeac9f774ca5544cc81ed8","createdDate":"2018-11-28T14:56:31.204Z","updatedDate":"2018-11-28T14:56:31.204Z","__v":0},{"name":"21:15 - 21:55","description":"Slot","fromTime":"21:15","toTime":"21:55","isArchived":false,"_id":"5bfeb473774ca5544cc81ee5","createdDate":"2018-11-28T15:29:55.095Z","updatedDate":"2018-11-28T15:29:55.095Z","__v":0}],"totalPages":29}
+this is the end line 
+
+ Request was on : 2019-03-11T07:13:40.929Z
+ Req: e5fb6719d873c0bad5f587f6e0c7644a
+ Response was on : 2019-03-11T07:13:40.929Z
+ Res: "checking token succeed."
+this is the end line 
+
+ Request was on : 2019-03-11T07:13:40.954Z
+ Req: /api/v1/master/vehicleTypeById 
+ Req body was: {"token":"e5fb6719d873c0bad5f587f6e0c7644a","page":0,"vehicleId":"5bc09d0c90ca385b460faab0"}
+ Response was on : 2019-03-11T07:13:40.954Z
+ Res: {"status":1,"data":{"name":"SUV","isArchived":false,"description":"ewre","_id":"5bc09d0c90ca385b460faab0","createdDate":"2018-10-12T13:09:32.182Z","updatedDate":"2018-10-12T13:09:32.182Z","__v":0}}
+this is the end line 
+
+ Request was on : 2019-03-11T07:19:58.679Z
+ Req: e5fb6719d873c0bad5f587f6e0c7644a
+ Response was on : 2019-03-11T07:19:58.679Z
+ Res: "checking token succeed."
+this is the end line 
+
+ Request was on : 2019-03-11T07:19:58.689Z
+ Req: /api/v1/master/taxes 
+ Req body was: {"token":"e5fb6719d873c0bad5f587f6e0c7644a","page":0}
+ Response was on : 2019-03-11T07:19:58.689Z
+ Res: {"status":1,"data":[{"countryCode":1,"description":"1","taxFor":"school nd users","taxPercentage":23,"isArchived":false,"_id":"5c1c984bba98331bd7b0254d","createdDate":"2018-12-21T07:37:47.197Z","updatedDate":"2019-02-07T14:00:18.160Z","__v":0,"updatedBy":"5c5c2f310994673f5c8c3474"},{"countryCode":4,"description":"233","taxFor":"driver","taxPercentage":1,"isArchived":true,"_id":"5c1c9888ba98331bd7b0254e","createdDate":"2018-12-21T07:38:48.635Z","updatedDate":"2019-02-07T14:55:16.005Z","__v":0,"updatedBy":"5bc46aa390ca385b460fabf4"},{"countryCode":1,"description":"213123","taxFor":"3","taxPercentage":21,"isArchived":false,"_id":"5c5c46eb4058875058c432f9","createdBy":"5bc46aa390ca385b460fabf4","createdDate":"2019-02-07T14:55:39.521Z","updatedDate":"2019-02-07T14:55:39.521Z","__v":0}],"totalPages":3}
+this is the end line 
+
+ Request was on : 2019-03-11T07:21:58.084Z
+ Req: e5fb6719d873c0bad5f587f6e0c7644a
+ Response was on : 2019-03-11T07:21:58.084Z
+ Res: "checking token succeed."
+this is the end line 
+
+ Request was on : 2019-03-11T07:21:58.091Z
+ Req: /api/v1/master/taxes 
+ Req body was: {"token":"e5fb6719d873c0bad5f587f6e0c7644a","page":0}
+ Response was on : 2019-03-11T07:21:58.091Z
+ Res: {"status":1,"data":[{"countryCode":1,"description":"1","taxFor":"school nd users","taxPercentage":23,"isArchived":false,"_id":"5c1c984bba98331bd7b0254d","createdDate":"2018-12-21T07:37:47.197Z","updatedDate":"2019-02-07T14:00:18.160Z","__v":0,"updatedBy":"5c5c2f310994673f5c8c3474"},{"countryCode":4,"description":"233","taxFor":"driver","taxPercentage":1,"isArchived":true,"_id":"5c1c9888ba98331bd7b0254e","createdDate":"2018-12-21T07:38:48.635Z","updatedDate":"2019-02-07T14:55:16.005Z","__v":0,"updatedBy":"5bc46aa390ca385b460fabf4"},{"countryCode":1,"description":"213123","taxFor":"3","taxPercentage":21,"isArchived":false,"_id":"5c5c46eb4058875058c432f9","createdBy":"5bc46aa390ca385b460fabf4","createdDate":"2019-02-07T14:55:39.521Z","updatedDate":"2019-02-07T14:55:39.521Z","__v":0}],"totalPages":3}
+this is the end line 
+
+ Request was on : 2019-03-11T07:22:06.831Z
+ Req: e5fb6719d873c0bad5f587f6e0c7644a
+ Response was on : 2019-03-11T07:22:06.831Z
+ Res: "checking token succeed."
+this is the end line 
+
+ Request was on : 2019-03-11T07:22:06.835Z
+ Req: /api/v1/master/taxById 
+ Req body was: {"token":"e5fb6719d873c0bad5f587f6e0c7644a","page":0,"taxId":"5c1c984bba98331bd7b0254d"}
+ Response was on : 2019-03-11T07:22:06.835Z
+ Res: {"status":1,"data":{"countryCode":1,"description":"1","taxFor":"school nd users","taxPercentage":23,"isArchived":false,"_id":"5c1c984bba98331bd7b0254d","createdDate":"2018-12-21T07:37:47.197Z","updatedDate":"2019-02-07T14:00:18.160Z","__v":0,"updatedBy":"5c5c2f310994673f5c8c3474"}}
+this is the end line 
+
+ Request was on : 2019-03-11T07:22:16.204Z
+ Req: e5fb6719d873c0bad5f587f6e0c7644a
+ Response was on : 2019-03-11T07:22:16.204Z
+ Res: "checking token succeed."
+this is the end line 
+
+ Request was on : 2019-03-11T07:22:16.209Z
+ Req: /api/v1/master/taxById 
+ Req body was: {"token":"e5fb6719d873c0bad5f587f6e0c7644a","page":0,"taxId":"5c1c9888ba98331bd7b0254e"}
+ Response was on : 2019-03-11T07:22:16.209Z
+ Res: {"status":1,"data":{"countryCode":4,"description":"233","taxFor":"driver","taxPercentage":1,"isArchived":true,"_id":"5c1c9888ba98331bd7b0254e","createdDate":"2018-12-21T07:38:48.635Z","updatedDate":"2019-02-07T14:55:16.005Z","__v":0,"updatedBy":"5bc46aa390ca385b460fabf4"}}
+this is the end line 
+
+ Request was on : 2019-03-11T07:22:19.751Z
+ Req: e5fb6719d873c0bad5f587f6e0c7644a
+ Response was on : 2019-03-11T07:22:19.751Z
+ Res: "checking token succeed."
+this is the end line 
+
+ Request was on : 2019-03-11T07:22:19.755Z
+ Req: /api/v1/master/taxById 
+ Req body was: {"token":"e5fb6719d873c0bad5f587f6e0c7644a","page":0,"taxId":"5c5c46eb4058875058c432f9"}
+ Response was on : 2019-03-11T07:22:19.755Z
+ Res: {"status":1,"data":{"countryCode":1,"description":"213123","taxFor":"3","taxPercentage":21,"isArchived":false,"_id":"5c5c46eb4058875058c432f9","createdBy":"5bc46aa390ca385b460fabf4","createdDate":"2019-02-07T14:55:39.521Z","updatedDate":"2019-02-07T14:55:39.521Z","__v":0}}
+this is the end line 
+
+ Request was on : 2019-03-11T07:28:49.637Z
+ Req: e5fb6719d873c0bad5f587f6e0c7644a
+ Response was on : 2019-03-11T07:28:49.637Z
+ Res: "checking token succeed."
+this is the end line 
+
+ Request was on : 2019-03-11T07:28:49.642Z
+ Req: /api/v1/master/taxes 
+ Req body was: {"token":"e5fb6719d873c0bad5f587f6e0c7644a","page":0}
+ Response was on : 2019-03-11T07:28:49.642Z
+ Res: {"status":1,"data":[{"countryCode":1,"description":"1","taxFor":"school nd users","taxPercentage":23,"isArchived":false,"_id":"5c1c984bba98331bd7b0254d","createdDate":"2018-12-21T07:37:47.197Z","updatedDate":"2019-02-07T14:00:18.160Z","__v":0,"updatedBy":"5c5c2f310994673f5c8c3474"},{"countryCode":4,"description":"233","taxFor":"driver","taxPercentage":1,"isArchived":true,"_id":"5c1c9888ba98331bd7b0254e","createdDate":"2018-12-21T07:38:48.635Z","updatedDate":"2019-02-07T14:55:16.005Z","__v":0,"updatedBy":"5bc46aa390ca385b460fabf4"},{"countryCode":1,"description":"213123","taxFor":"3","taxPercentage":21,"isArchived":false,"_id":"5c5c46eb4058875058c432f9","createdBy":"5bc46aa390ca385b460fabf4","createdDate":"2019-02-07T14:55:39.521Z","updatedDate":"2019-02-07T14:55:39.521Z","__v":0}],"totalPages":3}
+this is the end line 
+
+ Request was on : 2019-03-11T07:29:03.819Z
+ Req: e5fb6719d873c0bad5f587f6e0c7644a
+ Response was on : 2019-03-11T07:29:03.819Z
+ Res: "checking token succeed."
+this is the end line 
+
+ Request was on : 2019-03-11T07:29:03.847Z
+ Req: /api/v1/master/countriesById 
+ Req body was: {"token":"e5fb6719d873c0bad5f587f6e0c7644a","page":0,"countryId":"5c47f85e105d530f969936b9"}
+ Response was on : 2019-03-11T07:29:03.847Z
+ Res: {"status":1,"data":{"name":"United Kingdom","description":"The United Kingdom, made up of England, Scotland, Wales and Northern Ireland.1","value":"1","isArchived":false,"countryCode":"+44","_id":"5c47f85e105d530f969936b9","createdDate":"2019-01-23T05:15:10.760Z","updatedDate":"2019-02-07T14:13:29.567Z","__v":0,"updatedBy":"5c5c2f310994673f5c8c3474"}}
+this is the end line 
+
+ Request was on : 2019-03-11T08:47:23.278Z
+ Req: e5fb6719d873c0bad5f587f6e0c7644a
+ Response was on : 2019-03-11T08:47:23.278Z
+ Res: "checking token succeed."
+this is the end line 
+
+ Request was on : 2019-03-11T08:47:23.323Z
+ Req: /api/v1/master/stateById 
+ Req body was: {"token":"e5fb6719d873c0bad5f587f6e0c7644a","page":0,"stateId":"5c47f9a0105d530f969936bc"}
+ Response was on : 2019-03-11T08:47:23.323Z
+ Res: {"status":1,"data":{"name":" Aberconwy and Colwyn","description":"good state","value":"1","parent":"1","isArchived":false,"_id":"5c47f9a0105d530f969936bc","createdDate":"2019-01-23T05:20:32.963Z","updatedDate":"2019-02-07T14:40:37.661Z","__v":0,"updatedBy":"5bc46aa390ca385b460fabf4"}}
+this is the end line 
+
+ Request was on : 2019-03-11T08:50:04.303Z
+ Req: e5fb6719d873c0bad5f587f6e0c7644a
+ Response was on : 2019-03-11T08:50:04.303Z
+ Res: "checking token succeed."
+this is the end line 
+
+ Request was on : 2019-03-11T08:50:04.307Z
+ Req: /api/v1/master/stateById 
+ Req body was: {"token":"e5fb6719d873c0bad5f587f6e0c7644a","page":0,"stateId":"5c47f9a0105d530f969936bc"}
+ Response was on : 2019-03-11T08:50:04.307Z
+ Res: {"status":1,"data":{"name":" Aberconwy and Colwyn","description":"good state","value":"1","parent":"1","isArchived":false,"_id":"5c47f9a0105d530f969936bc","createdDate":"2019-01-23T05:20:32.963Z","updatedDate":"2019-02-07T14:40:37.661Z","__v":0,"updatedBy":"5bc46aa390ca385b460fabf4"}}
+this is the end line 
+
+ Request was on : 2019-03-11T08:58:01.965Z
+ Req: e5fb6719d873c0bad5f587f6e0c7644a
+ Response was on : 2019-03-11T08:58:01.965Z
+ Res: "checking token succeed."
+this is the end line 
+
+ Request was on : 2019-03-11T08:58:01.978Z
+ Req: /api/v1/master/addCities 
+ Req body was: {"name":"d","parent":"2","description":"fd","token":"e5fb6719d873c0bad5f587f6e0c7644a"}
+ Response was on : 2019-03-11T08:58:01.978Z
+ Res: {"status":0,"errorCode":2,"message":"Record Exsits"}
+this is the end line 
+
+ Request was on : 2019-03-11T08:58:32.091Z
+ Req: e5fb6719d873c0bad5f587f6e0c7644a
+ Response was on : 2019-03-11T08:58:32.091Z
+ Res: "checking token succeed."
+this is the end line 
+
+ Request was on : 2019-03-11T08:58:32.106Z
+ Req: /api/v1/master/addStates 
+ Req body was: {"name":"ew","parent":"1","description":"ew","token":"e5fb6719d873c0bad5f587f6e0c7644a","isArchived":false}
+ Response was on : 2019-03-11T08:58:32.106Z
+ Res: {"status":200,"message":"Master data added successfully."}
+this is the end line 
+
+ Request was on : 2019-03-11T08:58:43.594Z
+ Req: e5fb6719d873c0bad5f587f6e0c7644a
+ Response was on : 2019-03-11T08:58:43.594Z
+ Res: "checking token succeed."
+this is the end line 
+
+ Request was on : 2019-03-11T08:58:43.602Z
+ Req: /api/v1/master/addCities 
+ Req body was: {"name":"e","parent":"2","description":"e","token":"e5fb6719d873c0bad5f587f6e0c7644a"}
+ Response was on : 2019-03-11T08:58:43.602Z
+ Res: {"status":0,"errorCode":2,"message":"Record Exsits"}
+this is the end line 
+
+ Request was on : 2019-03-11T08:58:51.441Z
+ Req: e5fb6719d873c0bad5f587f6e0c7644a
+ Response was on : 2019-03-11T08:58:51.441Z
+ Res: "checking token succeed."
+this is the end line 
+
+ Request was on : 2019-03-11T08:58:51.463Z
+ Req: /api/v1/master/cityById 
+ Req body was: {"name":"e","parent":"2","description":"e","token":"e5fb6719d873c0bad5f587f6e0c7644a","cityId":"5c5c450c4058875058c432f7"}
+ Response was on : 2019-03-11T08:58:51.463Z
+ Res: {"status":1,"data":{"name":"London","description":"London","value":"2","parent":"2","isArchived":false,"_id":"5c5c450c4058875058c432f7","createdBy":"5bc46aa390ca385b460fabf4","createdDate":"2019-02-07T14:47:40.297Z","updatedDate":"2019-02-07T14:47:40.297Z","__v":0}}
+this is the end line 
+
+ Request was on : 2019-03-11T08:58:56.695Z
+ Req: e5fb6719d873c0bad5f587f6e0c7644a
+ Response was on : 2019-03-11T08:58:56.695Z
+ Res: "checking token succeed."
+this is the end line 
+
+ Request was on : 2019-03-11T08:58:56.711Z
+ Req: /api/v1/master/updateCities 
+ Req body was: {"name":"Londoneee","parent":"2","description":"London","token":"e5fb6719d873c0bad5f587f6e0c7644a","cityId":"5c5c450c4058875058c432f7","isArchived":false}
+ Response was on : 2019-03-11T08:58:56.711Z
+ Res: {"status":200,"message":"Master data added successfully."}
+this is the end line 
+
+ Request was on : 2019-03-11T08:59:31.840Z
+ Req: e5fb6719d873c0bad5f587f6e0c7644a
+ Response was on : 2019-03-11T08:59:31.840Z
+ Res: "checking token succeed."
+this is the end line 
+
+ Request was on : 2019-03-11T08:59:38.382Z
+ Req: e5fb6719d873c0bad5f587f6e0c7644a
+ Response was on : 2019-03-11T08:59:38.382Z
+ Res: "checking token succeed."
+this is the end line 
+
+ Request was on : 2019-03-11T08:59:38.393Z
+ Req: /api/v1/master/addStates 
+ Req body was: {"name":"efwwef","parent":"3","description":"we","token":"e5fb6719d873c0bad5f587f6e0c7644a","isArchived":false}
+ Response was on : 2019-03-11T08:59:38.393Z
+ Res: {"status":200,"message":"Master data added successfully."}
+this is the end line 
+
+ Request was on : 2019-03-11T09:02:16.814Z
+ Req: e5fb6719d873c0bad5f587f6e0c7644a
+ Response was on : 2019-03-11T09:02:16.814Z
+ Res: "checking token succeed."
+this is the end line 
+
+ Request was on : 2019-03-11T09:02:16.825Z
+ Req: /api/v1/master/addStates 
+ Req body was: {"name":"qaq","parent":"1","description":"sewtre","token":"e5fb6719d873c0bad5f587f6e0c7644a","isArchived":false}
+ Response was on : 2019-03-11T09:02:16.825Z
+ Res: {"status":200,"message":"Master data added successfully."}
+this is the end line 
+
+ Request was on : 2019-03-11T09:02:24.354Z
+ Req: e5fb6719d873c0bad5f587f6e0c7644a
+ Response was on : 2019-03-11T09:02:24.354Z
+ Res: "checking token succeed."
+this is the end line 
+
+ Request was on : 2019-03-11T09:02:24.356Z
+ Req: /api/v1/master/stateById 
+ Req body was: {"name":"qaq","parent":"1","description":"sewtre","token":"e5fb6719d873c0bad5f587f6e0c7644a","isArchived":false,"stateId":"5c47f9a0105d530f969936bc"}
+ Response was on : 2019-03-11T09:02:24.356Z
+ Res: {"status":1,"data":{"name":" Aberconwy and Colwyn","description":"good state","value":"1","parent":"1","isArchived":false,"_id":"5c47f9a0105d530f969936bc","createdDate":"2019-01-23T05:20:32.963Z","updatedDate":"2019-02-07T14:40:37.661Z","__v":0,"updatedBy":"5bc46aa390ca385b460fabf4"}}
+this is the end line 
+
+ Request was on : 2019-03-11T09:02:27.841Z
+ Req: e5fb6719d873c0bad5f587f6e0c7644a
+ Response was on : 2019-03-11T09:02:27.841Z
+ Res: "checking token succeed."
+this is the end line 
+
+ Request was on : 2019-03-11T09:02:27.852Z
+ Req: /api/v1/master/updateStates 
+ Req body was: {"name":" Aberconwy and Colwyn","parent":"1","description":"good state","isArchived":false,"token":"e5fb6719d873c0bad5f587f6e0c7644a","stateId":"5c47f9a0105d530f969936bc"}
+ Response was on : 2019-03-11T09:02:27.852Z
+ Res: {"status":200,"message":"Master data added successfully."}
+this is the end line 
+
+ Request was on : 2019-03-11T09:02:38.709Z
+ Req: e5fb6719d873c0bad5f587f6e0c7644a
+ Response was on : 2019-03-11T09:02:38.709Z
+ Res: "checking token succeed."
+this is the end line 
+
+ Request was on : 2019-03-11T09:02:38.717Z
+ Req: /api/v1/master/addStates 
+ Req body was: {"name":"terge","parent":"2","description":"ergerg","token":"e5fb6719d873c0bad5f587f6e0c7644a","isArchived":false}
+ Response was on : 2019-03-11T09:02:38.717Z
+ Res: {"status":200,"message":"Master data added successfully."}
+this is the end line 
+
+ Request was on : 2019-03-11T09:02:51.777Z
+ Req: e5fb6719d873c0bad5f587f6e0c7644a
+ Response was on : 2019-03-11T09:02:51.777Z
+ Res: "checking token succeed."
+this is the end line 
+
+ Request was on : 2019-03-11T09:02:51.790Z
+ Req: /api/v1/master/addCities 
+ Req body was: {"name":"ertg","parent":"2","description":"ergerg","token":"e5fb6719d873c0bad5f587f6e0c7644a"}
+ Response was on : 2019-03-11T09:02:51.790Z
+ Res: {"status":200,"message":"Master data added successfully."}
+this is the end line 
+
+ Request was on : 2019-03-11T09:02:55.239Z
+ Req: e5fb6719d873c0bad5f587f6e0c7644a
+ Response was on : 2019-03-11T09:02:55.239Z
+ Res: "checking token succeed."
+this is the end line 
+
+ Request was on : 2019-03-11T09:02:55.243Z
+ Req: /api/v1/master/cityById 
+ Req body was: {"name":"ertg","parent":"2","description":"ergerg","token":"e5fb6719d873c0bad5f587f6e0c7644a","cityId":"5c47fa82105d530f969936be"}
+ Response was on : 2019-03-11T09:02:55.243Z
+ Res: {"status":1,"data":{"name":"Colwyn","description":"nyc","value":"5c47fa82105d530f969936be","parent":"1","isArchived":false,"_id":"5c47fa82105d530f969936be","createdDate":"2019-01-23T05:24:18.165Z","updatedDate":"2019-03-11T09:02:27.855Z","__v":0,"updatedBy":"5c7cc784334bd328daff66ea"}}
+this is the end line 
+
+ Request was on : 2019-03-11T09:02:57.601Z
+ Req: e5fb6719d873c0bad5f587f6e0c7644a
+ Response was on : 2019-03-11T09:02:57.601Z
+ Res: "checking token succeed."
+this is the end line 
+
+ Request was on : 2019-03-11T09:02:57.616Z
+ Req: /api/v1/master/updateCities 
+ Req body was: {"name":"Colwyn","parent":"1","description":"nyc","token":"e5fb6719d873c0bad5f587f6e0c7644a","cityId":"5c47fa82105d530f969936be","isArchived":false}
+ Response was on : 2019-03-11T09:02:57.616Z
+ Res: {"status":200,"message":"Master data added successfully."}
+this is the end line 
+
+ Request was on : 2019-03-11T09:03:05.315Z
+ Req: e5fb6719d873c0bad5f587f6e0c7644a
+ Response was on : 2019-03-11T09:03:05.315Z
+ Res: "checking token succeed."
+this is the end line 
+
+ Request was on : 2019-03-11T09:03:05.324Z
+ Req: /api/v1/master/addCities 
+ Req body was: {"name":"111","parent":"4","description":"rtg","token":"e5fb6719d873c0bad5f587f6e0c7644a"}
+ Response was on : 2019-03-11T09:03:05.324Z
+ Res: {"status":200,"message":"Master data added successfully."}
+this is the end line 
+
+ Request was on : 2019-03-11T09:07:48.063Z
+ Req: e5fb6719d873c0bad5f587f6e0c7644a
+ Response was on : 2019-03-11T09:07:48.063Z
+ Res: "checking token succeed."
+this is the end line 
+
+ Request was on : 2019-03-11T09:35:47.261Z
+ Req: e5fb6719d873c0bad5f587f6e0c7644a
+ Response was on : 2019-03-11T09:35:47.261Z
+ Res: "checking token succeed."
+this is the end line 
+
+ Request was on : 2019-03-11T09:46:12.785Z
+ Req: e5fb6719d873c0bad5f587f6e0c7644a
+ Response was on : 2019-03-11T09:46:12.785Z
+ Res: "checking token succeed."
+this is the end line 
+
+ Request was on : 2019-03-11T09:46:15.905Z
+ Req: e5fb6719d873c0bad5f587f6e0c7644a
+ Response was on : 2019-03-11T09:46:15.905Z
+ Res: "checking token succeed."
+this is the end line 
+
+ Request was on : 2019-03-11T09:46:15.930Z
+ Req: /api/v1/master/testCenterList 
+ Req body was: {"token":"e5fb6719d873c0bad5f587f6e0c7644a","page":2}
+ Response was on : 2019-03-11T09:46:15.930Z
+ Res: {"status":1,"data":[{"name":"somktr","contactNumber":"+91 444546546","timing":"01:00To04:00","email":"rohitvemula@gmail.com","description":"","testType":"Learner","isArchived":false,"_id":"5c47252c17ef2e3577918275","addressId":{"name":"","addressLineOne":"67867","addressLineTwo":"","city":"1","state":"4","pincode":"65768","country":"4","lat":"37.5536789","long":"-100.48462269999999","addressType":"PRIMARY","addressOf":"MASTER_DATA","isArchived":false,"_id":"5c47252c17ef2e3577918274","createdDate":"2019-01-22T14:14:04.370Z","updatedDate":"2019-01-22T14:14:04.370Z","__v":0},"createdDate":"2019-01-22T14:14:04.370Z","updatedDate":"2019-01-22T14:14:04.370Z","__v":0},{"name":"rrrrrrrrrrrrrrrr","contactNumber":"+91 07982637330","timing":"02:00To07:00","email":"som@gmail.com","description":null,"testType":"Learner","isArchived":false,"_id":"5c472616fc792c369c7cf1a3","addressId":{"name":null,"addressLineOne":"7, Sector Road, South City I, Sector 30, Gurgaon, Haryana, India","addressLineTwo":"","city":"1","state":"4","pincode":"201301","country":"4","lat":"28.4639031","long":"77.06320210000001","addressType":"PRIMARY","addressOf":"MASTER_DATA","isArchived":false,"_id":"5c472616fc792c369c7cf1a2","createdDate":"2019-01-22T14:17:58.848Z","updatedDate":"2019-01-22T14:17:58.848Z","__v":0},"createdDate":"2019-01-22T14:17:58.849Z","updatedDate":"2019-01-22T14:17:58.849Z","__v":0},{"name":"Abhay12 ttttttttt","contactNumber":"+91 09161565623","timing":"01:00To03:00","email":"abhay.gupta@trignodev.com","description":"","testType":"Learner","isArchived":false,"_id":"5c472942fc792c369c7cf1a5","addressId":{"name":"","addressLineOne":"t","addressLineTwo":"","city":"5","state":"4","pincode":"110097","country":"4","lat":"37.09024","long":"-95.71289100000001","addressType":"PRIMARY","addressOf":"MASTER_DATA","isArchived":false,"_id":"5c472942fc792c369c7cf1a4","createdDate":"2019-01-22T14:31:30.428Z","updatedDate":"2019-01-22T14:31:30.428Z","__v":0},"createdDate":"2019-01-22T14:31:30.429Z","updatedDate":"2019-01-22T14:31:30.429Z","__v":0},{"name":"sdsdsds","contactNumber":"+91 07982637330","timing":"02:00To03:00","email":"som@gmail.com","description":null,"testType":"Learner","isArchived":false,"_id":"5c472baafc792c369c7cf1a7","addressId":{"name":null,"addressLineOne":"7, Sector Road, South City I, Sector 30, Gurgaon, Haryana, India","addressLineTwo":"","city":"1","state":"1","pincode":"201301","country":"1","lat":"28.4639031","long":"77.06320210000001","addressType":"PRIMARY","addressOf":"MASTER_DATA","isArchived":false,"_id":"5c472baafc792c369c7cf1a6","createdDate":"2019-01-22T14:41:46.910Z","updatedDate":"2019-01-22T14:41:46.910Z","__v":0},"createdDate":"2019-01-22T14:41:46.910Z","updatedDate":"2019-01-22T14:41:46.910Z","__v":0},{"name":"khoda coloni","contactNumber":"+91 6586846584","timing":"05:00To07:00","email":"som@gmail.com","description":"","testType":"Learner","isArchived":false,"_id":"5c481367b90d191dbeb14ba3","addressId":{"name":"","addressLineOne":"khoda coloni","addressLineTwo":"","city":"3","state":"3","pincode":"201301","country":"2","lat":"28.6155722","long":"77.34679959999994","addressType":"PRIMARY","addressOf":"MASTER_DATA","isArchived":false,"_id":"5c481367b90d191dbeb14ba2","createdDate":"2019-01-23T07:10:31.472Z","updatedDate":"2019-01-23T07:10:31.472Z","__v":0},"createdDate":"2019-01-23T07:10:31.473Z","updatedDate":"2019-01-23T07:10:31.473Z","__v":0},{"name":"rohit vemulaqqqqqqqq","contactNumber":"+91 444546546","timing":"10:00To04:00","email":"rohitvemula@gmail.com","description":"","testType":"Learner","isArchived":false,"_id":"5c4838c9eafae729643dacde","addressId":{"name":"","addressLineOne":"67867","addressLineTwo":"","city":"8","state":"3","pincode":"65768","country":"2","lat":"37.5536789","long":"-100.48462269999999","addressType":"PRIMARY","addressOf":"MASTER_DATA","isArchived":false,"_id":"5c4838c9eafae729643dacdd","createdDate":"2019-01-23T09:50:01.017Z","updatedDate":"2019-01-23T09:50:01.017Z","__v":0},"createdDate":"2019-01-23T09:50:01.017Z","updatedDate":"2019-01-23T09:50:01.017Z","__v":0},{"name":"rohit vemula","contactNumber":"+91 44454654654","timing":"02:00To05:00","email":"rohitvemula@gmail.com","description":null,"testType":"Learner","isArchived":false,"_id":"5c4ef373e49de2478845d8de","addressId":{"name":null,"addressLineOne":"67867","addressLineTwo":"","city":"3","state":"3","pincode":"65768","country":"2","lat":"37.5536789","long":"-100.48462269999999","addressType":"PRIMARY","addressOf":"MASTER_DATA","isArchived":false,"_id":"5c4ef373e49de2478845d8dd","createdDate":"2019-01-28T12:20:03.599Z","updatedDate":"2019-01-28T12:20:03.599Z","__v":0},"createdDate":"2019-01-28T12:20:03.600Z","updatedDate":"2019-01-28T12:20:03.600Z","__v":0},{"name":"erert","contactNumber":"+44 5565746578676","timing":"03:00To04:00","email":"","description":null,"testType":"Learner","isArchived":false,"_id":"5c57d02eb6d1c70f050c7f8a","addressId":{"name":null,"addressLineOne":"111","addressLineTwo":"","city":"2","state":"2","pincode":"1116","country":"1","lat":"37.7873438","long":"-122.39949250000001","addressType":"PRIMARY","addressOf":"MASTER_DATA","isArchived":false,"_id":"5c57d02eb6d1c70f050c7f89","createdBy":"5bc8d9ab507520741e088e21","createdDate":"2019-02-04T05:39:58.248Z","updatedDate":"2019-02-04T05:40:19.321Z","__v":0,"updatedBy":"5bc8d9ab507520741e088e21"},"createdBy":"5bc8d9ab507520741e088e21","createdDate":"2019-02-04T05:39:58.249Z","updatedDate":"2019-02-04T05:40:19.325Z","__v":0,"updatedBy":"5bc8d9ab507520741e088e21"},{"name":"1111","contactNumber":"+91 454534534","timing":"02:00To09:00","email":"","description":null,"testType":"Learner","isArchived":false,"_id":"5c582911ac105b2dc04a5164","addressId":{"name":null,"addressLineOne":"65778","addressLineTwo":"","city":"3","state":"3","pincode":"456757","country":"2","lat":"36.5269394","long":"-91.27947440000003","addressType":"PRIMARY","addressOf":"MASTER_DATA","isArchived":false,"_id":"5c582911ac105b2dc04a5163","createdBy":"5bc7587b1d7b314cebcf3f35","createdDate":"2019-02-04T11:59:13.937Z","updatedDate":"2019-02-04T11:59:38.728Z","__v":0,"updatedBy":"5bc7587b1d7b314cebcf3f35"},"createdBy":"5bc7587b1d7b314cebcf3f35","createdDate":"2019-02-04T11:59:13.937Z","updatedDate":"2019-02-04T11:59:38.731Z","__v":0,"updatedBy":"5bc7587b1d7b314cebcf3f35"}],"totalPages":29}
+this is the end line 
+
+ Request was on : 2019-03-11T09:46:18.039Z
+ Req: e5fb6719d873c0bad5f587f6e0c7644a
+ Response was on : 2019-03-11T09:46:18.039Z
+ Res: "checking token succeed."
+this is the end line 
+
+ Request was on : 2019-03-11T09:46:18.067Z
+ Req: /api/v1/master/testCenterById 
+ Req body was: {"testCenterId":"5c582911ac105b2dc04a5164","token":"e5fb6719d873c0bad5f587f6e0c7644a"}
+ Response was on : 2019-03-11T09:46:18.067Z
+ Res: {"status":1,"data":[{"name":"1111","contactNumber":"+91 454534534","timing":"02:00To09:00","email":"","description":null,"testType":"Learner","isArchived":false,"_id":"5c582911ac105b2dc04a5164","addressId":{"name":null,"addressLineOne":"65778","addressLineTwo":"","city":"3","state":"3","pincode":"456757","country":"2","lat":"36.5269394","long":"-91.27947440000003","addressType":"PRIMARY","addressOf":"MASTER_DATA","isArchived":false,"_id":"5c582911ac105b2dc04a5163","createdBy":"5bc7587b1d7b314cebcf3f35","createdDate":"2019-02-04T11:59:13.937Z","updatedDate":"2019-02-04T11:59:38.728Z","__v":0,"updatedBy":"5bc7587b1d7b314cebcf3f35"},"createdBy":"5bc7587b1d7b314cebcf3f35","createdDate":"2019-02-04T11:59:13.937Z","updatedDate":"2019-02-04T11:59:38.731Z","__v":0,"updatedBy":"5bc7587b1d7b314cebcf3f35"}]}
+this is the end line 
+
+ Request was on : 2019-03-11T09:47:53.790Z
+ Req: e5fb6719d873c0bad5f587f6e0c7644a
+ Response was on : 2019-03-11T09:47:53.790Z
+ Res: "checking token succeed."
+this is the end line 
+
+ Request was on : 2019-03-11T09:47:53.797Z
+ Req: /api/v1/master/testCenterById 
+ Req body was: {"testCenterId":"5c582911ac105b2dc04a5164","token":"e5fb6719d873c0bad5f587f6e0c7644a"}
+ Response was on : 2019-03-11T09:47:53.797Z
+ Res: {"status":1,"data":[{"name":"1111","contactNumber":"+91 454534534","timing":"02:00To09:00","email":"","description":null,"testType":"Learner","isArchived":false,"_id":"5c582911ac105b2dc04a5164","addressId":{"name":null,"addressLineOne":"65778","addressLineTwo":"","city":"3","state":"3","pincode":"456757","country":"2","lat":"36.5269394","long":"-91.27947440000003","addressType":"PRIMARY","addressOf":"MASTER_DATA","isArchived":false,"_id":"5c582911ac105b2dc04a5163","createdBy":"5bc7587b1d7b314cebcf3f35","createdDate":"2019-02-04T11:59:13.937Z","updatedDate":"2019-02-04T11:59:38.728Z","__v":0,"updatedBy":"5bc7587b1d7b314cebcf3f35"},"createdBy":"5bc7587b1d7b314cebcf3f35","createdDate":"2019-02-04T11:59:13.937Z","updatedDate":"2019-02-04T11:59:38.731Z","__v":0,"updatedBy":"5bc7587b1d7b314cebcf3f35"}]}
+this is the end line 
+
+ Request was on : 2019-03-11T09:48:38.318Z
+ Req: e5fb6719d873c0bad5f587f6e0c7644a
+ Response was on : 2019-03-11T09:48:38.318Z
+ Res: "checking token succeed."
+this is the end line 
+
+ Request was on : 2019-03-11T09:48:38.323Z
+ Req: /api/v1/master/testCenterById 
+ Req body was: {"testCenterId":"5c582911ac105b2dc04a5164","token":"e5fb6719d873c0bad5f587f6e0c7644a"}
+ Response was on : 2019-03-11T09:48:38.323Z
+ Res: {"status":1,"data":[{"name":"1111","contactNumber":"+91 454534534","timing":"02:00To09:00","email":"","description":null,"testType":"Learner","isArchived":false,"_id":"5c582911ac105b2dc04a5164","addressId":{"name":null,"addressLineOne":"65778","addressLineTwo":"","city":"3","state":"3","pincode":"456757","country":"2","lat":"36.5269394","long":"-91.27947440000003","addressType":"PRIMARY","addressOf":"MASTER_DATA","isArchived":false,"_id":"5c582911ac105b2dc04a5163","createdBy":"5bc7587b1d7b314cebcf3f35","createdDate":"2019-02-04T11:59:13.937Z","updatedDate":"2019-02-04T11:59:38.728Z","__v":0,"updatedBy":"5bc7587b1d7b314cebcf3f35"},"createdBy":"5bc7587b1d7b314cebcf3f35","createdDate":"2019-02-04T11:59:13.937Z","updatedDate":"2019-02-04T11:59:38.731Z","__v":0,"updatedBy":"5bc7587b1d7b314cebcf3f35"}]}
+this is the end line 
+
+ Request was on : 2019-03-11T09:49:18.491Z
+ Req: e5fb6719d873c0bad5f587f6e0c7644a
+ Response was on : 2019-03-11T09:49:18.491Z
+ Res: "checking token succeed."
+this is the end line 
+
+ Request was on : 2019-03-11T09:49:18.501Z
+ Req: /api/v1/master/updateTestCenter 
+ Req body was: {"timing":"02:00To09:00","testCenterId":"5c582911ac105b2dc04a5164","testCenterName":"1111","contactNumber":"+91 454534534","email":"","testType":"Learner","token":"e5fb6719d873c0bad5f587f6e0c7644a","isArchived":false,"address":{"city":"5c47fba122293312657546b9","state":"3","country":"2","lat":36.5269394,"long":-91.27947440000003,"pincode":"456757","addressLineOne":"65778","addressId":"5c582911ac105b2dc04a5163","addressOf":"MASTER_DATA"}}
+ Response was on : 2019-03-11T09:49:18.501Z
+ Res: {"status":1,"message":"Test Center Updated Successfully"}
+this is the end line 
+
+ Request was on : 2019-03-11T09:49:27.530Z
+ Req: e5fb6719d873c0bad5f587f6e0c7644a
+ Response was on : 2019-03-11T09:49:27.530Z
+ Res: "checking token succeed."
+this is the end line 
+
+ Request was on : 2019-03-11T09:49:27.537Z
+ Req: /api/v1/master/testCenterById 
+ Req body was: {"testCenterId":"5c582911ac105b2dc04a5164","token":"e5fb6719d873c0bad5f587f6e0c7644a"}
+ Response was on : 2019-03-11T09:49:27.537Z
+ Res: {"status":1,"data":[{"name":"1111","contactNumber":"+91 454534534","timing":"02:00To09:00","email":"","description":null,"testType":"Learner","isArchived":false,"_id":"5c582911ac105b2dc04a5164","addressId":{"name":null,"addressLineOne":"65778","addressLineTwo":"","city":"5c47fba122293312657546b9","state":"3","pincode":"456757","country":"2","lat":"36.5269394","long":"-91.27947440000003","addressType":"PRIMARY","addressOf":"MASTER_DATA","isArchived":false,"_id":"5c582911ac105b2dc04a5163","createdBy":"5bc7587b1d7b314cebcf3f35","createdDate":"2019-02-04T11:59:13.937Z","updatedDate":"2019-03-11T09:49:18.493Z","__v":0,"updatedBy":"5c7cc784334bd328daff66ea"},"createdBy":"5bc7587b1d7b314cebcf3f35","createdDate":"2019-02-04T11:59:13.937Z","updatedDate":"2019-03-11T09:49:18.496Z","__v":0,"updatedBy":"5c7cc784334bd328daff66ea"}]}
+this is the end line 
+
+ Request was on : 2019-03-11T09:49:40.000Z
+ Req: e5fb6719d873c0bad5f587f6e0c7644a
+ Response was on : 2019-03-11T09:49:40.000Z
+ Res: "checking token succeed."
+this is the end line 
+
+ Request was on : 2019-03-11T09:49:40.009Z
+ Req: /api/v1/master/updateTestCenter 
+ Req body was: {"timing":"02:00To09:00","testCenterId":"5c582911ac105b2dc04a5164","testCenterName":"1111","contactNumber":"+44 454534534","email":"","testType":"Learner","token":"e5fb6719d873c0bad5f587f6e0c7644a","isArchived":false,"address":{"city":"5c47fa82105d530f969936be","state":"1","country":"1","lat":36.5269394,"long":-91.27947440000003,"pincode":"456757","addressLineOne":"65778","addressId":"5c582911ac105b2dc04a5163","addressOf":"MASTER_DATA"}}
+ Response was on : 2019-03-11T09:49:40.009Z
+ Res: {"status":1,"message":"Test Center Updated Successfully"}
+this is the end line 
+
+ Request was on : 2019-03-11T09:49:47.907Z
+ Req: e5fb6719d873c0bad5f587f6e0c7644a
+ Response was on : 2019-03-11T09:49:47.907Z
+ Res: "checking token succeed."
+this is the end line 
+
+ Request was on : 2019-03-11T09:49:47.915Z
+ Req: /api/v1/master/testCenterById 
+ Req body was: {"testCenterId":"5c582911ac105b2dc04a5164","token":"e5fb6719d873c0bad5f587f6e0c7644a"}
+ Response was on : 2019-03-11T09:49:47.915Z
+ Res: {"status":1,"data":[{"name":"1111","contactNumber":"+44 454534534","timing":"02:00To09:00","email":"","description":null,"testType":"Learner","isArchived":false,"_id":"5c582911ac105b2dc04a5164","addressId":{"name":null,"addressLineOne":"65778","addressLineTwo":"","city":"5c47fa82105d530f969936be","state":"1","pincode":"456757","country":"1","lat":"36.5269394","long":"-91.27947440000003","addressType":"PRIMARY","addressOf":"MASTER_DATA","isArchived":false,"_id":"5c582911ac105b2dc04a5163","createdBy":"5bc7587b1d7b314cebcf3f35","createdDate":"2019-02-04T11:59:13.937Z","updatedDate":"2019-03-11T09:49:40.002Z","__v":0,"updatedBy":"5c7cc784334bd328daff66ea"},"createdBy":"5bc7587b1d7b314cebcf3f35","createdDate":"2019-02-04T11:59:13.937Z","updatedDate":"2019-03-11T09:49:40.004Z","__v":0,"updatedBy":"5c7cc784334bd328daff66ea"}]}
+this is the end line 
+
+ Request was on : 2019-03-11T09:51:06.778Z
+ Req: e5fb6719d873c0bad5f587f6e0c7644a
+ Response was on : 2019-03-11T09:51:06.778Z
+ Res: "checking token succeed."
+this is the end line 
+
+ Request was on : 2019-03-11T09:51:06.785Z
+ Req: /api/v1/master/testCenterById 
+ Req body was: {"testCenterId":"5c582911ac105b2dc04a5164","token":"e5fb6719d873c0bad5f587f6e0c7644a"}
+ Response was on : 2019-03-11T09:51:06.785Z
+ Res: {"status":1,"data":[{"name":"1111","contactNumber":"+44 454534534","timing":"02:00To09:00","email":"","description":null,"testType":"Learner","isArchived":false,"_id":"5c582911ac105b2dc04a5164","addressId":{"name":null,"addressLineOne":"65778","addressLineTwo":"","city":"5c47fa82105d530f969936be","state":"1","pincode":"456757","country":"1","lat":"36.5269394","long":"-91.27947440000003","addressType":"PRIMARY","addressOf":"MASTER_DATA","isArchived":false,"_id":"5c582911ac105b2dc04a5163","createdBy":"5bc7587b1d7b314cebcf3f35","createdDate":"2019-02-04T11:59:13.937Z","updatedDate":"2019-03-11T09:49:40.002Z","__v":0,"updatedBy":"5c7cc784334bd328daff66ea"},"createdBy":"5bc7587b1d7b314cebcf3f35","createdDate":"2019-02-04T11:59:13.937Z","updatedDate":"2019-03-11T09:49:40.004Z","__v":0,"updatedBy":"5c7cc784334bd328daff66ea"}]}
+this is the end line 
+
+ Request was on : 2019-03-11T09:52:46.931Z
+ Req: e5fb6719d873c0bad5f587f6e0c7644a
+ Response was on : 2019-03-11T09:52:46.931Z
+ Res: "checking token succeed."
+this is the end line 
+
+ Request was on : 2019-03-11T09:52:46.936Z
+ Req: /api/v1/master/testCenterById 
+ Req body was: {"testCenterId":"5c582911ac105b2dc04a5164","token":"e5fb6719d873c0bad5f587f6e0c7644a"}
+ Response was on : 2019-03-11T09:52:46.936Z
+ Res: {"status":1,"data":[{"name":"1111","contactNumber":"+44 454534534","timing":"02:00To09:00","email":"","description":null,"testType":"Learner","isArchived":false,"_id":"5c582911ac105b2dc04a5164","addressId":{"name":null,"addressLineOne":"65778","addressLineTwo":"","city":"5c47fa82105d530f969936be","state":"1","pincode":"456757","country":"1","lat":"36.5269394","long":"-91.27947440000003","addressType":"PRIMARY","addressOf":"MASTER_DATA","isArchived":false,"_id":"5c582911ac105b2dc04a5163","createdBy":"5bc7587b1d7b314cebcf3f35","createdDate":"2019-02-04T11:59:13.937Z","updatedDate":"2019-03-11T09:49:40.002Z","__v":0,"updatedBy":"5c7cc784334bd328daff66ea"},"createdBy":"5bc7587b1d7b314cebcf3f35","createdDate":"2019-02-04T11:59:13.937Z","updatedDate":"2019-03-11T09:49:40.004Z","__v":0,"updatedBy":"5c7cc784334bd328daff66ea"}]}
+this is the end line 
+
+ Request was on : 2019-03-11T09:56:38.324Z
+ Req: e5fb6719d873c0bad5f587f6e0c7644a
+ Response was on : 2019-03-11T09:56:38.324Z
+ Res: "checking token succeed."
+this is the end line 
+
+ Request was on : 2019-03-11T09:56:38.330Z
+ Req: /api/v1/master/testCenterById 
+ Req body was: {"testCenterId":"5c582911ac105b2dc04a5164","token":"e5fb6719d873c0bad5f587f6e0c7644a"}
+ Response was on : 2019-03-11T09:56:38.330Z
+ Res: {"status":1,"data":[{"name":"1111","contactNumber":"+44 454534534","timing":"02:00To09:00","email":"","description":null,"testType":"Learner","isArchived":false,"_id":"5c582911ac105b2dc04a5164","addressId":{"name":null,"addressLineOne":"65778","addressLineTwo":"","city":"5c47fa82105d530f969936be","state":"1","pincode":"456757","country":"1","lat":"36.5269394","long":"-91.27947440000003","addressType":"PRIMARY","addressOf":"MASTER_DATA","isArchived":false,"_id":"5c582911ac105b2dc04a5163","createdBy":"5bc7587b1d7b314cebcf3f35","createdDate":"2019-02-04T11:59:13.937Z","updatedDate":"2019-03-11T09:49:40.002Z","__v":0,"updatedBy":"5c7cc784334bd328daff66ea"},"createdBy":"5bc7587b1d7b314cebcf3f35","createdDate":"2019-02-04T11:59:13.937Z","updatedDate":"2019-03-11T09:49:40.004Z","__v":0,"updatedBy":"5c7cc784334bd328daff66ea"}]}
+this is the end line 
+
+ Request was on : 2019-03-11T10:04:17.191Z
+ Req: e5fb6719d873c0bad5f587f6e0c7644a
+ Response was on : 2019-03-11T10:04:17.191Z
+ Res: "checking token succeed."
+this is the end line 
+
+ Request was on : 2019-03-11T10:04:17.198Z
+ Req: /api/v1/master/testCenterById 
+ Req body was: {"testCenterId":"5c582911ac105b2dc04a5164","token":"e5fb6719d873c0bad5f587f6e0c7644a"}
+ Response was on : 2019-03-11T10:04:17.198Z
+ Res: {"status":1,"data":[{"name":"1111","contactNumber":"+44 454534534","timing":"02:00To09:00","email":"","description":null,"testType":"Learner","isArchived":false,"_id":"5c582911ac105b2dc04a5164","addressId":{"name":null,"addressLineOne":"65778","addressLineTwo":"","city":"5c47fa82105d530f969936be","state":"1","pincode":"456757","country":"1","lat":"36.5269394","long":"-91.27947440000003","addressType":"PRIMARY","addressOf":"MASTER_DATA","isArchived":false,"_id":"5c582911ac105b2dc04a5163","createdBy":"5bc7587b1d7b314cebcf3f35","createdDate":"2019-02-04T11:59:13.937Z","updatedDate":"2019-03-11T09:49:40.002Z","__v":0,"updatedBy":"5c7cc784334bd328daff66ea"},"createdBy":"5bc7587b1d7b314cebcf3f35","createdDate":"2019-02-04T11:59:13.937Z","updatedDate":"2019-03-11T09:49:40.004Z","__v":0,"updatedBy":"5c7cc784334bd328daff66ea"}]}
+this is the end line 
+
+ Request was on : 2019-03-11T10:06:58.095Z
+ Req: e5fb6719d873c0bad5f587f6e0c7644a
+ Response was on : 2019-03-11T10:06:58.095Z
+ Res: "checking token succeed."
+this is the end line 
+
+ Request was on : 2019-03-11T10:06:58.100Z
+ Req: /api/v1/master/testCenterById 
+ Req body was: {"testCenterId":"5c582911ac105b2dc04a5164","token":"e5fb6719d873c0bad5f587f6e0c7644a"}
+ Response was on : 2019-03-11T10:06:58.100Z
+ Res: {"status":1,"data":[{"name":"1111","contactNumber":"+44 454534534","timing":"02:00To09:00","email":"","description":null,"testType":"Learner","isArchived":false,"_id":"5c582911ac105b2dc04a5164","addressId":{"name":null,"addressLineOne":"65778","addressLineTwo":"","city":"5c47fa82105d530f969936be","state":"1","pincode":"456757","country":"1","lat":"36.5269394","long":"-91.27947440000003","addressType":"PRIMARY","addressOf":"MASTER_DATA","isArchived":false,"_id":"5c582911ac105b2dc04a5163","createdBy":"5bc7587b1d7b314cebcf3f35","createdDate":"2019-02-04T11:59:13.937Z","updatedDate":"2019-03-11T09:49:40.002Z","__v":0,"updatedBy":"5c7cc784334bd328daff66ea"},"createdBy":"5bc7587b1d7b314cebcf3f35","createdDate":"2019-02-04T11:59:13.937Z","updatedDate":"2019-03-11T09:49:40.004Z","__v":0,"updatedBy":"5c7cc784334bd328daff66ea"}]}
+this is the end line 
+
+ Request was on : 2019-03-11T10:07:43.428Z
+ Req: e5fb6719d873c0bad5f587f6e0c7644a
+ Response was on : 2019-03-11T10:07:43.428Z
+ Res: "checking token succeed."
+this is the end line 
+
+ Request was on : 2019-03-11T12:29:33.073Z
+ Req: e5fb6719d873c0bad5f587f6e0c7644a
+ Response was on : 2019-03-11T12:29:33.073Z
+ Res: "checking token succeed."
+this is the end line 

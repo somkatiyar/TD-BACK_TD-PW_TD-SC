@@ -1,0 +1,216 @@
+
+body {
+    font-family: Arial;
+    color: white;
+}
+
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    /* overflow-x: hidden; */
+    padding-top: 20px;
+}
+
+.left {
+    left: 0;
+    background-color:#fff;
+    background-size: cover;
+    background-repeat: no-repeat !important;
+}
+
+.right {
+    right: 0;
+    background-color: #fff;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.centered img {
+    /* width: 100%; */
+    border-radius: 50%;
+}
+input.mod_input {
+    margin: 0 !important;
+}
+
+span  {
+  
+    width: 100%;
+    color: red;
+    font-size: 12px;
+    font-style: italic;
+    text-align: left;
+    height: 1em;
+}
+.forget {
+    color: #f6a11c;
+    cursor: pointer;
+
+}
+
+.card-body{
+    width: 328px;
+    background: #fff !important;
+    padding: 24px !important;
+    box-shadow: -2px 2px 15px #ddd !important;
+    border-radius: 0.4em !important;
+    margin-top: 106px;
+    margin-left: 60px;
+}
+
+.left_div{
+    background-image: url('/assets/images/section.png');
+    height: calc(100vh - 56px);
+    max-height: calc(100vh - 56px);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.right_div{
+    height: calc(100vh - 56px);
+    max-height: calc(100vh - 56px);
+    position: relative;
+    width: 100%;
+}
+
+img{
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 2em;
+}
+
+.title{
+    font-family: 'Cabin', sans-serif;
+    font-size: 21px;
+    margin-bottom: 10px;
+    color: #555555;
+}
+
+.btn{
+    width: 150px;
+    background: #F9A11B;
+    outline: none;
+    border: none;
+    font-family: 'Cabin', sans-serif;
+    color: white;
+    border-radius: 7px;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+.small-title{
+    font-size: 16px;
+    margin: 15px 0px 5px 0px;
+}
+
+.right-content{
+    position: absolute;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+
+.modal-content{
+    padding: 60px;
+    max-width: 550px;
+    margin: auto;
+    position: relative;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+    border-radius: 15px;
+    padding-bottom: 10px;
+}
+
+.close-icon{
+    position: absolute;
+    cursor: pointer;
+    right: 28px;
+    top: 15px;
+    height: 20px;
+}
+
+.modal-title{
+    font-size: 23px;
+    margin-bottom: 30px;
+}
+
+
+
+.input-field{
+    display: block;
+    margin: 0px;
+    border: 1px solid #c2c2c2;
+    border-radius: 7px;
+    padding: 10px;
+    padding-left: 23px;
+    outline: none;
+    width: 100%;
+    color: #555555;
+    display: block;
+    margin: 0;
+    width: 100%;
+}
+
+.login-btn{
+    display: block;
+    width: 72%;
+    background: #F9A11B;
+    border: none;
+    font-family: 'Cabin', sans-serif;
+    color: white;
+    border-radius: 7px;
+    padding: 10px 0px;
+    text-align: center;
+    margin: 9px auto;
+    margin-bottom: 20px;
+    cursor: pointer
+}
+
+.forgot{
+    cursor: pointer;
+    color: #f6a11c;
+    display: inline;
+}
+.forget[_ngcontent-c5] {
+    color: #f6a11c;
+    cursor: pointer;
+}
+
+.signup-btn{
+    display: block;
+    font-family: 'Cabin', sans-serif;
+    color: #F9A11B !important;
+    border-radius: 7px;
+    border: 1px solid #F9A11B;
+    padding: 10px 0px;
+    text-align: center;
+    margin: 20px auto;
+    cursor: pointer
+}
+
+.bottom-section{
+    width: 74%;
+    margin: auto;
+}
+
+.viewPassword {
+    height: 25px;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+
+.passwordImageWrap {
+    position: relative;
+}
+

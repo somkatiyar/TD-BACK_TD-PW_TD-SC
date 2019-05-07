@@ -1,0 +1,71 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Profile
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card class="welcome-card">
+      <ion-img [src]="'/assets/images/userplaceholder.png'"></ion-img>
+
+    <ion-card-header>
+      <ion-row>
+          <ion-col size=6>
+              <ion-card-title>Proile</ion-card-title>
+          </ion-col>
+          <ion-col size=6>
+          <a (click)="changePasswordModel()">Change Password</a>
+          </ion-col>
+      </ion-row>
+
+     
+    </ion-card-header>
+    <ion-card-content>
+      <ion-grid>
+        <ion-row>
+          <ion-col><b>Email Address</b></ion-col>
+          <ion-col>{{profileData ? profileData.EMailAddress : "NA"}}</ion-col>
+        </ion-row>
+
+        <ion-row>
+          <ion-col><b>Office Name:</b></ion-col>
+          <ion-col>{{profileData ? profileData.OfficeName : "NA"}}</ion-col>
+        </ion-row>
+
+        <ion-row>
+          <ion-col><b>Address:</b></ion-col>
+          <ion-col>{{profileData ? profileData.Address : "NA"}}</ion-col>
+        </ion-row>
+
+        <ion-row>
+          <ion-col><b>CityState:</b></ion-col>
+          <ion-col>{{profileData ? profileData.CityState : "NA"}}</ion-col>
+        </ion-row>
+
+        <ion-row>
+          <ion-col><b>Zip:</b></ion-col>
+          <ion-col>{{profileData ? profileData.Zip : "NA"}}</ion-col>
+        </ion-row>
+
+        <ion-row>
+          <ion-col><b>Phone Number:</b></ion-col>
+          <ion-col>{{profileData ? profileData.PhoneNumber : "NA"}}</ion-col>
+        </ion-row>
+
+        <ion-row>
+          <ion-col><b>Fax Number:</b></ion-col>
+          <ion-col>{{profileData ? profileData.FaxNumber : "NA"}}</ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col><b>Contact:</b></ion-col>
+          <ion-col>{{profileData ? profileData.Contact : "NA"}}</ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

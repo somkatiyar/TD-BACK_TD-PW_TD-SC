@@ -1,0 +1,25 @@
+<nav class="navbar navbar-light bg-light">
+  <a class="navbar-brand" href="javascript:void(0);" *ngIf="varCtrl.isSideBar">
+    <img src="assets/images/menu.png"(click)="_toggleSidebar()" width="30" height="30" class="d-inline-block align-top menu-btn" alt="">
+  </a>
+  
+    
+  <span class="navbar-text title" *ngIf="varCtrl.isTitle">
+    <p>{{varCtrl.title}}</p>
+  </span>
+
+  <img src="assets/images/logo.png" *ngIf="!varCtrl.isTitle" class="header-logo">
+
+  <!-- <select 
+  style="z-index:1 ;
+  padding: 4px;
+  border-radius: 7px;"
+
+  #langSelect (change)="translate.use(langSelect.value)">
+    <option *ngFor="let lang of translate.getLangs()" [value]="lang" [selected]="lang === translate.currentLang">{{ lang }}</option>
+  </select> -->
+
+  <!-- <a class="navbar-brand" href="#">
+    <img src="assets/images/menu.png" style="display: none;" width="30" height="30" class="d-inline-block align-top menu-btn" alt="">
+  </a> -->
+</nav>

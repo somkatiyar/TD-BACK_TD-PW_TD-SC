@@ -1,0 +1,500 @@
+<!-- ########## -->
+<div class="container">
+
+
+    <div class="row" style="margin:2em 0 0 0 !important;">
+        <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <h3>{{'commonForm.signUp' | translate }}</h3>
+            </div>
+        </div>
+    </div>
+
+
+
+    <form name="form" (ngSubmit)="f.form.valid && onSubmit()" #f="ngForm" novalidate>
+
+        <div class="row" style="margin:2em 0 0 0 !important;">
+
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <h5>{{'commonForm.schoolInformation' | translate }}</h5>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12">
+
+
+
+
+
+                    <div class="Input">
+                     
+                        <input type="text" class="Input-text" 
+                        placeholder="{{'commonForm.name' | translate }}" 
+                        name="schoolName" value="" [(ngModel)]="details.schoolName"
+                            [ngClass]="{ 'is-invalid': f.submitted && SCHOOLNAME.invalid }" 
+                            #SCHOOLNAME="ngModel" required>
+                        <label for="input" class="Input-label">{{'commonForm.name' | translate }}</label>
+
+                       </div>
+
+
+
+                       <div class="message-space">
+                        <span *ngIf="SCHOOLNAME.touched && SCHOOLNAME?.errors && SCHOOLNAME?.errors.required || f.submitted && SCHOOLNAME.invalid">
+                            {{'commonValidation.schoolName' | translate }}
+                        </span>
+                    </div>
+
+
+
+                    <div class="Input">
+                        <input type="email"  
+                        class="Input-text" 
+                      
+                        placeholder="{{'commonForm.email' | translate }}" 
+                        #email1="ngModel" required
+                        pattern='^\w+[\w-\.]*\@\w+((-\w+)|(\w*))(\.[a-z]{2,7}){1,2}$' 
+                        [ngClass]="{ 'is-invalid': f.submitted && email1.invalid }"
+                        name="email" value="" [(ngModel)]="email"  >
+                        <label for="input" class="Input-label">{{'commonForm.email' | translate }}</label>
+
+                       </div>
+
+
+
+
+
+
+
+                    <div class="message-space">
+                        <span *ngIf="email1.touched && email1?.errors && email1?.errors.required ">
+                            {{'commonValidation.email' | translate }}
+                        </span>
+                        <span *ngIf="email1.touched && email1?.errors && email1?.errors.pattern || f.submitted && email1.invalid">
+                            {{'commonValidation.validemail' | translate }}
+                        </span>
+                    </div>
+
+
+
+
+
+
+                    <div class="Input">
+                        <input type="password" class="Input-text" 
+                        placeholder="{{'commonForm.password' | translate }}"
+                        name="password" value=""
+                            [(ngModel)]="password" [ngClass]="{ 'is-invalid': f.submitted && PASSWORD.invalid }" #PASSWORD="ngModel"
+                            minlength="8" required>
+                        <label for="input" class="Input-label">{{'commonForm.password' | translate }}</label>
+
+                       </div>
+
+
+
+
+                    <div class="message-space">
+                        <span *ngIf="PASSWORD.touched && PASSWORD?.errors && PASSWORD?.errors.required || f.submitted && PASSWORD.invalid">
+                            {{'commonValidation.password' | translate }} 
+                        </span>
+
+                        <span *ngIf="PASSWORD?.errors &&  PASSWORD?.errors.minlength">
+                            {{'commonValidation.passwordlength' | translate }} 
+                        </span>
+                    </div>
+
+
+
+
+
+                    <div class="Input">
+                        <input type="password" class="Input-text" 
+                        placeholder="{{'commonForm.confirmpassword' | translate }}" name="confirmPassword"
+                        value="" [(ngModel)]="confirmPassword" minlength="8" #CONFIRMPASSWORD="ngModel"
+                        appConfirmEqualValidator="password" [ngClass]="{ 'is-invalid': f.submitted && CONFIRMPASSWORD.invalid }"
+                        required validateEqual="password">
+                        <label for="input" class="Input-label">{{'commonForm.confirmpassword' | translate }}</label>
+
+                       </div>
+
+
+
+
+                
+
+                    <div class="message-space">
+
+                        <span *ngIf="CONFIRMPASSWORD.touched && CONFIRMPASSWORD?.errors && CONFIRMPASSWORD?.errors.required || f.submitted && CONFIRMPASSWORD.invalid">
+                            {{'commonValidation.confirmpassword' | translate }}  
+                        </span>
+
+                        <span *ngIf="CONFIRMPASSWORD?.errors && CONFIRMPASSWORD?.errors.notEqual">
+                            {{'commonValidation.confirmpasslength' | translate }} 
+                        </span>
+
+
+                    </div>
+
+
+
+
+                    <div class="Input">
+                        <input type="text" class="Input-text" placeholder="{{'commonForm.phonenumber' | translate }}" 
+                        name="mobileNumber" #MOBILENO="ngModel"
+                            [(ngModel)]="mobileNumber" [ngClass]="{ 'is-invalid': f.submitted && MOBILENO.invalid }"
+                            (keypress)="numberOnly($event)" maxlength="13" minlength="9" required>
+                        <label for="input" class="Input-label">{{'commonForm.phonenumber' | translate }}</label>
+
+                       </div>
+
+
+              
+
+                    <div class="message-space">
+
+                        <span *ngIf="MOBILENO.touched && MOBILENO?.errors && MOBILENO?.errors.required || f.submitted && MOBILENO.invalid">
+                            {{'commonValidation.phonenumber' | translate }} 
+                        </span>
+                        <span *ngIf="MOBILENO?.errors && MOBILENO?.errors.maxlength">
+                            {{'commonValidation.phonelength' | translate }}
+                        </span>
+                        <span *ngIf=" MOBILENO?.errors && MOBILENO?.errors.minlength">
+                            {{'commonValidation.phonerange' | translate }}
+                        </span>
+                    </div>
+
+
+
+
+
+                    <div class="Input">
+                        <input type="text" class="Input-text" placeholder="{{'commonForm.taxId' | translate }}"
+                      name="taxId" value="" #TAXID="ngModel"
+                        [(ngModel)]="details.taxId"
+                         [ngClass]="{ 'is-invalid': f.submitted && TAXID.invalid }" required>
+                        <label for="input" class="Input-label">{{'commonForm.taxId' | translate }}</label>
+
+                       </div>
+
+                 
+                    <div class="message-space">
+                        <span *ngIf="TAXID.touched && TAXID?.errors && TAXID?.errors.required || f.submitted && TAXID.invalid">
+                            {{'commonValidation.taxId' | translate }}
+                        </span>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <h5>{{'commonForm.addressInformation' | translate}}</h5>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12">
+
+
+
+
+                    <div class="Input">
+                        <input type="text" class="Input-text" placeholder="{{'commonForm.addressLineOne' | translate }}" name="addressLineOne"
+                        #ADDRESSLINEONE="ngModel" [ngClass]="{ 'is-invalid': f.submitted && ADDRESSLINEONE.invalid }"
+                        required [(ngModel)]="addressLineOne">
+                        <label for="input" class="Input-label">{{'commonForm.addressLineOne' | translate }}</label>
+
+                       </div>
+
+
+
+                
+                    <div class="message-space">
+                        <span *ngIf="ADDRESSLINEONE.touched && ADDRESSLINEONE?.errors && ADDRESSLINEONE?.errors.required || f.submitted && ADDRESSLINEONE.invalid">
+                            {{'commonValidation.permanent' | translate }}
+                        </span>
+                    </div>
+
+
+
+                    <div class="Input">
+                        <input type="text" class="Input-text" placeholder="{{'commonForm.addressLineTwo' | translate }}" name="addressLineTwo"
+                        [(ngModel)]="addressLineTwo">
+                        <label for="input" class="Input-label">{{'commonForm.addressLineTwo' | translate }}</label>
+
+                       </div>
+
+            
+
+                    <div class="message-space"></div>
+
+
+
+
+              
+
+
+             <div class="Input">
+
+                    <select class="custom-select d-block w-100 Input-text" (change)="findState()" #COUNTRY="ngModel" [(ngModel)]="country"
+                        name="country" [ngClass]="{ 'is-invalid': f.submitted && COUNTRY.invalid }" required>
+                        <option hidden value="" disabled selected>{{'commonForm.country' | translate }}</option>
+                        <option *ngFor="let country of countryList" [value]="country.value">{{country.name}}</option>
+                    </select>
+                    <label for="input" class="Input-label" *ngIf="country">{{'commonForm.country' | translate }}</label>
+
+             </div>
+                    <div class="message-space">
+                        <span *ngIf="COUNTRY.touched && COUNTRY?.errors && COUNTRY?.errors.required || f.submitted && COUNTRY.invalid">
+                            {{'commonValidation.country' | translate }}
+                        </span>
+                    </div>
+
+
+
+
+                 <div class="Input">
+                    <select class="custom-select d-block w-100 Input-text" #STATE="ngModel" [(ngModel)]="state" name="state"
+                        (change)="findCity()" [ngClass]="{ 'is-invalid': f.submitted && STATE.invalid }" required>
+                        <option hidden value="" disabled selected>{{'commonForm.county' | translate }}</option>
+                        <option *ngFor="let state of stateList" [value]="state.value">{{state.name}}</option>
+                    </select>
+                    <label for="input" class="Input-label" *ngIf="state">{{'commonForm.county' | translate }}</label>
+
+                 </div>
+                    <div class="message-space">
+                        <span *ngIf="STATE.touched && STATE?.errors && STATE?.errors.required || f.submitted && STATE.invalid">
+                            {{'commonValidation.county' | translate }}
+                        </span>
+                    </div>
+
+                    <div class="Input">
+                    <select class="custom-select d-block w-100 Input-text" #CITY="ngModel" [(ngModel)]="city" name="city"
+                        [ngClass]="{ 'is-invalid': f.submitted && CITY.invalid }" required>
+                        <option hidden value="" disabled selected>{{'commonForm.city' | translate }}</option>
+                        <option *ngFor="let city of cityList" [value]="city.value">{{city.name}}</option>
+                    </select>
+
+                    <label for="input" class="Input-label" *ngIf="city">{{'commonForm.city' | translate }}</label>
+
+                    </div>
+                    <div class="message-space">
+                        <span *ngIf="CITY.touched && CITY?.errors && CITY?.errors.required || f.submitted && CITY.invalid">
+                            {{'commonValidation.city' | translate }}
+                        </span>
+                    </div>
+
+
+
+                    <div class="Input">
+                        <input type="text" class="Input-text" placeholder="{{'commonForm.postcode' | translate }}" 
+                        #PINCODE="ngModel" name="pincode"
+                            maxlength="8" [(ngModel)]="pincode"
+                            (keypress)="omit_special_char($event)"
+                             [ngClass]="{ 'is-invalid': f.submitted && PINCODE.invalid }"
+                            required>
+                        <label for="input" class="Input-label">{{'commonForm.postcode' | translate }}</label>
+
+                       </div>
+
+
+               
+
+                    <div class="message-space">
+                        <span *ngIf="PINCODE.touched && PINCODE?.errors && PINCODE?.errors.required || f.submitted && PINCODE.invalid">
+                            {{'commonValidation.postcode' | translate }}
+                        </span>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+<!-- 
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <h5>Bank Details</h5>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12">
+
+
+                    <input type="text" class="mod_input" placeholder="Bank Name" name="bankName" value="" #BANKNAME="ngModel"
+                        [(ngModel)]="bankName" [ngClass]="{ 'is-invalid': f.submitted && BANKNAME.invalid }" required>
+                    <div class="message-space">
+                        <span *ngIf="BANKNAME.touched && BANKNAME?.errors && BANKNAME?.errors.required || f.submitted && BANKNAME.invalid">
+                            BankName is required!
+                        </span>
+                    </div>
+
+                    <input type="text" class="mod_input" placeholder="Account Number" name="accountNumber" value=""
+                        #ACCOUNTNO="ngModel" [(ngModel)]="accountNumber" [ngClass]="{ 'is-invalid': f.submitted && ACCOUNTNO.invalid }"
+                        (keypress)="numberOnly($event)" maxlength="16" required>
+
+                    <div class="message-space">
+                        <span *ngIf="ACCOUNTNO.touched && ACCOUNTNO?.errors && ACCOUNTNO?.errors.required || f.submitted && ACCOUNTNO.invalid">
+                            AccountNumber is required!
+                        </span>
+                    </div>
+                    <input type="text" class="mod_input" placeholder="IFSC Code" name="IFSCCode" #IFSC="ngModel"
+                        [ngClass]="{ 'is-invalid': f.submitted && IFSC.invalid }" [(ngModel)]="IFSCCode" required>
+
+                    <div class="message-space">
+                        <span *ngIf="IFSC.touched && IFSC?.errors && IFSC?.errors.required || f.submitted && IFSC.invalid">
+                            IFSC is required!
+                        </span>
+                    </div>
+
+                    <input type="text" class="mod_input" placeholder="Branch Name" name="branchName" #BRANCHNAME="ngModel"
+                        [ngClass]="{ 'is-invalid': f.submitted && BRANCHNAME.invalid }" [(ngModel)]="branchName"
+                        required>
+
+                    <div class="message-space">
+                        <span *ngIf="BRANCHNAME.touched && BRANCHNAME?.errors && BRANCHNAME?.errors.required || f.submitted && BRANCHNAME.invalid">
+                            BranchName is required!
+                        </span>
+                    </div>
+
+
+
+
+                </div>
+
+
+
+            </div> -->
+
+
+
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <h5>{{'commonForm.contactPersonInformation'|translate}}</h5>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12">
+
+
+
+                    <div class="Input">
+                      
+                    <input type="text" class="Input-text" placeholder="{{'commonForm.name' | translate }}"
+                    name="contactPersonName" #cName="ngModel"
+                       [(ngModel)]="details.contactPersonName"  (keypress)="omit_special_char($event)"
+                       (keypress)=" charOnly($event)"  pattern="^[a-zA-Z ]*$"
+
+                       [ngClass]="{ 'is-invalid': f.submitted && cName.invalid }"
+                       required>
+                        <label for="input" class="Input-label">{{'commonForm.name' | translate }}</label>
+
+                       </div>
+
+
+
+                    <div class="message-space">
+                        <span *ngIf="cName.touched && cName?.errors && cName?.errors.required || f.submitted && cName.invalid">
+                            {{'commonValidation.contactPersonName' | translate }}
+                        </span>
+
+                        <span *ngIf="cName.touched && cName?.errors && cName?.errors.pattern || f.submitted && cName.invalid">
+                            Special Character not allowed..!
+                        </span>
+                    </div>
+
+
+                    <div class="Input">
+                      
+                     
+                    <input type="email" class="Input-text"
+                    placeholder="{{'commonForm.email' | translate }}"
+                    name="contactPersonEmail" #CEMAIL="ngModel"
+                       [(ngModel)]="details.contactPersonEmail" [ngClass]="{ 'is-invalid': f.submitted && CEMAIL.invalid }"
+                       pattern='^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+.[a-zA-Z0-9-.]+$' required>
+                            <label for="input" class="Input-label">{{'commonForm.email' | translate }}</label>
+    
+                           </div>
+
+
+
+
+                    <div class="message-space">
+                        <span *ngIf="CEMAIL.touched && CEMAIL?.errors && CEMAIL?.errors.required || f.submitted && CEMAIL.invalid">
+                            {{'commonValidation.contactPersonEmail' | translate }}
+                        </span>
+                        <span *ngIf="CEMAIL.touched && CEMAIL?.errors && CEMAIL?.errors.pattern">
+                            {{'commonValidation.email' | translate }}
+                        </span>
+                    </div>
+
+
+
+
+                    <div class="Input">
+                      
+                     
+                        <input type="text" class="Input-text" placeholder="{{'commonForm.phonenumber' | translate }}"
+                        name="contactPersonMobileNumber"
+                            #USERMOBILENO="ngModel" [(ngModel)]="details.contactPersonMobileNumber" 
+                            [ngClass]="{ 'is-invalid': f.submitted && USERMOBILENO.invalid }"
+                            (keypress)="numberOnly($event)"   maxlength="13" minlength="9" required>
+                                <label for="input" class="Input-label">{{'commonForm.phonenumber' | translate }}</label>
+        
+                    </div>
+
+
+
+
+  
+
+
+
+                    <div class="message-space">
+          
+                      <span *ngIf="USERMOBILENO.touched && USERMOBILENO?.errors && USERMOBILENO?.errors.required || f.submitted && USERMOBILENO.invalid">
+                        {{'commonValidation.phonenumber' | translate }}
+                      </span>
+                      <span *ngIf="USERMOBILENO?.errors && USERMOBILENO?.errors.maxlength">
+                        {{'commonValidation.phonelength' | translate }}
+                      </span>
+                      <span *ngIf=" USERMOBILENO?.errors && USERMOBILENO?.errors.minlength">
+                        {{'commonValidation.phonerange' | translate }}
+                      </span>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+
+        <div class="row" style="margin:2em 0 0 0 !important;">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <div class="col-lg-12 col-md-12 col-sm-12 submit-btn-success">
+                    <button style="cursor:pointer" class="btn btn-primary" class="submit-btn">{{'commonForm.buttonTitle.submit' | translate }}</button>
+                </div>
+            </div>
+        </div>
+
+
+    </form>
+    <div class="row" style="margin:2em 0 0 0 !important;">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <div class="bottom-section">
+
+                    <div>{{'commonForm.alreadyAccount' | translate }}
+                        <a class="login-btn" routerLink="/login">{{'commonForm.buttonTitle.login' | translate }}</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

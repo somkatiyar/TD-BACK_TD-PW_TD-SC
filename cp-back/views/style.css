@@ -1,0 +1,124 @@
+
+.StripeElement {
+  background-color: #d6d8dd;
+  padding: 10px 12px;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  box-shadow: 0 1px 3px 0 #e6ebf1;
+  transition: box-shadow 150ms ease;
+  margin-top: 10px;
+  max-width: 400px;
+  margin: 10px auto;
+}
+
+.StripeElement--focus {
+  box-shadow: 0 1px 3px 0 #cfd7df;
+}
+
+.StripeElement--invalid {
+  border-color: #fa755a;
+}
+
+
+.sucsess {
+  position: absolute;
+  top: 20%;
+  text-align: center;
+  display: block;
+  width: 100%;
+  color: #078000;
+  font-size: 21px;
+}
+
+.fail {
+  position: absolute;
+  top: 20%;
+  text-align: center;
+  display: block;
+  width: 100%;
+  color: red;
+  font-size: 21px;
+}
+
+.StripeElement--webkit-autofill {
+  background-color: #fefde5 !important;
+}
+.submit_btn {
+  text-align: center;
+  cursor: pointer;
+  color: white;
+  background-color: #ff0400;
+  border-radius: 5px;
+  max-width: 173px;
+  font-size: 17px;
+  margin-top: 8px;
+  border: none;
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+
+.label_design label {
+  color: #393939;
+}
+.body_Main{
+    text-align: center;
+}
+.paymentHead {
+  font-family: sans-serif;
+  font-size: 22px;
+  margin: 20px;
+}
+
+table.tableResponsive {
+  width: 100%;
+  margin-bottom: 15px;
+}
+.paymentContainer {
+  max-width: 85%;
+  margin: auto;
+}
+#loadinghCover{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.8;
+  background: #e5eff1;
+  z-index: 9999999;
+}
+img#loading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 250px;
+}
+.label_design{
+  font-size: 20px;
+  display: flex;
+  justify-content: space-around;
+  font-family: sans-serif;
+  margin: 3;
+}
+
+table.tableResponsive td {
+  font-family: sans-serif;
+  padding-bottom: 10px;
+  font-size: 17px;
+  color: #303030;
+}
+.card_label {
+  color: #7575e3;
+  font-size: 21px;
+  font-family: sans-serif;
+  margin: 15px;
+  display: block;
+}
+
+@media (max-width:700px){
+  .label_design {
+     display: block;
+  }
+}

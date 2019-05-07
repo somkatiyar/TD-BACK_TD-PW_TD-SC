@@ -1,0 +1,79 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <ion-content >
+  <form  name="form" (ngSubmit)="f.form.valid && login(f)" #f="ngForm" novalidate autocomplete="off">
+<ion-grid>
+<ion-row justify-content-center>
+  <ion-col align-self-center size-md="6" size-lg="5" size-xs="12">
+    <div text-center>
+      <h4>Login </h4>
+    </div>
+    <div padding>
+
+
+      <ion-item>
+        <ion-label position="floating">Username</ion-label>
+        <ion-input type="text" name="Email" #EMAIL="ngModel" 
+        [ngClass]="{ 'is-invalid': f.submitted && EMAIL.invalid }" ngModel required></ion-input> 
+        </ion-item>
+    
+  
+        <span class= "validation_class" padding *ngIf="EMAIL.touched && EMAIL?.errors && EMAIL?.errors.required || f.submitted && EMAIL.invalid">
+          Enter Email
+        </span>
+   
+
+  <ion-item>
+    <ion-label position="floating">Password</ion-label>
+    <ion-input type="password"
+    #PASSWORD="ngModel" 
+    [ngClass]="{ 'is-invalid': f.submitted && PASSWORD.invalid }"
+     name="Password" 
+     ngModel required></ion-input>
+
+</ion-item> 
+
+<span class="validation_class" padding *ngIf="PASSWORD.touched && PASSWORD?.errors && PASSWORD?.errors.required || f.submitted && PASSWORD.invalid">
+  Enter Password
+</span>
+
+
+
+    </div>
+
+<div class="rememberMe">
+  <ion-checkbox (ionChange)="rememberMe()" ></ion-checkbox>
+  <ion-label > Remember me!</ion-label>
+
+</div>
+
+
+    <div padding>
+      <ion-button size="large" type="submit"  expand="block">Login</ion-button>
+  </div>
+  
+  <div padding>
+    <a button (click)="goToForgotPassword()">Forgot Your password?</a>
+
+  </div>
+  </ion-col>
+</ion-row>
+</ion-grid>
+</form>
+</ion-content> 
+

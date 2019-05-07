@@ -1,0 +1,14 @@
+
+ Request was on : 2019-04-03T05:52:58.681Z
+ Req: /api/v1/learner/create 
+ Req body was: {"firstName":"Barun","lastName":"Driver","email":"barun11pandit@gmail.com","password":"barun@123","adiOrPdiBadgeNumber":"test","userType":"DRIVER","userRole":"APP_USER","drivingLicense":"jkbdjsfb","mobileNumber":"8076990875","companions":[],"address":{"name":"Test Center Example 1","addressLineOne":"Trignodev Softwares Pvt Ltd","addressLineTwo":"B-149, Sector 63","city":"Noida","state":"Uttar Pradesh","pincode":"201301","country":"India","lat":"28.6150","long":"77.3774","addressOf":"APP_DRIVER"},"carInfo":{"registrationNumber":"TEST","chassisNumber":"TSET","vehicleTypeId":"5b7e4fbea805510429b977ca","color":"Red","isAutomatic":false}}
+ Response was on : 2019-04-03T05:52:58.681Z
+ Res: {"status":0,"errorCode":2,"message":"This is email id already exists. Please enter new email id."}
+this is the end line 
+
+ Request was on : 2019-04-03T05:53:07.515Z
+ Req: /api/v1/learner/create 
+ Req body was: {"firstName":"Barun","lastName":"Driver","email":"barun11pzandit@gmail.com","password":"barun@123","adiOrPdiBadgeNumber":"test","userType":"DRIVER","userRole":"APP_USER","drivingLicense":"jkbdjsfb","mobileNumber":"8076990875","companions":[],"address":{"name":"Test Center Example 1","addressLineOne":"Trignodev Softwares Pvt Ltd","addressLineTwo":"B-149, Sector 63","city":"Noida","state":"Uttar Pradesh","pincode":"201301","country":"India","lat":"28.6150","long":"77.3774","addressOf":"APP_DRIVER"},"carInfo":{"registrationNumber":"TEST","chassisNumber":"TSET","vehicleTypeId":"5b7e4fbea805510429b977ca","color":"Red","isAutomatic":false}}
+ Response was on : 2019-04-03T05:53:07.515Z
+ Res: {"status":1,"data":{"mobileNumber":"8076990875","alternativeMobileNumber":"","firstName":"Barun","lastName":"Driver","email":"barun11pzandit@gmail.com","isEmailVerified":false,"dob":null,"drivingLicense":"jkbdjsfb","password":"barun@123","profilePictureUrl":"","token":"eca433aaafb3476a4d11c41f18f66c1e","adiOrPdiBadgeNumber":"","userType":"DRIVER","userRole":"APP_USER","companions":[],"addresses":[],"documents":[],"isArchived":false,"aboutme":" ","countryCode":"","_id":"5ca44a43054dbc2c62da9d95","createdBy":null,"createdDate":"2019-04-03T05:53:07.454Z","updatedDate":"2019-04-03T05:53:07.454Z","__v":0}}
+this is the end line 

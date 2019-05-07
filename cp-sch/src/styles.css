@@ -1,0 +1,158 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "~font-awesome/css/font-awesome.css";
+
+*{
+    font-family: 'Cabin', Arial, Helvetica, sans-serif;
+}
+@font-face {
+    font-family: Cabin;
+    src: url(assets/fonts/Cabin-Regular.ttf) weight-normal;
+    src: url(assets/fonts/Cabin-Bold.ttf)weight-bold;
+    src: url(assets/fonts/Cabin-Medium.ttf)weight-medium;
+
+}
+input.mod_input {
+    display: block;
+    border: none;
+    margin: 20px 0px;
+    border: 1px solid #c2c2c2;
+    border-radius: 7px;
+    padding: 10px;
+    background: #fff;
+    padding-left: 23px;
+        outline: none;
+    width: 100%;
+    color: #555555;
+}
+
+.loggin_btn {
+    display: block;
+    width: 72%;
+    background: #F9A11B;
+    border: none;
+    font-family: 'Cabin', sans-serif;
+    color: white;
+    border-radius: 7px;
+    padding: 10px 0px;
+    text-align: center;
+    margin: 20px auto;
+    
+}
+
+/* User Agent CSS Fix */
+
+:focus{
+    outline: #555 auto 0px !important;
+    box-shadow: none !important;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #cdd4da;
+    outline: 0;
+    box-shadow: none;
+}
+
+.custom-select:focus {
+    border-color: #cdd4da;
+    outline: 0;
+    box-shadow: none;
+}
+
+@media screen and (max-width: 600px) and (min-width: 8px) {
+    .ng-sidebar__content.ng-sidebar__content--animate {
+        padding: 0 !important;
+    }
+}
+
+.disableBtn {
+    border: 1px solid red;
+    background: transparent;
+    color: red;
+    margin-top: 0px;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    cursor: pointer;
+}
+.enableBtn {
+    border: 1px solid green;
+    background: transparent;
+    color: green;
+    margin-top: 0px;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    cursor: pointer;
+}
+
+.enableBtn:hover{
+    background-color: #f1f1f1;
+    border-radius: 5px;
+}
+
+.disableBtn:hover{
+    background-color: #f1f1f1;
+    border-radius: 5px;
+}
+
+
+.Input {
+
+    position: relative;
+  }
+  
+  .Input-text {
+
+
+
+     display: block;
+     margin: 0px;
+     border: 1px solid #c2c2c2;
+     border-radius: 7px;
+     padding: 10px;
+     padding-left: 23px;
+     outline: none;
+     width: 100%;
+     color: #555555;
+     display: block;
+     margin: 0;
+     width: 100%;
+ 
+
+  }
+  
+
+  
+  .Input-label {
+ 
+     display: block;
+    position: absolute;
+    opacity: 0;
+    top: -4px;
+    color: #1b72e8;
+    font-size: 14px;
+    margin-left: 20px;
+    margin-top: -5px;
+    background-color: white;
+ 
+  }
+  
+  .Input-text:placeholder-shown + .Input-label {
+
+    visibility: hidden;
+    z-index: -1;
+  }
+  
+  .Input-text:not(:placeholder-shown) + .Input-label,
+  .Input-text:focus:not(:placeholder-shown) + .Input-label {
+
+    visibility: visible;
+    z-index: 1;
+    opacity: 1;
+
+  }
